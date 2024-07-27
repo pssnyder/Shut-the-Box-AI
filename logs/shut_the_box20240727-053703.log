@@ -1,0 +1,9 @@
+2024-07-27 05:37:03,834 - DEBUG - #### Begin Training Deep Learning Model ####
+2024-07-27 05:38:11,478 - DEBUG - #### Begin Training Deep Learning Model ####
+2024-07-27 05:39:38,777 - DEBUG - #### Begin Training Deep Learning Model ####
+2024-07-27 05:41:31,215 - DEBUG - #### Begin Training Deep Learning Model ####
+2024-07-27 05:41:31,217 - ERROR - Shape mismatch: outputs.shape = torch.Size([60, 1]), y_tensor.shape = torch.Size([367, 1])
+2024-07-27 05:42:59,320 - DEBUG - #### Begin Training Deep Learning Model ####
+2024-07-27 05:42:59,322 - ERROR - Shape mismatch: outputs.shape = torch.Size([60, 1]), y_tensor.shape = torch.Size([367, 1])
+2024-07-27 05:46:21,629 - DEBUG - #### Begin Training Deep Learning Model ####
+2024-07-27 05:46:21,632 - ERROR - Shape mismatch: outputs.shape = torch.Size([60, 1]), y_tensor.shape = torch.Size([367, 1])
