@@ -7,12 +7,12 @@ import datetime
 from itertools import combinations
 
 # Configuration Section
+PLAY_TYPE = 1 # 0 for player control, 1 for AI control
 NUM_GAMES = 10  # Set the number of games to simulate
 STRATEGIES = [0,1,2,3,4,5]  # An array of numbers representing the strategies to simulate this run
 LOG_FILE = './logs/shut_the_box_game_' + datetime.datetime.now().strftime("%Y%m%d-%H%M%S") + '.log'
 CSV_RESULTS_FILE = './results/stb_simple_ai_results_' + datetime.datetime.now().strftime("%Y%m%d-%H%M%S") + '.csv'
 JSON_RESULTS_FILE = './results/stb_simple_ai_results_' + datetime.datetime.now().strftime("%Y%m%d-%H%M%S") + '.json'
-PLAY_TYPE = 1 # 0 for player control, 1 for AI control
 
 # Configure logging
 logging.basicConfig(filename=LOG_FILE, level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -34,6 +34,10 @@ def define_strategy(strategy):
     else:
         logging.error(f"Strategy Definition Not Found for Strategy #{strategy}")
         return "Unknown Strategy"
+
+def pad_moves(moves, length=5, pad_value=0):
+    """Pad the moves list to a consistent length with a specified pad value."""
+    return [list(move) + [pad_value] * (length - len(move)) for move in moves]
 
 class ShutTheBox:
     def __init__(self):
@@ -159,7 +163,7 @@ class ShutTheBox:
                 chosen_move = possible_moves[0]
 
             logging.debug(f"Chosen Move: {chosen_move}")
-            return chosen_move
+            return list(chosen_move)
         return []
 
     def play_turn(self):
@@ -176,7 +180,7 @@ class ShutTheBox:
         
         # Set up a loop so we don't re-roll if we made an invalid move
         self.invalid_move = True # Prepare the loop 
-        while self.invalid_move == True:
+        while self.invalid_move:
             
             if PLAY_TYPE == 0:
                 print(f"Rolled: {dice1} + {dice2} = {total}")
@@ -188,6 +192,7 @@ class ShutTheBox:
 
             if not possible_moves:
                 self.game_over = True
+                self.rolls.pop() # Remove the last dice roll since no moves could be made
                 if PLAY_TYPE == 0:
                     print("No possible moves. Game over!")
                 logging.debug("No possible moves. Game over!")
@@ -226,12 +231,16 @@ class ShutTheBox:
         while not self.game_over:
             self.play_turn()
         score = sum(self.tiles)
-        if PLAY_TYPE == 0:
-            print(f"Your final score: {score}")
-        logging.debug(f"AI's final score: {score}")
         tiles_closed = 9 - len(self.tiles)
-        return strategy, score, tiles_closed, self.rolls, self.moves
-
+        if PLAY_TYPE == 0:
+            print(f"Your final score: {score} with {tiles_closed} tiles closed")
+        logging.debug(f"AI's final score: {score} with {tiles_closed} tiles closed")
+        
+        # Pad moves array to a consistent length
+        padded_moves = pad_moves(self.moves)
+        
+        return strategy, score, tiles_closed, self.rolls, padded_moves
+    
 def simulate_games(num_games):
     """Simulate a specified number of games and log the results.
 
@@ -291,7 +300,7 @@ def save_results_to_json(results):
     existing_data.extend(results)
 
     with open(JSON_RESULTS_FILE, 'w') as file:
-        json.dump(existing_data, file, indent=4)
+        json.dump(results, file, indent=4)
 
     logging.debug(f'Results saved to {JSON_RESULTS_FILE}')
 

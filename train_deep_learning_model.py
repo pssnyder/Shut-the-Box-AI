@@ -8,15 +8,19 @@ import logging
 import datetime
 
 # Configuration Section
-TRAINING_FILE = './results/stb_simple_ai_results_20240727-053304.json'
+TRAINING_FILE = './results/stb_simple_ai_results_20240727-191321.json'
 MODEL_SAVE_FILE = './models/shut_the_box_model_{timestamp}.pt'
 EPOCHS = 10
 BATCH_SIZE = 32
-LOG_FILE = 'shut_the_box' + datetime.datetime.now().strftime("%Y%m%d-%H%M%S") + '.log'
+LOG_FILE = './logs/shut_the_box' + datetime.datetime.now().strftime("%Y%m%d-%H%M%S") + '.log'
 LEARNING_RATE = 0.001
 
 # Configure logging
 logging.basicConfig(filename=LOG_FILE, level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
+
+def pad_moves(moves, length=5, pad_value=0):
+    """Pad the moves list to a consistent length with a specified pad value."""
+    return [list(move) + [pad_value] * (length - len(move)) for move in moves]
 
 def load_json_file(file_path):
     """Load the JSON file into a list of dictionaries."""
@@ -24,31 +28,32 @@ def load_json_file(file_path):
         data = json.load(file)
     return data
 
-def prepare_data(data):
+def prepare_data(data, move_length=5, pad_value=0):
     """Prepare data for training."""
     X = []
     y = []
+
     for entry in data:
-        tiles = eval(entry['tiles_closed']) if isinstance(entry['tiles_closed'], str) else entry['tiles_closed']
-        moves = eval(entry['moves']) if isinstance(entry['moves'], str) else entry['moves']
-        
-        # Ensure tiles and moves are lists
-        if not isinstance(tiles, list):
-            tiles = [tiles]
-        if not isinstance(moves, list):
-            moves = [moves]
-        
+        tiles = entry['tiles_closed'] if isinstance(entry['tiles_closed'], list) else [entry['tiles_closed']]
+        moves = entry['moves'] if isinstance(entry['moves'], list) else [entry['moves']]
+
+        # Ensure all elements in moves are lists
+        moves = [list(move) if isinstance(move, (list, tuple)) else [move] for move in moves]
+
         # Flatten the tiles and moves lists to avoid jagged arrays
         flat_tiles = [item for sublist in tiles for item in (sublist if isinstance(sublist, list) else [sublist])]
         flat_moves = [item for sublist in moves for item in (sublist if isinstance(sublist, list) else [sublist])]
-        
+
         X.append([entry['score'], entry['game_number']] + flat_tiles)
         y.extend(flat_moves)  # Flatten the move list and add to y
-    
+
+    # Pad y to have consistent length
+    y = pad_moves(y, move_length, pad_value)
+
     # Convert lists to numpy arrays
     X = np.array(X, dtype=float)
-    y = np.array(y, dtype=float)
-    
+    y = np.array(y, dtype=float).flatten()  # Ensure y is flattened to 1D
+
     return X, y
 
 class ShutTheBoxModel(nn.Module):
@@ -83,19 +88,24 @@ def train_model(X, y):
         model.train()
         optimizer.zero_grad()
         outputs = model(X_tensor)
+
         if outputs.shape != y_tensor.shape:
             logging.error(f"Shape mismatch: outputs.shape = {outputs.shape}, y_tensor.shape = {y_tensor.shape}")
             raise RuntimeError(f"Shape mismatch: outputs.shape = {outputs.shape}, y_tensor.shape = {y_tensor.shape}")
+
         loss = criterion(outputs, y_tensor)
         loss.backward()
         optimizer.step()
+
         logging.debug(f"Epoch [{epoch+1}/{EPOCHS}], Loss: {loss.item():.4f}")
 
     # Save the model with a timestamp
-    timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+    timestamp = datetime.datetime.now().strftime('%Y%m%d_%H%M%S')
     model_save_path = os.path.join(MODEL_SAVE_DIR, f'shut_the_box_model_{timestamp}.pt')
     torch.save(model.state_dict(), model_save_path)
+
     logging.debug(f"Model training complete and saved as '{model_save_path}'.")
+
     return model
 
 if __name__ == '__main__':

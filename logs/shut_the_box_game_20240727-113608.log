@@ -1,0 +1,2634 @@
+2024-07-27 11:36:08,419 - DEBUG - #### Beginning 6 Strategy Testing ####
+2024-07-27 11:36:08,420 - DEBUG - ## ## Simulation beginning for 10 games using strategy #0 ## ##
+2024-07-27 11:36:08,420 - DEBUG - Starting game 1
+2024-07-27 11:36:08,420 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,420 - DEBUG - Rolled: 3 + 5 = 8
+2024-07-27 11:36:08,420 - DEBUG - Possible moves: [(8,), (1, 7), (2, 6), (3, 5), (1, 2, 5), (1, 3, 4)]
+2024-07-27 11:36:08,420 - DEBUG - Chosen Move: (1, 3, 4)
+2024-07-27 11:36:08,420 - DEBUG - Tiles remaining: [2, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,420 - DEBUG - Rolled: 4 + 1 = 5
+2024-07-27 11:36:08,420 - DEBUG - Possible moves: [(5,)]
+2024-07-27 11:36:08,421 - DEBUG - Chosen Move: (5,)
+2024-07-27 11:36:08,421 - DEBUG - Tiles remaining: [2, 6, 7, 8, 9]
+2024-07-27 11:36:08,421 - DEBUG - Rolled: 1 + 6 = 7
+2024-07-27 11:36:08,421 - DEBUG - Possible moves: [(7,)]
+2024-07-27 11:36:08,421 - DEBUG - Chosen Move: (7,)
+2024-07-27 11:36:08,421 - DEBUG - Tiles remaining: [2, 6, 8, 9]
+2024-07-27 11:36:08,421 - DEBUG - Rolled: 1 + 1 = 2
+2024-07-27 11:36:08,421 - DEBUG - Possible moves: [(2,)]
+2024-07-27 11:36:08,421 - DEBUG - Chosen Move: (2,)
+2024-07-27 11:36:08,421 - DEBUG - Tiles remaining: [6, 8, 9]
+2024-07-27 11:36:08,421 - DEBUG - Rolled: 2 + 5 = 7
+2024-07-27 11:36:08,421 - DEBUG - Possible moves: []
+2024-07-27 11:36:08,421 - DEBUG - No possible moves. Game over!
+2024-07-27 11:36:08,421 - DEBUG - AI's final score: 23
+2024-07-27 11:36:08,421 - DEBUG - Game 1 ended with score: 23
+2024-07-27 11:36:08,421 - DEBUG - Starting game 2
+2024-07-27 11:36:08,421 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,421 - DEBUG - Rolled: 2 + 3 = 5
+2024-07-27 11:36:08,421 - DEBUG - Possible moves: [(5,), (1, 4), (2, 3)]
+2024-07-27 11:36:08,421 - DEBUG - Chosen Move: (2, 3)
+2024-07-27 11:36:08,421 - DEBUG - Tiles remaining: [1, 4, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,421 - DEBUG - Rolled: 4 + 3 = 7
+2024-07-27 11:36:08,421 - DEBUG - Possible moves: [(7,), (1, 6)]
+2024-07-27 11:36:08,422 - DEBUG - Chosen Move: (7,)
+2024-07-27 11:36:08,422 - DEBUG - Tiles remaining: [1, 4, 5, 6, 8, 9]
+2024-07-27 11:36:08,422 - DEBUG - Rolled: 3 + 4 = 7
+2024-07-27 11:36:08,422 - DEBUG - Possible moves: [(1, 6)]
+2024-07-27 11:36:08,422 - DEBUG - Chosen Move: (1, 6)
+2024-07-27 11:36:08,422 - DEBUG - Tiles remaining: [4, 5, 8, 9]
+2024-07-27 11:36:08,422 - DEBUG - Rolled: 2 + 1 = 3
+2024-07-27 11:36:08,422 - DEBUG - Possible moves: []
+2024-07-27 11:36:08,422 - DEBUG - No possible moves. Game over!
+2024-07-27 11:36:08,422 - DEBUG - AI's final score: 26
+2024-07-27 11:36:08,422 - DEBUG - Game 2 ended with score: 26
+2024-07-27 11:36:08,422 - DEBUG - Starting game 3
+2024-07-27 11:36:08,422 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,422 - DEBUG - Rolled: 6 + 6 = 12
+2024-07-27 11:36:08,422 - DEBUG - Possible moves: [(3, 9), (4, 8), (5, 7), (1, 2, 9), (1, 3, 8), (1, 4, 7), (1, 5, 6), (2, 3, 7), (2, 4, 6), (3, 4, 5), (1, 2, 3, 6), (1, 2, 4, 5)]
+2024-07-27 11:36:08,422 - DEBUG - Chosen Move: (1, 4, 7)
+2024-07-27 11:36:08,422 - DEBUG - Tiles remaining: [2, 3, 5, 6, 8, 9]
+2024-07-27 11:36:08,422 - DEBUG - Rolled: 6 + 2 = 8
+2024-07-27 11:36:08,422 - DEBUG - Possible moves: [(8,), (2, 6), (3, 5)]
+2024-07-27 11:36:08,422 - DEBUG - Chosen Move: (2, 6)
+2024-07-27 11:36:08,422 - DEBUG - Tiles remaining: [3, 5, 8, 9]
+2024-07-27 11:36:08,422 - DEBUG - Rolled: 1 + 1 = 2
+2024-07-27 11:36:08,422 - DEBUG - Possible moves: []
+2024-07-27 11:36:08,422 - DEBUG - No possible moves. Game over!
+2024-07-27 11:36:08,422 - DEBUG - AI's final score: 25
+2024-07-27 11:36:08,422 - DEBUG - Game 3 ended with score: 25
+2024-07-27 11:36:08,422 - DEBUG - Starting game 4
+2024-07-27 11:36:08,422 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,422 - DEBUG - Rolled: 6 + 2 = 8
+2024-07-27 11:36:08,422 - DEBUG - Possible moves: [(8,), (1, 7), (2, 6), (3, 5), (1, 2, 5), (1, 3, 4)]
+2024-07-27 11:36:08,422 - DEBUG - Chosen Move: (1, 7)
+2024-07-27 11:36:08,422 - DEBUG - Tiles remaining: [2, 3, 4, 5, 6, 8, 9]
+2024-07-27 11:36:08,422 - DEBUG - Rolled: 6 + 4 = 10
+2024-07-27 11:36:08,423 - DEBUG - Possible moves: [(2, 8), (4, 6), (2, 3, 5)]
+2024-07-27 11:36:08,423 - DEBUG - Chosen Move: (2, 3, 5)
+2024-07-27 11:36:08,423 - DEBUG - Tiles remaining: [4, 6, 8, 9]
+2024-07-27 11:36:08,423 - DEBUG - Rolled: 3 + 2 = 5
+2024-07-27 11:36:08,423 - DEBUG - Possible moves: []
+2024-07-27 11:36:08,423 - DEBUG - No possible moves. Game over!
+2024-07-27 11:36:08,423 - DEBUG - AI's final score: 27
+2024-07-27 11:36:08,423 - DEBUG - Game 4 ended with score: 27
+2024-07-27 11:36:08,423 - DEBUG - Starting game 5
+2024-07-27 11:36:08,423 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,423 - DEBUG - Rolled: 3 + 1 = 4
+2024-07-27 11:36:08,423 - DEBUG - Possible moves: [(4,), (1, 3)]
+2024-07-27 11:36:08,423 - DEBUG - Chosen Move: (4,)
+2024-07-27 11:36:08,423 - DEBUG - Tiles remaining: [1, 2, 3, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,423 - DEBUG - Rolled: 1 + 2 = 3
+2024-07-27 11:36:08,423 - DEBUG - Possible moves: [(3,), (1, 2)]
+2024-07-27 11:36:08,423 - DEBUG - Chosen Move: (1, 2)
+2024-07-27 11:36:08,423 - DEBUG - Tiles remaining: [3, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,423 - DEBUG - Rolled: 2 + 2 = 4
+2024-07-27 11:36:08,423 - DEBUG - Possible moves: []
+2024-07-27 11:36:08,423 - DEBUG - No possible moves. Game over!
+2024-07-27 11:36:08,423 - DEBUG - AI's final score: 38
+2024-07-27 11:36:08,423 - DEBUG - Game 5 ended with score: 38
+2024-07-27 11:36:08,423 - DEBUG - Starting game 6
+2024-07-27 11:36:08,423 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,424 - DEBUG - Rolled: 4 + 4 = 8
+2024-07-27 11:36:08,424 - DEBUG - Possible moves: [(8,), (1, 7), (2, 6), (3, 5), (1, 2, 5), (1, 3, 4)]
+2024-07-27 11:36:08,424 - DEBUG - Chosen Move: (1, 7)
+2024-07-27 11:36:08,424 - DEBUG - Tiles remaining: [2, 3, 4, 5, 6, 8, 9]
+2024-07-27 11:36:08,424 - DEBUG - Rolled: 4 + 3 = 7
+2024-07-27 11:36:08,424 - DEBUG - Possible moves: [(2, 5), (3, 4)]
+2024-07-27 11:36:08,424 - DEBUG - Chosen Move: (2, 5)
+2024-07-27 11:36:08,424 - DEBUG - Tiles remaining: [3, 4, 6, 8, 9]
+2024-07-27 11:36:08,424 - DEBUG - Rolled: 4 + 4 = 8
+2024-07-27 11:36:08,424 - DEBUG - Possible moves: [(8,)]
+2024-07-27 11:36:08,424 - DEBUG - Chosen Move: (8,)
+2024-07-27 11:36:08,424 - DEBUG - Tiles remaining: [3, 4, 6, 9]
+2024-07-27 11:36:08,424 - DEBUG - Rolled: 1 + 3 = 4
+2024-07-27 11:36:08,424 - DEBUG - Possible moves: [(4,)]
+2024-07-27 11:36:08,424 - DEBUG - Chosen Move: (4,)
+2024-07-27 11:36:08,424 - DEBUG - Tiles remaining: [3, 6, 9]
+2024-07-27 11:36:08,424 - DEBUG - Rolled: 4 + 1 = 5
+2024-07-27 11:36:08,424 - DEBUG - Possible moves: []
+2024-07-27 11:36:08,424 - DEBUG - No possible moves. Game over!
+2024-07-27 11:36:08,424 - DEBUG - AI's final score: 18
+2024-07-27 11:36:08,424 - DEBUG - Game 6 ended with score: 18
+2024-07-27 11:36:08,424 - DEBUG - Starting game 7
+2024-07-27 11:36:08,424 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,424 - DEBUG - Rolled: 5 + 3 = 8
+2024-07-27 11:36:08,424 - DEBUG - Possible moves: [(8,), (1, 7), (2, 6), (3, 5), (1, 2, 5), (1, 3, 4)]
+2024-07-27 11:36:08,424 - DEBUG - Chosen Move: (1, 7)
+2024-07-27 11:36:08,424 - DEBUG - Tiles remaining: [2, 3, 4, 5, 6, 8, 9]
+2024-07-27 11:36:08,424 - DEBUG - Rolled: 3 + 3 = 6
+2024-07-27 11:36:08,424 - DEBUG - Possible moves: [(6,), (2, 4)]
+2024-07-27 11:36:08,425 - DEBUG - Chosen Move: (2, 4)
+2024-07-27 11:36:08,425 - DEBUG - Tiles remaining: [3, 5, 6, 8, 9]
+2024-07-27 11:36:08,425 - DEBUG - Rolled: 1 + 5 = 6
+2024-07-27 11:36:08,425 - DEBUG - Possible moves: [(6,)]
+2024-07-27 11:36:08,425 - DEBUG - Chosen Move: (6,)
+2024-07-27 11:36:08,425 - DEBUG - Tiles remaining: [3, 5, 8, 9]
+2024-07-27 11:36:08,425 - DEBUG - Rolled: 1 + 3 = 4
+2024-07-27 11:36:08,425 - DEBUG - Possible moves: []
+2024-07-27 11:36:08,425 - DEBUG - No possible moves. Game over!
+2024-07-27 11:36:08,425 - DEBUG - AI's final score: 25
+2024-07-27 11:36:08,425 - DEBUG - Game 7 ended with score: 25
+2024-07-27 11:36:08,425 - DEBUG - Starting game 8
+2024-07-27 11:36:08,425 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,425 - DEBUG - Rolled: 3 + 4 = 7
+2024-07-27 11:36:08,425 - DEBUG - Possible moves: [(7,), (1, 6), (2, 5), (3, 4), (1, 2, 4)]
+2024-07-27 11:36:08,425 - DEBUG - Chosen Move: (7,)
+2024-07-27 11:36:08,425 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 8, 9]
+2024-07-27 11:36:08,425 - DEBUG - Rolled: 6 + 5 = 11
+2024-07-27 11:36:08,425 - DEBUG - Possible moves: [(2, 9), (3, 8), (5, 6), (1, 2, 8), (1, 4, 6), (2, 3, 6), (2, 4, 5), (1, 2, 3, 5)]
+2024-07-27 11:36:08,425 - DEBUG - Chosen Move: (1, 2, 3, 5)
+2024-07-27 11:36:08,425 - DEBUG - Tiles remaining: [4, 6, 8, 9]
+2024-07-27 11:36:08,425 - DEBUG - Rolled: 1 + 2 = 3
+2024-07-27 11:36:08,425 - DEBUG - Possible moves: []
+2024-07-27 11:36:08,425 - DEBUG - No possible moves. Game over!
+2024-07-27 11:36:08,425 - DEBUG - AI's final score: 27
+2024-07-27 11:36:08,425 - DEBUG - Game 8 ended with score: 27
+2024-07-27 11:36:08,425 - DEBUG - Starting game 9
+2024-07-27 11:36:08,425 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,425 - DEBUG - Rolled: 3 + 5 = 8
+2024-07-27 11:36:08,425 - DEBUG - Possible moves: [(8,), (1, 7), (2, 6), (3, 5), (1, 2, 5), (1, 3, 4)]
+2024-07-27 11:36:08,425 - DEBUG - Chosen Move: (1, 2, 5)
+2024-07-27 11:36:08,425 - DEBUG - Tiles remaining: [3, 4, 6, 7, 8, 9]
+2024-07-27 11:36:08,425 - DEBUG - Rolled: 5 + 5 = 10
+2024-07-27 11:36:08,426 - DEBUG - Possible moves: [(3, 7), (4, 6)]
+2024-07-27 11:36:08,426 - DEBUG - Chosen Move: (4, 6)
+2024-07-27 11:36:08,426 - DEBUG - Tiles remaining: [3, 7, 8, 9]
+2024-07-27 11:36:08,426 - DEBUG - Rolled: 5 + 4 = 9
+2024-07-27 11:36:08,426 - DEBUG - Possible moves: [(9,)]
+2024-07-27 11:36:08,426 - DEBUG - Chosen Move: (9,)
+2024-07-27 11:36:08,426 - DEBUG - Tiles remaining: [3, 7, 8]
+2024-07-27 11:36:08,426 - DEBUG - Rolled: 6 + 1 = 7
+2024-07-27 11:36:08,426 - DEBUG - Possible moves: [(7,)]
+2024-07-27 11:36:08,426 - DEBUG - Chosen Move: (7,)
+2024-07-27 11:36:08,426 - DEBUG - Tiles remaining: [3, 8]
+2024-07-27 11:36:08,426 - DEBUG - Rolled: 3 + 6 = 9
+2024-07-27 11:36:08,426 - DEBUG - Possible moves: []
+2024-07-27 11:36:08,426 - DEBUG - No possible moves. Game over!
+2024-07-27 11:36:08,426 - DEBUG - AI's final score: 11
+2024-07-27 11:36:08,426 - DEBUG - Game 9 ended with score: 11
+2024-07-27 11:36:08,426 - DEBUG - Starting game 10
+2024-07-27 11:36:08,426 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,426 - DEBUG - Rolled: 2 + 4 = 6
+2024-07-27 11:36:08,426 - DEBUG - Possible moves: [(6,), (1, 5), (2, 4), (1, 2, 3)]
+2024-07-27 11:36:08,426 - DEBUG - Chosen Move: (6,)
+2024-07-27 11:36:08,426 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 7, 8, 9]
+2024-07-27 11:36:08,426 - DEBUG - Rolled: 1 + 2 = 3
+2024-07-27 11:36:08,426 - DEBUG - Possible moves: [(3,), (1, 2)]
+2024-07-27 11:36:08,426 - DEBUG - Chosen Move: (1, 2)
+2024-07-27 11:36:08,426 - DEBUG - Tiles remaining: [3, 4, 5, 7, 8, 9]
+2024-07-27 11:36:08,426 - DEBUG - Rolled: 3 + 2 = 5
+2024-07-27 11:36:08,426 - DEBUG - Possible moves: [(5,)]
+2024-07-27 11:36:08,426 - DEBUG - Chosen Move: (5,)
+2024-07-27 11:36:08,426 - DEBUG - Tiles remaining: [3, 4, 7, 8, 9]
+2024-07-27 11:36:08,426 - DEBUG - Rolled: 6 + 2 = 8
+2024-07-27 11:36:08,426 - DEBUG - Possible moves: [(8,)]
+2024-07-27 11:36:08,426 - DEBUG - Chosen Move: (8,)
+2024-07-27 11:36:08,426 - DEBUG - Tiles remaining: [3, 4, 7, 9]
+2024-07-27 11:36:08,426 - DEBUG - Rolled: 1 + 4 = 5
+2024-07-27 11:36:08,426 - DEBUG - Possible moves: []
+2024-07-27 11:36:08,426 - DEBUG - No possible moves. Game over!
+2024-07-27 11:36:08,426 - DEBUG - AI's final score: 23
+2024-07-27 11:36:08,427 - DEBUG - Game 10 ended with score: 23
+2024-07-27 11:36:08,428 - DEBUG - Results appended to ./results/stb_simple_ai_results_20240727-113608.csv
+2024-07-27 11:36:08,429 - DEBUG - Results saved to ./results/stb_simple_ai_results_20240727-113608.json
+2024-07-27 11:36:08,429 - DEBUG - ## ## Simulation ended for 10 games using strategy #Random Choice Strategy ## ##
+2024-07-27 11:36:08,429 - DEBUG - ## ## Simulation beginning for 10 games using strategy #1 ## ##
+2024-07-27 11:36:08,429 - DEBUG - Starting game 1
+2024-07-27 11:36:08,429 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,429 - DEBUG - Rolled: 4 + 2 = 6
+2024-07-27 11:36:08,429 - DEBUG - Possible moves: [(6,), (1, 5), (2, 4), (1, 2, 3)]
+2024-07-27 11:36:08,429 - DEBUG - Chosen Move: (2, 4)
+2024-07-27 11:36:08,429 - DEBUG - Tiles remaining: [1, 3, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,429 - DEBUG - Rolled: 6 + 1 = 7
+2024-07-27 11:36:08,430 - DEBUG - Possible moves: [(7,), (1, 6)]
+2024-07-27 11:36:08,430 - DEBUG - Chosen Move: (1, 6)
+2024-07-27 11:36:08,430 - DEBUG - Tiles remaining: [3, 5, 7, 8, 9]
+2024-07-27 11:36:08,430 - DEBUG - Rolled: 2 + 4 = 6
+2024-07-27 11:36:08,430 - DEBUG - Possible moves: []
+2024-07-27 11:36:08,430 - DEBUG - No possible moves. Game over!
+2024-07-27 11:36:08,430 - DEBUG - AI's final score: 32
+2024-07-27 11:36:08,430 - DEBUG - Game 1 ended with score: 32
+2024-07-27 11:36:08,430 - DEBUG - Starting game 2
+2024-07-27 11:36:08,430 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,430 - DEBUG - Rolled: 1 + 3 = 4
+2024-07-27 11:36:08,430 - DEBUG - Possible moves: [(4,), (1, 3)]
+2024-07-27 11:36:08,430 - DEBUG - Chosen Move: (1, 3)
+2024-07-27 11:36:08,430 - DEBUG - Tiles remaining: [2, 4, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,430 - DEBUG - Rolled: 3 + 6 = 9
+2024-07-27 11:36:08,430 - DEBUG - Possible moves: [(9,), (2, 7), (4, 5)]
+2024-07-27 11:36:08,430 - DEBUG - Chosen Move: (2, 7)
+2024-07-27 11:36:08,430 - DEBUG - Tiles remaining: [4, 5, 6, 8, 9]
+2024-07-27 11:36:08,430 - DEBUG - Rolled: 5 + 1 = 6
+2024-07-27 11:36:08,430 - DEBUG - Possible moves: [(6,)]
+2024-07-27 11:36:08,430 - DEBUG - Chosen Move: (6,)
+2024-07-27 11:36:08,430 - DEBUG - Tiles remaining: [4, 5, 8, 9]
+2024-07-27 11:36:08,430 - DEBUG - Rolled: 3 + 1 = 4
+2024-07-27 11:36:08,430 - DEBUG - Possible moves: [(4,)]
+2024-07-27 11:36:08,430 - DEBUG - Chosen Move: (4,)
+2024-07-27 11:36:08,430 - DEBUG - Tiles remaining: [5, 8, 9]
+2024-07-27 11:36:08,430 - DEBUG - Rolled: 3 + 6 = 9
+2024-07-27 11:36:08,430 - DEBUG - Possible moves: [(9,)]
+2024-07-27 11:36:08,430 - DEBUG - Chosen Move: (9,)
+2024-07-27 11:36:08,430 - DEBUG - Tiles remaining: [5, 8]
+2024-07-27 11:36:08,430 - DEBUG - Rolled: 6 + 1 = 7
+2024-07-27 11:36:08,430 - DEBUG - Possible moves: []
+2024-07-27 11:36:08,430 - DEBUG - No possible moves. Game over!
+2024-07-27 11:36:08,430 - DEBUG - AI's final score: 13
+2024-07-27 11:36:08,430 - DEBUG - Game 2 ended with score: 13
+2024-07-27 11:36:08,430 - DEBUG - Starting game 3
+2024-07-27 11:36:08,430 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,431 - DEBUG - Rolled: 5 + 1 = 6
+2024-07-27 11:36:08,431 - DEBUG - Possible moves: [(6,), (1, 5), (2, 4), (1, 2, 3)]
+2024-07-27 11:36:08,431 - DEBUG - Chosen Move: (1, 5)
+2024-07-27 11:36:08,431 - DEBUG - Tiles remaining: [2, 3, 4, 6, 7, 8, 9]
+2024-07-27 11:36:08,431 - DEBUG - Rolled: 5 + 5 = 10
+2024-07-27 11:36:08,431 - DEBUG - Possible moves: [(2, 8), (3, 7), (4, 6)]
+2024-07-27 11:36:08,431 - DEBUG - Chosen Move: (2, 8)
+2024-07-27 11:36:08,431 - DEBUG - Tiles remaining: [3, 4, 6, 7, 9]
+2024-07-27 11:36:08,431 - DEBUG - Rolled: 4 + 3 = 7
+2024-07-27 11:36:08,431 - DEBUG - Possible moves: [(7,), (3, 4)]
+2024-07-27 11:36:08,431 - DEBUG - Chosen Move: (3, 4)
+2024-07-27 11:36:08,431 - DEBUG - Tiles remaining: [6, 7, 9]
+2024-07-27 11:36:08,431 - DEBUG - Rolled: 5 + 5 = 10
+2024-07-27 11:36:08,431 - DEBUG - Possible moves: []
+2024-07-27 11:36:08,431 - DEBUG - No possible moves. Game over!
+2024-07-27 11:36:08,431 - DEBUG - AI's final score: 22
+2024-07-27 11:36:08,431 - DEBUG - Game 3 ended with score: 22
+2024-07-27 11:36:08,431 - DEBUG - Starting game 4
+2024-07-27 11:36:08,431 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,431 - DEBUG - Rolled: 1 + 4 = 5
+2024-07-27 11:36:08,431 - DEBUG - Possible moves: [(5,), (1, 4), (2, 3)]
+2024-07-27 11:36:08,431 - DEBUG - Chosen Move: (1, 4)
+2024-07-27 11:36:08,431 - DEBUG - Tiles remaining: [2, 3, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,431 - DEBUG - Rolled: 5 + 1 = 6
+2024-07-27 11:36:08,431 - DEBUG - Possible moves: [(6,)]
+2024-07-27 11:36:08,431 - DEBUG - Chosen Move: (6,)
+2024-07-27 11:36:08,431 - DEBUG - Tiles remaining: [2, 3, 5, 7, 8, 9]
+2024-07-27 11:36:08,431 - DEBUG - Rolled: 5 + 3 = 8
+2024-07-27 11:36:08,431 - DEBUG - Possible moves: [(8,), (3, 5)]
+2024-07-27 11:36:08,431 - DEBUG - Chosen Move: (3, 5)
+2024-07-27 11:36:08,431 - DEBUG - Tiles remaining: [2, 7, 8, 9]
+2024-07-27 11:36:08,431 - DEBUG - Rolled: 4 + 4 = 8
+2024-07-27 11:36:08,431 - DEBUG - Possible moves: [(8,)]
+2024-07-27 11:36:08,431 - DEBUG - Chosen Move: (8,)
+2024-07-27 11:36:08,431 - DEBUG - Tiles remaining: [2, 7, 9]
+2024-07-27 11:36:08,432 - DEBUG - Rolled: 1 + 6 = 7
+2024-07-27 11:36:08,432 - DEBUG - Possible moves: [(7,)]
+2024-07-27 11:36:08,432 - DEBUG - Chosen Move: (7,)
+2024-07-27 11:36:08,432 - DEBUG - Tiles remaining: [2, 9]
+2024-07-27 11:36:08,432 - DEBUG - Rolled: 6 + 6 = 12
+2024-07-27 11:36:08,432 - DEBUG - Possible moves: []
+2024-07-27 11:36:08,432 - DEBUG - No possible moves. Game over!
+2024-07-27 11:36:08,432 - DEBUG - AI's final score: 11
+2024-07-27 11:36:08,432 - DEBUG - Game 4 ended with score: 11
+2024-07-27 11:36:08,432 - DEBUG - Starting game 5
+2024-07-27 11:36:08,432 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,432 - DEBUG - Rolled: 5 + 6 = 11
+2024-07-27 11:36:08,432 - DEBUG - Possible moves: [(2, 9), (3, 8), (4, 7), (5, 6), (1, 2, 8), (1, 3, 7), (1, 4, 6), (2, 3, 6), (2, 4, 5), (1, 2, 3, 5)]
+2024-07-27 11:36:08,432 - DEBUG - Chosen Move: (5, 6)
+2024-07-27 11:36:08,432 - DEBUG - Tiles remaining: [1, 2, 3, 4, 7, 8, 9]
+2024-07-27 11:36:08,432 - DEBUG - Rolled: 6 + 5 = 11
+2024-07-27 11:36:08,432 - DEBUG - Possible moves: [(2, 9), (3, 8), (4, 7), (1, 2, 8), (1, 3, 7)]
+2024-07-27 11:36:08,432 - DEBUG - Chosen Move: (1, 3, 7)
+2024-07-27 11:36:08,432 - DEBUG - Tiles remaining: [2, 4, 8, 9]
+2024-07-27 11:36:08,432 - DEBUG - Rolled: 5 + 3 = 8
+2024-07-27 11:36:08,432 - DEBUG - Possible moves: [(8,)]
+2024-07-27 11:36:08,432 - DEBUG - Chosen Move: (8,)
+2024-07-27 11:36:08,432 - DEBUG - Tiles remaining: [2, 4, 9]
+2024-07-27 11:36:08,432 - DEBUG - Rolled: 2 + 2 = 4
+2024-07-27 11:36:08,432 - DEBUG - Possible moves: [(4,)]
+2024-07-27 11:36:08,432 - DEBUG - Chosen Move: (4,)
+2024-07-27 11:36:08,432 - DEBUG - Tiles remaining: [2, 9]
+2024-07-27 11:36:08,432 - DEBUG - Rolled: 3 + 3 = 6
+2024-07-27 11:36:08,432 - DEBUG - Possible moves: []
+2024-07-27 11:36:08,432 - DEBUG - No possible moves. Game over!
+2024-07-27 11:36:08,432 - DEBUG - AI's final score: 11
+2024-07-27 11:36:08,432 - DEBUG - Game 5 ended with score: 11
+2024-07-27 11:36:08,432 - DEBUG - Starting game 6
+2024-07-27 11:36:08,432 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,432 - DEBUG - Rolled: 4 + 6 = 10
+2024-07-27 11:36:08,432 - DEBUG - Possible moves: [(1, 9), (2, 8), (3, 7), (4, 6), (1, 2, 7), (1, 3, 6), (1, 4, 5), (2, 3, 5), (1, 2, 3, 4)]
+2024-07-27 11:36:08,433 - DEBUG - Chosen Move: (4, 6)
+2024-07-27 11:36:08,433 - DEBUG - Tiles remaining: [1, 2, 3, 5, 7, 8, 9]
+2024-07-27 11:36:08,433 - DEBUG - Rolled: 6 + 6 = 12
+2024-07-27 11:36:08,433 - DEBUG - Possible moves: [(3, 9), (5, 7), (1, 2, 9), (1, 3, 8), (2, 3, 7)]
+2024-07-27 11:36:08,433 - DEBUG - Chosen Move: (1, 3, 8)
+2024-07-27 11:36:08,433 - DEBUG - Tiles remaining: [2, 5, 7, 9]
+2024-07-27 11:36:08,433 - DEBUG - Rolled: 4 + 4 = 8
+2024-07-27 11:36:08,433 - DEBUG - Possible moves: []
+2024-07-27 11:36:08,433 - DEBUG - No possible moves. Game over!
+2024-07-27 11:36:08,433 - DEBUG - AI's final score: 23
+2024-07-27 11:36:08,433 - DEBUG - Game 6 ended with score: 23
+2024-07-27 11:36:08,433 - DEBUG - Starting game 7
+2024-07-27 11:36:08,433 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,433 - DEBUG - Rolled: 5 + 5 = 10
+2024-07-27 11:36:08,433 - DEBUG - Possible moves: [(1, 9), (2, 8), (3, 7), (4, 6), (1, 2, 7), (1, 3, 6), (1, 4, 5), (2, 3, 5), (1, 2, 3, 4)]
+2024-07-27 11:36:08,433 - DEBUG - Chosen Move: (2, 3, 5)
+2024-07-27 11:36:08,433 - DEBUG - Tiles remaining: [1, 4, 6, 7, 8, 9]
+2024-07-27 11:36:08,433 - DEBUG - Rolled: 6 + 1 = 7
+2024-07-27 11:36:08,433 - DEBUG - Possible moves: [(7,), (1, 6)]
+2024-07-27 11:36:08,433 - DEBUG - Chosen Move: (1, 6)
+2024-07-27 11:36:08,433 - DEBUG - Tiles remaining: [4, 7, 8, 9]
+2024-07-27 11:36:08,433 - DEBUG - Rolled: 6 + 2 = 8
+2024-07-27 11:36:08,433 - DEBUG - Possible moves: [(8,)]
+2024-07-27 11:36:08,433 - DEBUG - Chosen Move: (8,)
+2024-07-27 11:36:08,433 - DEBUG - Tiles remaining: [4, 7, 9]
+2024-07-27 11:36:08,433 - DEBUG - Rolled: 3 + 5 = 8
+2024-07-27 11:36:08,433 - DEBUG - Possible moves: []
+2024-07-27 11:36:08,433 - DEBUG - No possible moves. Game over!
+2024-07-27 11:36:08,433 - DEBUG - AI's final score: 20
+2024-07-27 11:36:08,433 - DEBUG - Game 7 ended with score: 20
+2024-07-27 11:36:08,433 - DEBUG - Starting game 8
+2024-07-27 11:36:08,433 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,433 - DEBUG - Rolled: 3 + 5 = 8
+2024-07-27 11:36:08,433 - DEBUG - Possible moves: [(8,), (1, 7), (2, 6), (3, 5), (1, 2, 5), (1, 3, 4)]
+2024-07-27 11:36:08,433 - DEBUG - Chosen Move: (3, 5)
+2024-07-27 11:36:08,433 - DEBUG - Tiles remaining: [1, 2, 4, 6, 7, 8, 9]
+2024-07-27 11:36:08,433 - DEBUG - Rolled: 4 + 2 = 6
+2024-07-27 11:36:08,434 - DEBUG - Possible moves: [(6,), (2, 4)]
+2024-07-27 11:36:08,434 - DEBUG - Chosen Move: (2, 4)
+2024-07-27 11:36:08,434 - DEBUG - Tiles remaining: [1, 6, 7, 8, 9]
+2024-07-27 11:36:08,434 - DEBUG - Rolled: 1 + 3 = 4
+2024-07-27 11:36:08,434 - DEBUG - Possible moves: []
+2024-07-27 11:36:08,434 - DEBUG - No possible moves. Game over!
+2024-07-27 11:36:08,434 - DEBUG - AI's final score: 31
+2024-07-27 11:36:08,434 - DEBUG - Game 8 ended with score: 31
+2024-07-27 11:36:08,434 - DEBUG - Starting game 9
+2024-07-27 11:36:08,434 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,434 - DEBUG - Rolled: 5 + 1 = 6
+2024-07-27 11:36:08,434 - DEBUG - Possible moves: [(6,), (1, 5), (2, 4), (1, 2, 3)]
+2024-07-27 11:36:08,434 - DEBUG - Chosen Move: (1, 5)
+2024-07-27 11:36:08,434 - DEBUG - Tiles remaining: [2, 3, 4, 6, 7, 8, 9]
+2024-07-27 11:36:08,434 - DEBUG - Rolled: 2 + 4 = 6
+2024-07-27 11:36:08,434 - DEBUG - Possible moves: [(6,), (2, 4)]
+2024-07-27 11:36:08,434 - DEBUG - Chosen Move: (2, 4)
+2024-07-27 11:36:08,434 - DEBUG - Tiles remaining: [3, 6, 7, 8, 9]
+2024-07-27 11:36:08,434 - DEBUG - Rolled: 2 + 2 = 4
+2024-07-27 11:36:08,434 - DEBUG - Possible moves: []
+2024-07-27 11:36:08,434 - DEBUG - No possible moves. Game over!
+2024-07-27 11:36:08,434 - DEBUG - AI's final score: 33
+2024-07-27 11:36:08,434 - DEBUG - Game 9 ended with score: 33
+2024-07-27 11:36:08,434 - DEBUG - Starting game 10
+2024-07-27 11:36:08,434 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,434 - DEBUG - Rolled: 3 + 4 = 7
+2024-07-27 11:36:08,434 - DEBUG - Possible moves: [(7,), (1, 6), (2, 5), (3, 4), (1, 2, 4)]
+2024-07-27 11:36:08,434 - DEBUG - Chosen Move: (3, 4)
+2024-07-27 11:36:08,434 - DEBUG - Tiles remaining: [1, 2, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,434 - DEBUG - Rolled: 1 + 6 = 7
+2024-07-27 11:36:08,434 - DEBUG - Possible moves: [(7,), (1, 6), (2, 5)]
+2024-07-27 11:36:08,434 - DEBUG - Chosen Move: (1, 6)
+2024-07-27 11:36:08,434 - DEBUG - Tiles remaining: [2, 5, 7, 8, 9]
+2024-07-27 11:36:08,434 - DEBUG - Rolled: 1 + 6 = 7
+2024-07-27 11:36:08,434 - DEBUG - Possible moves: [(7,), (2, 5)]
+2024-07-27 11:36:08,434 - DEBUG - Chosen Move: (7,)
+2024-07-27 11:36:08,434 - DEBUG - Tiles remaining: [2, 5, 8, 9]
+2024-07-27 11:36:08,434 - DEBUG - Rolled: 4 + 2 = 6
+2024-07-27 11:36:08,435 - DEBUG - Possible moves: []
+2024-07-27 11:36:08,435 - DEBUG - No possible moves. Game over!
+2024-07-27 11:36:08,435 - DEBUG - AI's final score: 24
+2024-07-27 11:36:08,435 - DEBUG - Game 10 ended with score: 24
+2024-07-27 11:36:08,435 - DEBUG - Results appended to ./results/stb_simple_ai_results_20240727-113608.csv
+2024-07-27 11:36:08,441 - DEBUG - Results saved to ./results/stb_simple_ai_results_20240727-113608.json
+2024-07-27 11:36:08,441 - DEBUG - ## ## Simulation ended for 10 games using strategy #Single Tile ## ##
+2024-07-27 11:36:08,441 - DEBUG - ## ## Simulation beginning for 10 games using strategy #2 ## ##
+2024-07-27 11:36:08,441 - DEBUG - Starting game 1
+2024-07-27 11:36:08,441 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,441 - DEBUG - Rolled: 2 + 3 = 5
+2024-07-27 11:36:08,441 - DEBUG - Possible moves: [(5,), (1, 4), (2, 3)]
+2024-07-27 11:36:08,441 - DEBUG - Chosen Move: (1, 4)
+2024-07-27 11:36:08,441 - DEBUG - Tiles remaining: [2, 3, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,441 - DEBUG - Rolled: 4 + 1 = 5
+2024-07-27 11:36:08,441 - DEBUG - Possible moves: [(5,), (2, 3)]
+2024-07-27 11:36:08,441 - DEBUG - Chosen Move: (2, 3)
+2024-07-27 11:36:08,441 - DEBUG - Tiles remaining: [5, 6, 7, 8, 9]
+2024-07-27 11:36:08,441 - DEBUG - Rolled: 1 + 3 = 4
+2024-07-27 11:36:08,441 - DEBUG - Possible moves: []
+2024-07-27 11:36:08,441 - DEBUG - No possible moves. Game over!
+2024-07-27 11:36:08,441 - DEBUG - AI's final score: 35
+2024-07-27 11:36:08,442 - DEBUG - Game 1 ended with score: 35
+2024-07-27 11:36:08,442 - DEBUG - Starting game 2
+2024-07-27 11:36:08,442 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,442 - DEBUG - Rolled: 4 + 1 = 5
+2024-07-27 11:36:08,442 - DEBUG - Possible moves: [(5,), (1, 4), (2, 3)]
+2024-07-27 11:36:08,442 - DEBUG - Chosen Move: (1, 4)
+2024-07-27 11:36:08,442 - DEBUG - Tiles remaining: [2, 3, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,442 - DEBUG - Rolled: 4 + 3 = 7
+2024-07-27 11:36:08,442 - DEBUG - Possible moves: [(7,), (2, 5)]
+2024-07-27 11:36:08,442 - DEBUG - Chosen Move: (2, 5)
+2024-07-27 11:36:08,442 - DEBUG - Tiles remaining: [3, 6, 7, 8, 9]
+2024-07-27 11:36:08,442 - DEBUG - Rolled: 2 + 2 = 4
+2024-07-27 11:36:08,442 - DEBUG - Possible moves: []
+2024-07-27 11:36:08,442 - DEBUG - No possible moves. Game over!
+2024-07-27 11:36:08,442 - DEBUG - AI's final score: 33
+2024-07-27 11:36:08,442 - DEBUG - Game 2 ended with score: 33
+2024-07-27 11:36:08,442 - DEBUG - Starting game 3
+2024-07-27 11:36:08,442 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,442 - DEBUG - Rolled: 3 + 6 = 9
+2024-07-27 11:36:08,442 - DEBUG - Possible moves: [(9,), (1, 8), (2, 7), (3, 6), (4, 5), (1, 2, 6), (1, 3, 5), (2, 3, 4)]
+2024-07-27 11:36:08,442 - DEBUG - Chosen Move: (1, 2, 6)
+2024-07-27 11:36:08,442 - DEBUG - Tiles remaining: [3, 4, 5, 7, 8, 9]
+2024-07-27 11:36:08,442 - DEBUG - Rolled: 3 + 6 = 9
+2024-07-27 11:36:08,442 - DEBUG - Possible moves: [(9,), (4, 5)]
+2024-07-27 11:36:08,442 - DEBUG - Chosen Move: (4, 5)
+2024-07-27 11:36:08,442 - DEBUG - Tiles remaining: [3, 7, 8, 9]
+2024-07-27 11:36:08,442 - DEBUG - Rolled: 5 + 5 = 10
+2024-07-27 11:36:08,442 - DEBUG - Possible moves: [(3, 7)]
+2024-07-27 11:36:08,442 - DEBUG - Chosen Move: (3, 7)
+2024-07-27 11:36:08,442 - DEBUG - Tiles remaining: [8, 9]
+2024-07-27 11:36:08,442 - DEBUG - Rolled: 3 + 6 = 9
+2024-07-27 11:36:08,442 - DEBUG - Possible moves: [(9,)]
+2024-07-27 11:36:08,442 - DEBUG - Chosen Move: (9,)
+2024-07-27 11:36:08,442 - DEBUG - Tiles remaining: [8]
+2024-07-27 11:36:08,442 - DEBUG - Rolled: 4 + 2 = 6
+2024-07-27 11:36:08,442 - DEBUG - Possible moves: []
+2024-07-27 11:36:08,442 - DEBUG - No possible moves. Game over!
+2024-07-27 11:36:08,442 - DEBUG - AI's final score: 8
+2024-07-27 11:36:08,442 - DEBUG - Game 3 ended with score: 8
+2024-07-27 11:36:08,443 - DEBUG - Starting game 4
+2024-07-27 11:36:08,443 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,443 - DEBUG - Rolled: 3 + 5 = 8
+2024-07-27 11:36:08,443 - DEBUG - Possible moves: [(8,), (1, 7), (2, 6), (3, 5), (1, 2, 5), (1, 3, 4)]
+2024-07-27 11:36:08,443 - DEBUG - Chosen Move: (1, 2, 5)
+2024-07-27 11:36:08,443 - DEBUG - Tiles remaining: [3, 4, 6, 7, 8, 9]
+2024-07-27 11:36:08,443 - DEBUG - Rolled: 6 + 2 = 8
+2024-07-27 11:36:08,443 - DEBUG - Possible moves: [(8,)]
+2024-07-27 11:36:08,443 - DEBUG - Chosen Move: (8,)
+2024-07-27 11:36:08,443 - DEBUG - Tiles remaining: [3, 4, 6, 7, 9]
+2024-07-27 11:36:08,443 - DEBUG - Rolled: 2 + 1 = 3
+2024-07-27 11:36:08,443 - DEBUG - Possible moves: [(3,)]
+2024-07-27 11:36:08,443 - DEBUG - Chosen Move: (3,)
+2024-07-27 11:36:08,443 - DEBUG - Tiles remaining: [4, 6, 7, 9]
+2024-07-27 11:36:08,443 - DEBUG - Rolled: 4 + 5 = 9
+2024-07-27 11:36:08,443 - DEBUG - Possible moves: [(9,)]
+2024-07-27 11:36:08,443 - DEBUG - Chosen Move: (9,)
+2024-07-27 11:36:08,443 - DEBUG - Tiles remaining: [4, 6, 7]
+2024-07-27 11:36:08,443 - DEBUG - Rolled: 4 + 4 = 8
+2024-07-27 11:36:08,443 - DEBUG - Possible moves: []
+2024-07-27 11:36:08,443 - DEBUG - No possible moves. Game over!
+2024-07-27 11:36:08,443 - DEBUG - AI's final score: 17
+2024-07-27 11:36:08,443 - DEBUG - Game 4 ended with score: 17
+2024-07-27 11:36:08,443 - DEBUG - Starting game 5
+2024-07-27 11:36:08,443 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,443 - DEBUG - Rolled: 4 + 2 = 6
+2024-07-27 11:36:08,443 - DEBUG - Possible moves: [(6,), (1, 5), (2, 4), (1, 2, 3)]
+2024-07-27 11:36:08,443 - DEBUG - Chosen Move: (1, 2, 3)
+2024-07-27 11:36:08,443 - DEBUG - Tiles remaining: [4, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,443 - DEBUG - Rolled: 3 + 4 = 7
+2024-07-27 11:36:08,443 - DEBUG - Possible moves: [(7,)]
+2024-07-27 11:36:08,443 - DEBUG - Chosen Move: (7,)
+2024-07-27 11:36:08,443 - DEBUG - Tiles remaining: [4, 5, 6, 8, 9]
+2024-07-27 11:36:08,443 - DEBUG - Rolled: 5 + 5 = 10
+2024-07-27 11:36:08,443 - DEBUG - Possible moves: [(4, 6)]
+2024-07-27 11:36:08,443 - DEBUG - Chosen Move: (4, 6)
+2024-07-27 11:36:08,443 - DEBUG - Tiles remaining: [5, 8, 9]
+2024-07-27 11:36:08,443 - DEBUG - Rolled: 2 + 2 = 4
+2024-07-27 11:36:08,444 - DEBUG - Possible moves: []
+2024-07-27 11:36:08,444 - DEBUG - No possible moves. Game over!
+2024-07-27 11:36:08,444 - DEBUG - AI's final score: 22
+2024-07-27 11:36:08,444 - DEBUG - Game 5 ended with score: 22
+2024-07-27 11:36:08,444 - DEBUG - Starting game 6
+2024-07-27 11:36:08,444 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,444 - DEBUG - Rolled: 2 + 6 = 8
+2024-07-27 11:36:08,444 - DEBUG - Possible moves: [(8,), (1, 7), (2, 6), (3, 5), (1, 2, 5), (1, 3, 4)]
+2024-07-27 11:36:08,444 - DEBUG - Chosen Move: (1, 2, 5)
+2024-07-27 11:36:08,444 - DEBUG - Tiles remaining: [3, 4, 6, 7, 8, 9]
+2024-07-27 11:36:08,444 - DEBUG - Rolled: 6 + 5 = 11
+2024-07-27 11:36:08,444 - DEBUG - Possible moves: [(3, 8), (4, 7)]
+2024-07-27 11:36:08,444 - DEBUG - Chosen Move: (3, 8)
+2024-07-27 11:36:08,444 - DEBUG - Tiles remaining: [4, 6, 7, 9]
+2024-07-27 11:36:08,444 - DEBUG - Rolled: 5 + 3 = 8
+2024-07-27 11:36:08,444 - DEBUG - Possible moves: []
+2024-07-27 11:36:08,444 - DEBUG - No possible moves. Game over!
+2024-07-27 11:36:08,444 - DEBUG - AI's final score: 26
+2024-07-27 11:36:08,444 - DEBUG - Game 6 ended with score: 26
+2024-07-27 11:36:08,444 - DEBUG - Starting game 7
+2024-07-27 11:36:08,444 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,444 - DEBUG - Rolled: 1 + 5 = 6
+2024-07-27 11:36:08,444 - DEBUG - Possible moves: [(6,), (1, 5), (2, 4), (1, 2, 3)]
+2024-07-27 11:36:08,444 - DEBUG - Chosen Move: (1, 2, 3)
+2024-07-27 11:36:08,444 - DEBUG - Tiles remaining: [4, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,444 - DEBUG - Rolled: 6 + 2 = 8
+2024-07-27 11:36:08,444 - DEBUG - Possible moves: [(8,)]
+2024-07-27 11:36:08,444 - DEBUG - Chosen Move: (8,)
+2024-07-27 11:36:08,444 - DEBUG - Tiles remaining: [4, 5, 6, 7, 9]
+2024-07-27 11:36:08,444 - DEBUG - Rolled: 2 + 1 = 3
+2024-07-27 11:36:08,444 - DEBUG - Possible moves: []
+2024-07-27 11:36:08,444 - DEBUG - No possible moves. Game over!
+2024-07-27 11:36:08,444 - DEBUG - AI's final score: 31
+2024-07-27 11:36:08,444 - DEBUG - Game 7 ended with score: 31
+2024-07-27 11:36:08,444 - DEBUG - Starting game 8
+2024-07-27 11:36:08,444 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,444 - DEBUG - Rolled: 2 + 1 = 3
+2024-07-27 11:36:08,445 - DEBUG - Possible moves: [(3,), (1, 2)]
+2024-07-27 11:36:08,445 - DEBUG - Chosen Move: (1, 2)
+2024-07-27 11:36:08,445 - DEBUG - Tiles remaining: [3, 4, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,445 - DEBUG - Rolled: 5 + 1 = 6
+2024-07-27 11:36:08,445 - DEBUG - Possible moves: [(6,)]
+2024-07-27 11:36:08,445 - DEBUG - Chosen Move: (6,)
+2024-07-27 11:36:08,445 - DEBUG - Tiles remaining: [3, 4, 5, 7, 8, 9]
+2024-07-27 11:36:08,445 - DEBUG - Rolled: 4 + 4 = 8
+2024-07-27 11:36:08,445 - DEBUG - Possible moves: [(8,), (3, 5)]
+2024-07-27 11:36:08,445 - DEBUG - Chosen Move: (3, 5)
+2024-07-27 11:36:08,445 - DEBUG - Tiles remaining: [4, 7, 8, 9]
+2024-07-27 11:36:08,445 - DEBUG - Rolled: 6 + 5 = 11
+2024-07-27 11:36:08,445 - DEBUG - Possible moves: [(4, 7)]
+2024-07-27 11:36:08,445 - DEBUG - Chosen Move: (4, 7)
+2024-07-27 11:36:08,445 - DEBUG - Tiles remaining: [8, 9]
+2024-07-27 11:36:08,445 - DEBUG - Rolled: 1 + 2 = 3
+2024-07-27 11:36:08,445 - DEBUG - Possible moves: []
+2024-07-27 11:36:08,445 - DEBUG - No possible moves. Game over!
+2024-07-27 11:36:08,445 - DEBUG - AI's final score: 17
+2024-07-27 11:36:08,445 - DEBUG - Game 8 ended with score: 17
+2024-07-27 11:36:08,445 - DEBUG - Starting game 9
+2024-07-27 11:36:08,445 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,445 - DEBUG - Rolled: 1 + 5 = 6
+2024-07-27 11:36:08,445 - DEBUG - Possible moves: [(6,), (1, 5), (2, 4), (1, 2, 3)]
+2024-07-27 11:36:08,445 - DEBUG - Chosen Move: (1, 2, 3)
+2024-07-27 11:36:08,445 - DEBUG - Tiles remaining: [4, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,445 - DEBUG - Rolled: 2 + 5 = 7
+2024-07-27 11:36:08,445 - DEBUG - Possible moves: [(7,)]
+2024-07-27 11:36:08,445 - DEBUG - Chosen Move: (7,)
+2024-07-27 11:36:08,445 - DEBUG - Tiles remaining: [4, 5, 6, 8, 9]
+2024-07-27 11:36:08,445 - DEBUG - Rolled: 6 + 1 = 7
+2024-07-27 11:36:08,445 - DEBUG - Possible moves: []
+2024-07-27 11:36:08,445 - DEBUG - No possible moves. Game over!
+2024-07-27 11:36:08,445 - DEBUG - AI's final score: 32
+2024-07-27 11:36:08,445 - DEBUG - Game 9 ended with score: 32
+2024-07-27 11:36:08,445 - DEBUG - Starting game 10
+2024-07-27 11:36:08,445 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,445 - DEBUG - Rolled: 4 + 4 = 8
+2024-07-27 11:36:08,446 - DEBUG - Possible moves: [(8,), (1, 7), (2, 6), (3, 5), (1, 2, 5), (1, 3, 4)]
+2024-07-27 11:36:08,446 - DEBUG - Chosen Move: (1, 2, 5)
+2024-07-27 11:36:08,446 - DEBUG - Tiles remaining: [3, 4, 6, 7, 8, 9]
+2024-07-27 11:36:08,446 - DEBUG - Rolled: 6 + 5 = 11
+2024-07-27 11:36:08,446 - DEBUG - Possible moves: [(3, 8), (4, 7)]
+2024-07-27 11:36:08,446 - DEBUG - Chosen Move: (3, 8)
+2024-07-27 11:36:08,446 - DEBUG - Tiles remaining: [4, 6, 7, 9]
+2024-07-27 11:36:08,446 - DEBUG - Rolled: 1 + 3 = 4
+2024-07-27 11:36:08,446 - DEBUG - Possible moves: [(4,)]
+2024-07-27 11:36:08,446 - DEBUG - Chosen Move: (4,)
+2024-07-27 11:36:08,446 - DEBUG - Tiles remaining: [6, 7, 9]
+2024-07-27 11:36:08,446 - DEBUG - Rolled: 2 + 4 = 6
+2024-07-27 11:36:08,446 - DEBUG - Possible moves: [(6,)]
+2024-07-27 11:36:08,446 - DEBUG - Chosen Move: (6,)
+2024-07-27 11:36:08,446 - DEBUG - Tiles remaining: [7, 9]
+2024-07-27 11:36:08,446 - DEBUG - Rolled: 5 + 4 = 9
+2024-07-27 11:36:08,446 - DEBUG - Possible moves: [(9,)]
+2024-07-27 11:36:08,446 - DEBUG - Chosen Move: (9,)
+2024-07-27 11:36:08,446 - DEBUG - Tiles remaining: [7]
+2024-07-27 11:36:08,446 - DEBUG - Rolled: 1 + 6 = 7
+2024-07-27 11:36:08,446 - DEBUG - Possible moves: [(7,)]
+2024-07-27 11:36:08,446 - DEBUG - Chosen Move: (7,)
+2024-07-27 11:36:08,446 - DEBUG - Congratulations! The box has been shut!
+2024-07-27 11:36:08,446 - DEBUG - AI's final score: 0
+2024-07-27 11:36:08,446 - DEBUG - Game 10 ended with score: 0
+2024-07-27 11:36:08,446 - DEBUG - Results appended to ./results/stb_simple_ai_results_20240727-113608.csv
+2024-07-27 11:36:08,453 - DEBUG - Results saved to ./results/stb_simple_ai_results_20240727-113608.json
+2024-07-27 11:36:08,453 - DEBUG - ## ## Simulation ended for 10 games using strategy #Maximum Immediate Reward ## ##
+2024-07-27 11:36:08,453 - DEBUG - ## ## Simulation beginning for 10 games using strategy #3 ## ##
+2024-07-27 11:36:08,453 - DEBUG - Starting game 1
+2024-07-27 11:36:08,453 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,453 - DEBUG - Rolled: 5 + 5 = 10
+2024-07-27 11:36:08,453 - DEBUG - Possible moves: [(1, 9), (2, 8), (3, 7), (4, 6), (1, 2, 7), (1, 3, 6), (1, 4, 5), (2, 3, 5), (1, 2, 3, 4)]
+2024-07-27 11:36:08,453 - DEBUG - Chosen Move: (1, 9)
+2024-07-27 11:36:08,453 - DEBUG - Tiles remaining: [2, 3, 4, 5, 6, 7, 8]
+2024-07-27 11:36:08,453 - DEBUG - Rolled: 1 + 1 = 2
+2024-07-27 11:36:08,453 - DEBUG - Possible moves: [(2,)]
+2024-07-27 11:36:08,453 - DEBUG - Chosen Move: (2,)
+2024-07-27 11:36:08,453 - DEBUG - Tiles remaining: [3, 4, 5, 6, 7, 8]
+2024-07-27 11:36:08,453 - DEBUG - Rolled: 1 + 3 = 4
+2024-07-27 11:36:08,453 - DEBUG - Possible moves: [(4,)]
+2024-07-27 11:36:08,453 - DEBUG - Chosen Move: (4,)
+2024-07-27 11:36:08,453 - DEBUG - Tiles remaining: [3, 5, 6, 7, 8]
+2024-07-27 11:36:08,453 - DEBUG - Rolled: 6 + 5 = 11
+2024-07-27 11:36:08,453 - DEBUG - Possible moves: [(3, 8), (5, 6)]
+2024-07-27 11:36:08,453 - DEBUG - Chosen Move: (3, 8)
+2024-07-27 11:36:08,453 - DEBUG - Tiles remaining: [5, 6, 7]
+2024-07-27 11:36:08,453 - DEBUG - Rolled: 6 + 4 = 10
+2024-07-27 11:36:08,453 - DEBUG - Possible moves: []
+2024-07-27 11:36:08,453 - DEBUG - No possible moves. Game over!
+2024-07-27 11:36:08,453 - DEBUG - AI's final score: 18
+2024-07-27 11:36:08,453 - DEBUG - Game 1 ended with score: 18
+2024-07-27 11:36:08,453 - DEBUG - Starting game 2
+2024-07-27 11:36:08,453 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,453 - DEBUG - Rolled: 4 + 3 = 7
+2024-07-27 11:36:08,453 - DEBUG - Possible moves: [(7,), (1, 6), (2, 5), (3, 4), (1, 2, 4)]
+2024-07-27 11:36:08,454 - DEBUG - Chosen Move: (7,)
+2024-07-27 11:36:08,454 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 8, 9]
+2024-07-27 11:36:08,454 - DEBUG - Rolled: 4 + 5 = 9
+2024-07-27 11:36:08,454 - DEBUG - Possible moves: [(9,), (1, 8), (3, 6), (4, 5), (1, 2, 6), (1, 3, 5), (2, 3, 4)]
+2024-07-27 11:36:08,454 - DEBUG - Chosen Move: (9,)
+2024-07-27 11:36:08,454 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 8]
+2024-07-27 11:36:08,454 - DEBUG - Rolled: 6 + 1 = 7
+2024-07-27 11:36:08,454 - DEBUG - Possible moves: [(1, 6), (2, 5), (3, 4), (1, 2, 4)]
+2024-07-27 11:36:08,454 - DEBUG - Chosen Move: (1, 6)
+2024-07-27 11:36:08,454 - DEBUG - Tiles remaining: [2, 3, 4, 5, 8]
+2024-07-27 11:36:08,454 - DEBUG - Rolled: 5 + 5 = 10
+2024-07-27 11:36:08,454 - DEBUG - Possible moves: [(2, 8), (2, 3, 5)]
+2024-07-27 11:36:08,454 - DEBUG - Chosen Move: (2, 8)
+2024-07-27 11:36:08,454 - DEBUG - Tiles remaining: [3, 4, 5]
+2024-07-27 11:36:08,454 - DEBUG - Rolled: 1 + 2 = 3
+2024-07-27 11:36:08,454 - DEBUG - Possible moves: [(3,)]
+2024-07-27 11:36:08,454 - DEBUG - Chosen Move: (3,)
+2024-07-27 11:36:08,454 - DEBUG - Tiles remaining: [4, 5]
+2024-07-27 11:36:08,454 - DEBUG - Rolled: 5 + 4 = 9
+2024-07-27 11:36:08,454 - DEBUG - Possible moves: [(4, 5)]
+2024-07-27 11:36:08,454 - DEBUG - Chosen Move: (4, 5)
+2024-07-27 11:36:08,454 - DEBUG - Congratulations! The box has been shut!
+2024-07-27 11:36:08,454 - DEBUG - AI's final score: 0
+2024-07-27 11:36:08,454 - DEBUG - Game 2 ended with score: 0
+2024-07-27 11:36:08,454 - DEBUG - Starting game 3
+2024-07-27 11:36:08,454 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,454 - DEBUG - Rolled: 6 + 2 = 8
+2024-07-27 11:36:08,454 - DEBUG - Possible moves: [(8,), (1, 7), (2, 6), (3, 5), (1, 2, 5), (1, 3, 4)]
+2024-07-27 11:36:08,454 - DEBUG - Chosen Move: (8,)
+2024-07-27 11:36:08,454 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 9]
+2024-07-27 11:36:08,454 - DEBUG - Rolled: 5 + 2 = 7
+2024-07-27 11:36:08,454 - DEBUG - Possible moves: [(7,), (1, 6), (2, 5), (3, 4), (1, 2, 4)]
+2024-07-27 11:36:08,454 - DEBUG - Chosen Move: (7,)
+2024-07-27 11:36:08,454 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 9]
+2024-07-27 11:36:08,455 - DEBUG - Rolled: 3 + 3 = 6
+2024-07-27 11:36:08,455 - DEBUG - Possible moves: [(6,), (1, 5), (2, 4), (1, 2, 3)]
+2024-07-27 11:36:08,455 - DEBUG - Chosen Move: (6,)
+2024-07-27 11:36:08,455 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 9]
+2024-07-27 11:36:08,455 - DEBUG - Rolled: 3 + 6 = 9
+2024-07-27 11:36:08,455 - DEBUG - Possible moves: [(9,), (4, 5), (1, 3, 5), (2, 3, 4)]
+2024-07-27 11:36:08,455 - DEBUG - Chosen Move: (9,)
+2024-07-27 11:36:08,455 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5]
+2024-07-27 11:36:08,455 - DEBUG - Rolled: 2 + 3 = 5
+2024-07-27 11:36:08,455 - DEBUG - Possible moves: [(5,), (1, 4), (2, 3)]
+2024-07-27 11:36:08,455 - DEBUG - Chosen Move: (5,)
+2024-07-27 11:36:08,455 - DEBUG - Tiles remaining: [1, 2, 3, 4]
+2024-07-27 11:36:08,455 - DEBUG - Rolled: 5 + 2 = 7
+2024-07-27 11:36:08,455 - DEBUG - Possible moves: [(3, 4), (1, 2, 4)]
+2024-07-27 11:36:08,455 - DEBUG - Chosen Move: (3, 4)
+2024-07-27 11:36:08,455 - DEBUG - Tiles remaining: [1, 2]
+2024-07-27 11:36:08,455 - DEBUG - Rolled: 5 + 5 = 10
+2024-07-27 11:36:08,455 - DEBUG - Possible moves: []
+2024-07-27 11:36:08,455 - DEBUG - No possible moves. Game over!
+2024-07-27 11:36:08,455 - DEBUG - AI's final score: 3
+2024-07-27 11:36:08,455 - DEBUG - Game 3 ended with score: 3
+2024-07-27 11:36:08,455 - DEBUG - Starting game 4
+2024-07-27 11:36:08,455 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,455 - DEBUG - Rolled: 4 + 2 = 6
+2024-07-27 11:36:08,455 - DEBUG - Possible moves: [(6,), (1, 5), (2, 4), (1, 2, 3)]
+2024-07-27 11:36:08,455 - DEBUG - Chosen Move: (6,)
+2024-07-27 11:36:08,455 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 7, 8, 9]
+2024-07-27 11:36:08,455 - DEBUG - Rolled: 2 + 4 = 6
+2024-07-27 11:36:08,455 - DEBUG - Possible moves: [(1, 5), (2, 4), (1, 2, 3)]
+2024-07-27 11:36:08,455 - DEBUG - Chosen Move: (1, 5)
+2024-07-27 11:36:08,455 - DEBUG - Tiles remaining: [2, 3, 4, 7, 8, 9]
+2024-07-27 11:36:08,455 - DEBUG - Rolled: 4 + 6 = 10
+2024-07-27 11:36:08,455 - DEBUG - Possible moves: [(2, 8), (3, 7)]
+2024-07-27 11:36:08,455 - DEBUG - Chosen Move: (2, 8)
+2024-07-27 11:36:08,455 - DEBUG - Tiles remaining: [3, 4, 7, 9]
+2024-07-27 11:36:08,456 - DEBUG - Rolled: 4 + 2 = 6
+2024-07-27 11:36:08,456 - DEBUG - Possible moves: []
+2024-07-27 11:36:08,456 - DEBUG - No possible moves. Game over!
+2024-07-27 11:36:08,456 - DEBUG - AI's final score: 23
+2024-07-27 11:36:08,456 - DEBUG - Game 4 ended with score: 23
+2024-07-27 11:36:08,456 - DEBUG - Starting game 5
+2024-07-27 11:36:08,456 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,456 - DEBUG - Rolled: 4 + 2 = 6
+2024-07-27 11:36:08,456 - DEBUG - Possible moves: [(6,), (1, 5), (2, 4), (1, 2, 3)]
+2024-07-27 11:36:08,456 - DEBUG - Chosen Move: (6,)
+2024-07-27 11:36:08,456 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 7, 8, 9]
+2024-07-27 11:36:08,456 - DEBUG - Rolled: 3 + 4 = 7
+2024-07-27 11:36:08,456 - DEBUG - Possible moves: [(7,), (2, 5), (3, 4), (1, 2, 4)]
+2024-07-27 11:36:08,456 - DEBUG - Chosen Move: (7,)
+2024-07-27 11:36:08,456 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 8, 9]
+2024-07-27 11:36:08,456 - DEBUG - Rolled: 6 + 3 = 9
+2024-07-27 11:36:08,456 - DEBUG - Possible moves: [(9,), (1, 8), (4, 5), (1, 3, 5), (2, 3, 4)]
+2024-07-27 11:36:08,456 - DEBUG - Chosen Move: (9,)
+2024-07-27 11:36:08,456 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 8]
+2024-07-27 11:36:08,456 - DEBUG - Rolled: 3 + 4 = 7
+2024-07-27 11:36:08,456 - DEBUG - Possible moves: [(2, 5), (3, 4), (1, 2, 4)]
+2024-07-27 11:36:08,456 - DEBUG - Chosen Move: (2, 5)
+2024-07-27 11:36:08,456 - DEBUG - Tiles remaining: [1, 3, 4, 8]
+2024-07-27 11:36:08,456 - DEBUG - Rolled: 5 + 3 = 8
+2024-07-27 11:36:08,456 - DEBUG - Possible moves: [(8,), (1, 3, 4)]
+2024-07-27 11:36:08,456 - DEBUG - Chosen Move: (8,)
+2024-07-27 11:36:08,456 - DEBUG - Tiles remaining: [1, 3, 4]
+2024-07-27 11:36:08,456 - DEBUG - Rolled: 4 + 1 = 5
+2024-07-27 11:36:08,456 - DEBUG - Possible moves: [(1, 4)]
+2024-07-27 11:36:08,456 - DEBUG - Chosen Move: (1, 4)
+2024-07-27 11:36:08,456 - DEBUG - Tiles remaining: [3]
+2024-07-27 11:36:08,456 - DEBUG - Rolled: 6 + 5 = 11
+2024-07-27 11:36:08,456 - DEBUG - Possible moves: []
+2024-07-27 11:36:08,456 - DEBUG - No possible moves. Game over!
+2024-07-27 11:36:08,456 - DEBUG - AI's final score: 3
+2024-07-27 11:36:08,456 - DEBUG - Game 5 ended with score: 3
+2024-07-27 11:36:08,457 - DEBUG - Starting game 6
+2024-07-27 11:36:08,457 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,457 - DEBUG - Rolled: 2 + 4 = 6
+2024-07-27 11:36:08,457 - DEBUG - Possible moves: [(6,), (1, 5), (2, 4), (1, 2, 3)]
+2024-07-27 11:36:08,457 - DEBUG - Chosen Move: (6,)
+2024-07-27 11:36:08,457 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 7, 8, 9]
+2024-07-27 11:36:08,457 - DEBUG - Rolled: 4 + 1 = 5
+2024-07-27 11:36:08,457 - DEBUG - Possible moves: [(5,), (1, 4), (2, 3)]
+2024-07-27 11:36:08,457 - DEBUG - Chosen Move: (5,)
+2024-07-27 11:36:08,457 - DEBUG - Tiles remaining: [1, 2, 3, 4, 7, 8, 9]
+2024-07-27 11:36:08,457 - DEBUG - Rolled: 3 + 4 = 7
+2024-07-27 11:36:08,457 - DEBUG - Possible moves: [(7,), (3, 4), (1, 2, 4)]
+2024-07-27 11:36:08,457 - DEBUG - Chosen Move: (7,)
+2024-07-27 11:36:08,457 - DEBUG - Tiles remaining: [1, 2, 3, 4, 8, 9]
+2024-07-27 11:36:08,457 - DEBUG - Rolled: 5 + 5 = 10
+2024-07-27 11:36:08,457 - DEBUG - Possible moves: [(1, 9), (2, 8), (1, 2, 3, 4)]
+2024-07-27 11:36:08,457 - DEBUG - Chosen Move: (1, 9)
+2024-07-27 11:36:08,457 - DEBUG - Tiles remaining: [2, 3, 4, 8]
+2024-07-27 11:36:08,457 - DEBUG - Rolled: 1 + 1 = 2
+2024-07-27 11:36:08,457 - DEBUG - Possible moves: [(2,)]
+2024-07-27 11:36:08,457 - DEBUG - Chosen Move: (2,)
+2024-07-27 11:36:08,457 - DEBUG - Tiles remaining: [3, 4, 8]
+2024-07-27 11:36:08,457 - DEBUG - Rolled: 3 + 6 = 9
+2024-07-27 11:36:08,457 - DEBUG - Possible moves: []
+2024-07-27 11:36:08,457 - DEBUG - No possible moves. Game over!
+2024-07-27 11:36:08,457 - DEBUG - AI's final score: 15
+2024-07-27 11:36:08,457 - DEBUG - Game 6 ended with score: 15
+2024-07-27 11:36:08,457 - DEBUG - Starting game 7
+2024-07-27 11:36:08,457 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,457 - DEBUG - Rolled: 5 + 3 = 8
+2024-07-27 11:36:08,457 - DEBUG - Possible moves: [(8,), (1, 7), (2, 6), (3, 5), (1, 2, 5), (1, 3, 4)]
+2024-07-27 11:36:08,457 - DEBUG - Chosen Move: (8,)
+2024-07-27 11:36:08,457 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 9]
+2024-07-27 11:36:08,457 - DEBUG - Rolled: 4 + 3 = 7
+2024-07-27 11:36:08,458 - DEBUG - Possible moves: [(7,), (1, 6), (2, 5), (3, 4), (1, 2, 4)]
+2024-07-27 11:36:08,458 - DEBUG - Chosen Move: (7,)
+2024-07-27 11:36:08,458 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 9]
+2024-07-27 11:36:08,458 - DEBUG - Rolled: 6 + 5 = 11
+2024-07-27 11:36:08,458 - DEBUG - Possible moves: [(2, 9), (5, 6), (1, 4, 6), (2, 3, 6), (2, 4, 5), (1, 2, 3, 5)]
+2024-07-27 11:36:08,458 - DEBUG - Chosen Move: (2, 9)
+2024-07-27 11:36:08,458 - DEBUG - Tiles remaining: [1, 3, 4, 5, 6]
+2024-07-27 11:36:08,458 - DEBUG - Rolled: 2 + 1 = 3
+2024-07-27 11:36:08,458 - DEBUG - Possible moves: [(3,)]
+2024-07-27 11:36:08,458 - DEBUG - Chosen Move: (3,)
+2024-07-27 11:36:08,458 - DEBUG - Tiles remaining: [1, 4, 5, 6]
+2024-07-27 11:36:08,458 - DEBUG - Rolled: 3 + 3 = 6
+2024-07-27 11:36:08,458 - DEBUG - Possible moves: [(6,), (1, 5)]
+2024-07-27 11:36:08,458 - DEBUG - Chosen Move: (6,)
+2024-07-27 11:36:08,458 - DEBUG - Tiles remaining: [1, 4, 5]
+2024-07-27 11:36:08,458 - DEBUG - Rolled: 4 + 6 = 10
+2024-07-27 11:36:08,458 - DEBUG - Possible moves: [(1, 4, 5)]
+2024-07-27 11:36:08,458 - DEBUG - Chosen Move: (1, 4, 5)
+2024-07-27 11:36:08,458 - DEBUG - Congratulations! The box has been shut!
+2024-07-27 11:36:08,458 - DEBUG - AI's final score: 0
+2024-07-27 11:36:08,458 - DEBUG - Game 7 ended with score: 0
+2024-07-27 11:36:08,458 - DEBUG - Starting game 8
+2024-07-27 11:36:08,458 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,458 - DEBUG - Rolled: 6 + 4 = 10
+2024-07-27 11:36:08,458 - DEBUG - Possible moves: [(1, 9), (2, 8), (3, 7), (4, 6), (1, 2, 7), (1, 3, 6), (1, 4, 5), (2, 3, 5), (1, 2, 3, 4)]
+2024-07-27 11:36:08,458 - DEBUG - Chosen Move: (1, 9)
+2024-07-27 11:36:08,458 - DEBUG - Tiles remaining: [2, 3, 4, 5, 6, 7, 8]
+2024-07-27 11:36:08,458 - DEBUG - Rolled: 6 + 6 = 12
+2024-07-27 11:36:08,458 - DEBUG - Possible moves: [(4, 8), (5, 7), (2, 3, 7), (2, 4, 6), (3, 4, 5)]
+2024-07-27 11:36:08,458 - DEBUG - Chosen Move: (4, 8)
+2024-07-27 11:36:08,458 - DEBUG - Tiles remaining: [2, 3, 5, 6, 7]
+2024-07-27 11:36:08,458 - DEBUG - Rolled: 3 + 3 = 6
+2024-07-27 11:36:08,459 - DEBUG - Possible moves: [(6,)]
+2024-07-27 11:36:08,459 - DEBUG - Chosen Move: (6,)
+2024-07-27 11:36:08,459 - DEBUG - Tiles remaining: [2, 3, 5, 7]
+2024-07-27 11:36:08,459 - DEBUG - Rolled: 2 + 2 = 4
+2024-07-27 11:36:08,459 - DEBUG - Possible moves: []
+2024-07-27 11:36:08,459 - DEBUG - No possible moves. Game over!
+2024-07-27 11:36:08,459 - DEBUG - AI's final score: 17
+2024-07-27 11:36:08,459 - DEBUG - Game 8 ended with score: 17
+2024-07-27 11:36:08,459 - DEBUG - Starting game 9
+2024-07-27 11:36:08,459 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,459 - DEBUG - Rolled: 5 + 1 = 6
+2024-07-27 11:36:08,459 - DEBUG - Possible moves: [(6,), (1, 5), (2, 4), (1, 2, 3)]
+2024-07-27 11:36:08,459 - DEBUG - Chosen Move: (6,)
+2024-07-27 11:36:08,459 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 7, 8, 9]
+2024-07-27 11:36:08,459 - DEBUG - Rolled: 4 + 2 = 6
+2024-07-27 11:36:08,459 - DEBUG - Possible moves: [(1, 5), (2, 4), (1, 2, 3)]
+2024-07-27 11:36:08,459 - DEBUG - Chosen Move: (1, 5)
+2024-07-27 11:36:08,459 - DEBUG - Tiles remaining: [2, 3, 4, 7, 8, 9]
+2024-07-27 11:36:08,459 - DEBUG - Rolled: 1 + 6 = 7
+2024-07-27 11:36:08,459 - DEBUG - Possible moves: [(7,), (3, 4)]
+2024-07-27 11:36:08,459 - DEBUG - Chosen Move: (7,)
+2024-07-27 11:36:08,459 - DEBUG - Tiles remaining: [2, 3, 4, 8, 9]
+2024-07-27 11:36:08,459 - DEBUG - Rolled: 4 + 3 = 7
+2024-07-27 11:36:08,459 - DEBUG - Possible moves: [(3, 4)]
+2024-07-27 11:36:08,459 - DEBUG - Chosen Move: (3, 4)
+2024-07-27 11:36:08,459 - DEBUG - Tiles remaining: [2, 8, 9]
+2024-07-27 11:36:08,459 - DEBUG - Rolled: 5 + 1 = 6
+2024-07-27 11:36:08,459 - DEBUG - Possible moves: []
+2024-07-27 11:36:08,459 - DEBUG - No possible moves. Game over!
+2024-07-27 11:36:08,459 - DEBUG - AI's final score: 19
+2024-07-27 11:36:08,459 - DEBUG - Game 9 ended with score: 19
+2024-07-27 11:36:08,459 - DEBUG - Starting game 10
+2024-07-27 11:36:08,459 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,459 - DEBUG - Rolled: 2 + 6 = 8
+2024-07-27 11:36:08,460 - DEBUG - Possible moves: [(8,), (1, 7), (2, 6), (3, 5), (1, 2, 5), (1, 3, 4)]
+2024-07-27 11:36:08,460 - DEBUG - Chosen Move: (8,)
+2024-07-27 11:36:08,460 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 9]
+2024-07-27 11:36:08,460 - DEBUG - Rolled: 2 + 5 = 7
+2024-07-27 11:36:08,460 - DEBUG - Possible moves: [(7,), (1, 6), (2, 5), (3, 4), (1, 2, 4)]
+2024-07-27 11:36:08,460 - DEBUG - Chosen Move: (7,)
+2024-07-27 11:36:08,460 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 9]
+2024-07-27 11:36:08,460 - DEBUG - Rolled: 4 + 1 = 5
+2024-07-27 11:36:08,460 - DEBUG - Possible moves: [(5,), (1, 4), (2, 3)]
+2024-07-27 11:36:08,460 - DEBUG - Chosen Move: (5,)
+2024-07-27 11:36:08,460 - DEBUG - Tiles remaining: [1, 2, 3, 4, 6, 9]
+2024-07-27 11:36:08,460 - DEBUG - Rolled: 1 + 1 = 2
+2024-07-27 11:36:08,460 - DEBUG - Possible moves: [(2,)]
+2024-07-27 11:36:08,460 - DEBUG - Chosen Move: (2,)
+2024-07-27 11:36:08,460 - DEBUG - Tiles remaining: [1, 3, 4, 6, 9]
+2024-07-27 11:36:08,460 - DEBUG - Rolled: 3 + 5 = 8
+2024-07-27 11:36:08,460 - DEBUG - Possible moves: [(1, 3, 4)]
+2024-07-27 11:36:08,460 - DEBUG - Chosen Move: (1, 3, 4)
+2024-07-27 11:36:08,460 - DEBUG - Tiles remaining: [6, 9]
+2024-07-27 11:36:08,460 - DEBUG - Rolled: 2 + 4 = 6
+2024-07-27 11:36:08,460 - DEBUG - Possible moves: [(6,)]
+2024-07-27 11:36:08,460 - DEBUG - Chosen Move: (6,)
+2024-07-27 11:36:08,460 - DEBUG - Tiles remaining: [9]
+2024-07-27 11:36:08,460 - DEBUG - Rolled: 3 + 6 = 9
+2024-07-27 11:36:08,460 - DEBUG - Possible moves: [(9,)]
+2024-07-27 11:36:08,460 - DEBUG - Chosen Move: (9,)
+2024-07-27 11:36:08,460 - DEBUG - Congratulations! The box has been shut!
+2024-07-27 11:36:08,460 - DEBUG - AI's final score: 0
+2024-07-27 11:36:08,460 - DEBUG - Game 10 ended with score: 0
+2024-07-27 11:36:08,461 - DEBUG - Results appended to ./results/stb_simple_ai_results_20240727-113608.csv
+2024-07-27 11:36:08,466 - DEBUG - Results saved to ./results/stb_simple_ai_results_20240727-113608.json
+2024-07-27 11:36:08,466 - DEBUG - ## ## Simulation ended for 10 games using strategy #Tiles of Least Probability ## ##
+2024-07-27 11:36:08,466 - DEBUG - ## ## Simulation beginning for 10 games using strategy #4 ## ##
+2024-07-27 11:36:08,466 - DEBUG - Starting game 1
+2024-07-27 11:36:08,466 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,466 - DEBUG - Rolled: 5 + 4 = 9
+2024-07-27 11:36:08,466 - DEBUG - Possible moves: [(9,), (1, 8), (2, 7), (3, 6), (4, 5), (1, 2, 6), (1, 3, 5), (2, 3, 4)]
+2024-07-27 11:36:08,466 - DEBUG - Chosen Move: (4, 5)
+2024-07-27 11:36:08,466 - DEBUG - Tiles remaining: [1, 2, 3, 6, 7, 8, 9]
+2024-07-27 11:36:08,466 - DEBUG - Rolled: 4 + 5 = 9
+2024-07-27 11:36:08,466 - DEBUG - Possible moves: [(9,), (1, 8), (2, 7), (3, 6), (1, 2, 6)]
+2024-07-27 11:36:08,466 - DEBUG - Chosen Move: (3, 6)
+2024-07-27 11:36:08,466 - DEBUG - Tiles remaining: [1, 2, 7, 8, 9]
+2024-07-27 11:36:08,466 - DEBUG - Rolled: 1 + 6 = 7
+2024-07-27 11:36:08,466 - DEBUG - Possible moves: [(7,)]
+2024-07-27 11:36:08,466 - DEBUG - Chosen Move: (7,)
+2024-07-27 11:36:08,466 - DEBUG - Tiles remaining: [1, 2, 8, 9]
+2024-07-27 11:36:08,466 - DEBUG - Rolled: 4 + 6 = 10
+2024-07-27 11:36:08,466 - DEBUG - Possible moves: [(1, 9), (2, 8)]
+2024-07-27 11:36:08,466 - DEBUG - Chosen Move: (2, 8)
+2024-07-27 11:36:08,466 - DEBUG - Tiles remaining: [1, 9]
+2024-07-27 11:36:08,466 - DEBUG - Rolled: 6 + 5 = 11
+2024-07-27 11:36:08,466 - DEBUG - Possible moves: []
+2024-07-27 11:36:08,466 - DEBUG - No possible moves. Game over!
+2024-07-27 11:36:08,466 - DEBUG - AI's final score: 10
+2024-07-27 11:36:08,466 - DEBUG - Game 1 ended with score: 10
+2024-07-27 11:36:08,466 - DEBUG - Starting game 2
+2024-07-27 11:36:08,466 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,466 - DEBUG - Rolled: 1 + 2 = 3
+2024-07-27 11:36:08,466 - DEBUG - Possible moves: [(3,), (1, 2)]
+2024-07-27 11:36:08,466 - DEBUG - Chosen Move: (3,)
+2024-07-27 11:36:08,466 - DEBUG - Tiles remaining: [1, 2, 4, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,466 - DEBUG - Rolled: 2 + 4 = 6
+2024-07-27 11:36:08,466 - DEBUG - Possible moves: [(6,), (1, 5), (2, 4)]
+2024-07-27 11:36:08,467 - DEBUG - Chosen Move: (1, 5)
+2024-07-27 11:36:08,467 - DEBUG - Tiles remaining: [2, 4, 6, 7, 8, 9]
+2024-07-27 11:36:08,467 - DEBUG - Rolled: 5 + 6 = 11
+2024-07-27 11:36:08,467 - DEBUG - Possible moves: [(2, 9), (4, 7)]
+2024-07-27 11:36:08,467 - DEBUG - Chosen Move: (4, 7)
+2024-07-27 11:36:08,467 - DEBUG - Tiles remaining: [2, 6, 8, 9]
+2024-07-27 11:36:08,467 - DEBUG - Rolled: 5 + 5 = 10
+2024-07-27 11:36:08,467 - DEBUG - Possible moves: [(2, 8)]
+2024-07-27 11:36:08,467 - DEBUG - Chosen Move: (2, 8)
+2024-07-27 11:36:08,467 - DEBUG - Tiles remaining: [6, 9]
+2024-07-27 11:36:08,467 - DEBUG - Rolled: 4 + 5 = 9
+2024-07-27 11:36:08,467 - DEBUG - Possible moves: [(9,)]
+2024-07-27 11:36:08,467 - DEBUG - Chosen Move: (9,)
+2024-07-27 11:36:08,467 - DEBUG - Tiles remaining: [6]
+2024-07-27 11:36:08,467 - DEBUG - Rolled: 4 + 6 = 10
+2024-07-27 11:36:08,467 - DEBUG - Possible moves: []
+2024-07-27 11:36:08,467 - DEBUG - No possible moves. Game over!
+2024-07-27 11:36:08,467 - DEBUG - AI's final score: 6
+2024-07-27 11:36:08,467 - DEBUG - Game 2 ended with score: 6
+2024-07-27 11:36:08,467 - DEBUG - Starting game 3
+2024-07-27 11:36:08,467 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,467 - DEBUG - Rolled: 2 + 5 = 7
+2024-07-27 11:36:08,467 - DEBUG - Possible moves: [(7,), (1, 6), (2, 5), (3, 4), (1, 2, 4)]
+2024-07-27 11:36:08,467 - DEBUG - Chosen Move: (2, 5)
+2024-07-27 11:36:08,467 - DEBUG - Tiles remaining: [1, 3, 4, 6, 7, 8, 9]
+2024-07-27 11:36:08,467 - DEBUG - Rolled: 5 + 4 = 9
+2024-07-27 11:36:08,467 - DEBUG - Possible moves: [(9,), (1, 8), (3, 6)]
+2024-07-27 11:36:08,467 - DEBUG - Chosen Move: (3, 6)
+2024-07-27 11:36:08,467 - DEBUG - Tiles remaining: [1, 4, 7, 8, 9]
+2024-07-27 11:36:08,467 - DEBUG - Rolled: 6 + 5 = 11
+2024-07-27 11:36:08,467 - DEBUG - Possible moves: [(4, 7)]
+2024-07-27 11:36:08,467 - DEBUG - Chosen Move: (4, 7)
+2024-07-27 11:36:08,467 - DEBUG - Tiles remaining: [1, 8, 9]
+2024-07-27 11:36:08,467 - DEBUG - Rolled: 1 + 4 = 5
+2024-07-27 11:36:08,467 - DEBUG - Possible moves: []
+2024-07-27 11:36:08,467 - DEBUG - No possible moves. Game over!
+2024-07-27 11:36:08,467 - DEBUG - AI's final score: 18
+2024-07-27 11:36:08,467 - DEBUG - Game 3 ended with score: 18
+2024-07-27 11:36:08,467 - DEBUG - Starting game 4
+2024-07-27 11:36:08,468 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,468 - DEBUG - Rolled: 5 + 1 = 6
+2024-07-27 11:36:08,468 - DEBUG - Possible moves: [(6,), (1, 5), (2, 4), (1, 2, 3)]
+2024-07-27 11:36:08,468 - DEBUG - Chosen Move: (1, 5)
+2024-07-27 11:36:08,468 - DEBUG - Tiles remaining: [2, 3, 4, 6, 7, 8, 9]
+2024-07-27 11:36:08,468 - DEBUG - Rolled: 2 + 6 = 8
+2024-07-27 11:36:08,468 - DEBUG - Possible moves: [(8,), (2, 6)]
+2024-07-27 11:36:08,468 - DEBUG - Chosen Move: (2, 6)
+2024-07-27 11:36:08,468 - DEBUG - Tiles remaining: [3, 4, 7, 8, 9]
+2024-07-27 11:36:08,468 - DEBUG - Rolled: 4 + 6 = 10
+2024-07-27 11:36:08,468 - DEBUG - Possible moves: [(3, 7)]
+2024-07-27 11:36:08,468 - DEBUG - Chosen Move: (3, 7)
+2024-07-27 11:36:08,468 - DEBUG - Tiles remaining: [4, 8, 9]
+2024-07-27 11:36:08,468 - DEBUG - Rolled: 3 + 5 = 8
+2024-07-27 11:36:08,468 - DEBUG - Possible moves: [(8,)]
+2024-07-27 11:36:08,468 - DEBUG - Chosen Move: (8,)
+2024-07-27 11:36:08,468 - DEBUG - Tiles remaining: [4, 9]
+2024-07-27 11:36:08,468 - DEBUG - Rolled: 4 + 4 = 8
+2024-07-27 11:36:08,468 - DEBUG - Possible moves: []
+2024-07-27 11:36:08,468 - DEBUG - No possible moves. Game over!
+2024-07-27 11:36:08,468 - DEBUG - AI's final score: 13
+2024-07-27 11:36:08,468 - DEBUG - Game 4 ended with score: 13
+2024-07-27 11:36:08,468 - DEBUG - Starting game 5
+2024-07-27 11:36:08,468 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,468 - DEBUG - Rolled: 1 + 3 = 4
+2024-07-27 11:36:08,468 - DEBUG - Possible moves: [(4,), (1, 3)]
+2024-07-27 11:36:08,468 - DEBUG - Chosen Move: (4,)
+2024-07-27 11:36:08,468 - DEBUG - Tiles remaining: [1, 2, 3, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,468 - DEBUG - Rolled: 2 + 2 = 4
+2024-07-27 11:36:08,468 - DEBUG - Possible moves: [(1, 3)]
+2024-07-27 11:36:08,469 - DEBUG - Chosen Move: (1, 3)
+2024-07-27 11:36:08,469 - DEBUG - Tiles remaining: [2, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,469 - DEBUG - Rolled: 5 + 2 = 7
+2024-07-27 11:36:08,469 - DEBUG - Possible moves: [(7,), (2, 5)]
+2024-07-27 11:36:08,469 - DEBUG - Chosen Move: (2, 5)
+2024-07-27 11:36:08,469 - DEBUG - Tiles remaining: [6, 7, 8, 9]
+2024-07-27 11:36:08,469 - DEBUG - Rolled: 2 + 4 = 6
+2024-07-27 11:36:08,469 - DEBUG - Possible moves: [(6,)]
+2024-07-27 11:36:08,469 - DEBUG - Chosen Move: (6,)
+2024-07-27 11:36:08,469 - DEBUG - Tiles remaining: [7, 8, 9]
+2024-07-27 11:36:08,469 - DEBUG - Rolled: 1 + 2 = 3
+2024-07-27 11:36:08,469 - DEBUG - Possible moves: []
+2024-07-27 11:36:08,469 - DEBUG - No possible moves. Game over!
+2024-07-27 11:36:08,469 - DEBUG - AI's final score: 24
+2024-07-27 11:36:08,469 - DEBUG - Game 5 ended with score: 24
+2024-07-27 11:36:08,469 - DEBUG - Starting game 6
+2024-07-27 11:36:08,469 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,469 - DEBUG - Rolled: 2 + 2 = 4
+2024-07-27 11:36:08,469 - DEBUG - Possible moves: [(4,), (1, 3)]
+2024-07-27 11:36:08,469 - DEBUG - Chosen Move: (4,)
+2024-07-27 11:36:08,469 - DEBUG - Tiles remaining: [1, 2, 3, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,469 - DEBUG - Rolled: 2 + 4 = 6
+2024-07-27 11:36:08,469 - DEBUG - Possible moves: [(6,), (1, 5), (1, 2, 3)]
+2024-07-27 11:36:08,469 - DEBUG - Chosen Move: (1, 5)
+2024-07-27 11:36:08,469 - DEBUG - Tiles remaining: [2, 3, 6, 7, 8, 9]
+2024-07-27 11:36:08,469 - DEBUG - Rolled: 1 + 5 = 6
+2024-07-27 11:36:08,469 - DEBUG - Possible moves: [(6,)]
+2024-07-27 11:36:08,469 - DEBUG - Chosen Move: (6,)
+2024-07-27 11:36:08,469 - DEBUG - Tiles remaining: [2, 3, 7, 8, 9]
+2024-07-27 11:36:08,469 - DEBUG - Rolled: 3 + 4 = 7
+2024-07-27 11:36:08,469 - DEBUG - Possible moves: [(7,)]
+2024-07-27 11:36:08,469 - DEBUG - Chosen Move: (7,)
+2024-07-27 11:36:08,469 - DEBUG - Tiles remaining: [2, 3, 8, 9]
+2024-07-27 11:36:08,469 - DEBUG - Rolled: 4 + 1 = 5
+2024-07-27 11:36:08,469 - DEBUG - Possible moves: [(2, 3)]
+2024-07-27 11:36:08,469 - DEBUG - Chosen Move: (2, 3)
+2024-07-27 11:36:08,469 - DEBUG - Tiles remaining: [8, 9]
+2024-07-27 11:36:08,469 - DEBUG - Rolled: 4 + 2 = 6
+2024-07-27 11:36:08,469 - DEBUG - Possible moves: []
+2024-07-27 11:36:08,470 - DEBUG - No possible moves. Game over!
+2024-07-27 11:36:08,470 - DEBUG - AI's final score: 17
+2024-07-27 11:36:08,470 - DEBUG - Game 6 ended with score: 17
+2024-07-27 11:36:08,470 - DEBUG - Starting game 7
+2024-07-27 11:36:08,470 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,470 - DEBUG - Rolled: 3 + 1 = 4
+2024-07-27 11:36:08,470 - DEBUG - Possible moves: [(4,), (1, 3)]
+2024-07-27 11:36:08,470 - DEBUG - Chosen Move: (4,)
+2024-07-27 11:36:08,470 - DEBUG - Tiles remaining: [1, 2, 3, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,470 - DEBUG - Rolled: 1 + 4 = 5
+2024-07-27 11:36:08,470 - DEBUG - Possible moves: [(5,), (2, 3)]
+2024-07-27 11:36:08,470 - DEBUG - Chosen Move: (5,)
+2024-07-27 11:36:08,470 - DEBUG - Tiles remaining: [1, 2, 3, 6, 7, 8, 9]
+2024-07-27 11:36:08,470 - DEBUG - Rolled: 4 + 5 = 9
+2024-07-27 11:36:08,470 - DEBUG - Possible moves: [(9,), (1, 8), (2, 7), (3, 6), (1, 2, 6)]
+2024-07-27 11:36:08,470 - DEBUG - Chosen Move: (3, 6)
+2024-07-27 11:36:08,470 - DEBUG - Tiles remaining: [1, 2, 7, 8, 9]
+2024-07-27 11:36:08,470 - DEBUG - Rolled: 5 + 6 = 11
+2024-07-27 11:36:08,470 - DEBUG - Possible moves: [(2, 9), (1, 2, 8)]
+2024-07-27 11:36:08,470 - DEBUG - Chosen Move: (2, 9)
+2024-07-27 11:36:08,470 - DEBUG - Tiles remaining: [1, 7, 8]
+2024-07-27 11:36:08,470 - DEBUG - Rolled: 5 + 1 = 6
+2024-07-27 11:36:08,470 - DEBUG - Possible moves: []
+2024-07-27 11:36:08,470 - DEBUG - No possible moves. Game over!
+2024-07-27 11:36:08,470 - DEBUG - AI's final score: 16
+2024-07-27 11:36:08,470 - DEBUG - Game 7 ended with score: 16
+2024-07-27 11:36:08,470 - DEBUG - Starting game 8
+2024-07-27 11:36:08,470 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,470 - DEBUG - Rolled: 2 + 4 = 6
+2024-07-27 11:36:08,470 - DEBUG - Possible moves: [(6,), (1, 5), (2, 4), (1, 2, 3)]
+2024-07-27 11:36:08,470 - DEBUG - Chosen Move: (1, 5)
+2024-07-27 11:36:08,470 - DEBUG - Tiles remaining: [2, 3, 4, 6, 7, 8, 9]
+2024-07-27 11:36:08,470 - DEBUG - Rolled: 5 + 2 = 7
+2024-07-27 11:36:08,470 - DEBUG - Possible moves: [(7,), (3, 4)]
+2024-07-27 11:36:08,470 - DEBUG - Chosen Move: (3, 4)
+2024-07-27 11:36:08,471 - DEBUG - Tiles remaining: [2, 6, 7, 8, 9]
+2024-07-27 11:36:08,471 - DEBUG - Rolled: 1 + 1 = 2
+2024-07-27 11:36:08,471 - DEBUG - Possible moves: [(2,)]
+2024-07-27 11:36:08,471 - DEBUG - Chosen Move: (2,)
+2024-07-27 11:36:08,471 - DEBUG - Tiles remaining: [6, 7, 8, 9]
+2024-07-27 11:36:08,471 - DEBUG - Rolled: 4 + 1 = 5
+2024-07-27 11:36:08,471 - DEBUG - Possible moves: []
+2024-07-27 11:36:08,471 - DEBUG - No possible moves. Game over!
+2024-07-27 11:36:08,471 - DEBUG - AI's final score: 30
+2024-07-27 11:36:08,471 - DEBUG - Game 8 ended with score: 30
+2024-07-27 11:36:08,471 - DEBUG - Starting game 9
+2024-07-27 11:36:08,471 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,471 - DEBUG - Rolled: 1 + 4 = 5
+2024-07-27 11:36:08,471 - DEBUG - Possible moves: [(5,), (1, 4), (2, 3)]
+2024-07-27 11:36:08,471 - DEBUG - Chosen Move: (5,)
+2024-07-27 11:36:08,471 - DEBUG - Tiles remaining: [1, 2, 3, 4, 6, 7, 8, 9]
+2024-07-27 11:36:08,471 - DEBUG - Rolled: 6 + 4 = 10
+2024-07-27 11:36:08,471 - DEBUG - Possible moves: [(1, 9), (2, 8), (3, 7), (4, 6), (1, 2, 7), (1, 3, 6), (1, 2, 3, 4)]
+2024-07-27 11:36:08,471 - DEBUG - Chosen Move: (4, 6)
+2024-07-27 11:36:08,471 - DEBUG - Tiles remaining: [1, 2, 3, 7, 8, 9]
+2024-07-27 11:36:08,471 - DEBUG - Rolled: 6 + 5 = 11
+2024-07-27 11:36:08,471 - DEBUG - Possible moves: [(2, 9), (3, 8), (1, 2, 8), (1, 3, 7)]
+2024-07-27 11:36:08,471 - DEBUG - Chosen Move: (3, 8)
+2024-07-27 11:36:08,471 - DEBUG - Tiles remaining: [1, 2, 7, 9]
+2024-07-27 11:36:08,471 - DEBUG - Rolled: 4 + 1 = 5
+2024-07-27 11:36:08,471 - DEBUG - Possible moves: []
+2024-07-27 11:36:08,471 - DEBUG - No possible moves. Game over!
+2024-07-27 11:36:08,471 - DEBUG - AI's final score: 19
+2024-07-27 11:36:08,471 - DEBUG - Game 9 ended with score: 19
+2024-07-27 11:36:08,471 - DEBUG - Starting game 10
+2024-07-27 11:36:08,471 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,471 - DEBUG - Rolled: 3 + 5 = 8
+2024-07-27 11:36:08,472 - DEBUG - Possible moves: [(8,), (1, 7), (2, 6), (3, 5), (1, 2, 5), (1, 3, 4)]
+2024-07-27 11:36:08,472 - DEBUG - Chosen Move: (3, 5)
+2024-07-27 11:36:08,472 - DEBUG - Tiles remaining: [1, 2, 4, 6, 7, 8, 9]
+2024-07-27 11:36:08,472 - DEBUG - Rolled: 6 + 5 = 11
+2024-07-27 11:36:08,472 - DEBUG - Possible moves: [(2, 9), (4, 7), (1, 2, 8), (1, 4, 6)]
+2024-07-27 11:36:08,472 - DEBUG - Chosen Move: (4, 7)
+2024-07-27 11:36:08,472 - DEBUG - Tiles remaining: [1, 2, 6, 8, 9]
+2024-07-27 11:36:08,472 - DEBUG - Rolled: 1 + 6 = 7
+2024-07-27 11:36:08,472 - DEBUG - Possible moves: [(1, 6)]
+2024-07-27 11:36:08,472 - DEBUG - Chosen Move: (1, 6)
+2024-07-27 11:36:08,472 - DEBUG - Tiles remaining: [2, 8, 9]
+2024-07-27 11:36:08,472 - DEBUG - Rolled: 2 + 6 = 8
+2024-07-27 11:36:08,472 - DEBUG - Possible moves: [(8,)]
+2024-07-27 11:36:08,472 - DEBUG - Chosen Move: (8,)
+2024-07-27 11:36:08,472 - DEBUG - Tiles remaining: [2, 9]
+2024-07-27 11:36:08,472 - DEBUG - Rolled: 5 + 1 = 6
+2024-07-27 11:36:08,472 - DEBUG - Possible moves: []
+2024-07-27 11:36:08,472 - DEBUG - No possible moves. Game over!
+2024-07-27 11:36:08,472 - DEBUG - AI's final score: 11
+2024-07-27 11:36:08,472 - DEBUG - Game 10 ended with score: 11
+2024-07-27 11:36:08,472 - DEBUG - Results appended to ./results/stb_simple_ai_results_20240727-113608.csv
+2024-07-27 11:36:08,480 - DEBUG - Results saved to ./results/stb_simple_ai_results_20240727-113608.json
+2024-07-27 11:36:08,480 - DEBUG - ## ## Simulation ended for 10 games using strategy #Inside Out ## ##
+2024-07-27 11:36:08,480 - DEBUG - ## ## Simulation beginning for 10 games using strategy #5 ## ##
+2024-07-27 11:36:08,480 - DEBUG - Starting game 1
+2024-07-27 11:36:08,480 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,480 - DEBUG - Rolled: 5 + 1 = 6
+2024-07-27 11:36:08,480 - DEBUG - Possible moves: [(6,), (1, 5), (2, 4), (1, 2, 3)]
+2024-07-27 11:36:08,480 - DEBUG - Chosen Move: (1, 2, 3)
+2024-07-27 11:36:08,480 - DEBUG - Tiles remaining: [4, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,480 - DEBUG - Rolled: 1 + 1 = 2
+2024-07-27 11:36:08,480 - DEBUG - Possible moves: []
+2024-07-27 11:36:08,480 - DEBUG - No possible moves. Game over!
+2024-07-27 11:36:08,480 - DEBUG - AI's final score: 39
+2024-07-27 11:36:08,480 - DEBUG - Game 1 ended with score: 39
+2024-07-27 11:36:08,480 - DEBUG - Starting game 2
+2024-07-27 11:36:08,480 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,480 - DEBUG - Rolled: 4 + 2 = 6
+2024-07-27 11:36:08,480 - DEBUG - Possible moves: [(6,), (1, 5), (2, 4), (1, 2, 3)]
+2024-07-27 11:36:08,480 - DEBUG - Chosen Move: (1, 2, 3)
+2024-07-27 11:36:08,480 - DEBUG - Tiles remaining: [4, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,480 - DEBUG - Rolled: 4 + 2 = 6
+2024-07-27 11:36:08,480 - DEBUG - Possible moves: [(6,)]
+2024-07-27 11:36:08,480 - DEBUG - Chosen Move: (6,)
+2024-07-27 11:36:08,480 - DEBUG - Tiles remaining: [4, 5, 7, 8, 9]
+2024-07-27 11:36:08,480 - DEBUG - Rolled: 1 + 1 = 2
+2024-07-27 11:36:08,480 - DEBUG - Possible moves: []
+2024-07-27 11:36:08,480 - DEBUG - No possible moves. Game over!
+2024-07-27 11:36:08,480 - DEBUG - AI's final score: 33
+2024-07-27 11:36:08,480 - DEBUG - Game 2 ended with score: 33
+2024-07-27 11:36:08,480 - DEBUG - Starting game 3
+2024-07-27 11:36:08,480 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,480 - DEBUG - Rolled: 4 + 1 = 5
+2024-07-27 11:36:08,481 - DEBUG - Possible moves: [(5,), (1, 4), (2, 3)]
+2024-07-27 11:36:08,481 - DEBUG - Chosen Move: (2, 3)
+2024-07-27 11:36:08,481 - DEBUG - Tiles remaining: [1, 4, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,481 - DEBUG - Rolled: 1 + 6 = 7
+2024-07-27 11:36:08,481 - DEBUG - Possible moves: [(7,), (1, 6)]
+2024-07-27 11:36:08,481 - DEBUG - Chosen Move: (7,)
+2024-07-27 11:36:08,481 - DEBUG - Tiles remaining: [1, 4, 5, 6, 8, 9]
+2024-07-27 11:36:08,481 - DEBUG - Rolled: 2 + 5 = 7
+2024-07-27 11:36:08,481 - DEBUG - Possible moves: [(1, 6)]
+2024-07-27 11:36:08,481 - DEBUG - Chosen Move: (1, 6)
+2024-07-27 11:36:08,481 - DEBUG - Tiles remaining: [4, 5, 8, 9]
+2024-07-27 11:36:08,481 - DEBUG - Rolled: 2 + 1 = 3
+2024-07-27 11:36:08,481 - DEBUG - Possible moves: []
+2024-07-27 11:36:08,481 - DEBUG - No possible moves. Game over!
+2024-07-27 11:36:08,481 - DEBUG - AI's final score: 26
+2024-07-27 11:36:08,481 - DEBUG - Game 3 ended with score: 26
+2024-07-27 11:36:08,481 - DEBUG - Starting game 4
+2024-07-27 11:36:08,481 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,481 - DEBUG - Rolled: 2 + 2 = 4
+2024-07-27 11:36:08,481 - DEBUG - Possible moves: [(4,), (1, 3)]
+2024-07-27 11:36:08,481 - DEBUG - Chosen Move: (1, 3)
+2024-07-27 11:36:08,481 - DEBUG - Tiles remaining: [2, 4, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,481 - DEBUG - Rolled: 5 + 6 = 11
+2024-07-27 11:36:08,481 - DEBUG - Possible moves: [(2, 9), (4, 7), (5, 6), (2, 4, 5)]
+2024-07-27 11:36:08,481 - DEBUG - Chosen Move: (2, 9)
+2024-07-27 11:36:08,481 - DEBUG - Tiles remaining: [4, 5, 6, 7, 8]
+2024-07-27 11:36:08,481 - DEBUG - Rolled: 5 + 3 = 8
+2024-07-27 11:36:08,481 - DEBUG - Possible moves: [(8,)]
+2024-07-27 11:36:08,481 - DEBUG - Chosen Move: (8,)
+2024-07-27 11:36:08,481 - DEBUG - Tiles remaining: [4, 5, 6, 7]
+2024-07-27 11:36:08,481 - DEBUG - Rolled: 1 + 1 = 2
+2024-07-27 11:36:08,481 - DEBUG - Possible moves: []
+2024-07-27 11:36:08,481 - DEBUG - No possible moves. Game over!
+2024-07-27 11:36:08,481 - DEBUG - AI's final score: 22
+2024-07-27 11:36:08,481 - DEBUG - Game 4 ended with score: 22
+2024-07-27 11:36:08,481 - DEBUG - Starting game 5
+2024-07-27 11:36:08,481 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,481 - DEBUG - Rolled: 3 + 5 = 8
+2024-07-27 11:36:08,482 - DEBUG - Possible moves: [(8,), (1, 7), (2, 6), (3, 5), (1, 2, 5), (1, 3, 4)]
+2024-07-27 11:36:08,482 - DEBUG - Chosen Move: (8,)
+2024-07-27 11:36:08,482 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 9]
+2024-07-27 11:36:08,482 - DEBUG - Rolled: 3 + 6 = 9
+2024-07-27 11:36:08,482 - DEBUG - Possible moves: [(9,), (2, 7), (3, 6), (4, 5), (1, 2, 6), (1, 3, 5), (2, 3, 4)]
+2024-07-27 11:36:08,482 - DEBUG - Chosen Move: (9,)
+2024-07-27 11:36:08,482 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7]
+2024-07-27 11:36:08,482 - DEBUG - Rolled: 3 + 6 = 9
+2024-07-27 11:36:08,482 - DEBUG - Possible moves: [(2, 7), (3, 6), (4, 5), (1, 2, 6), (1, 3, 5), (2, 3, 4)]
+2024-07-27 11:36:08,482 - DEBUG - Chosen Move: (2, 7)
+2024-07-27 11:36:08,482 - DEBUG - Tiles remaining: [1, 3, 4, 5, 6]
+2024-07-27 11:36:08,482 - DEBUG - Rolled: 3 + 2 = 5
+2024-07-27 11:36:08,482 - DEBUG - Possible moves: [(5,), (1, 4)]
+2024-07-27 11:36:08,482 - DEBUG - Chosen Move: (1, 4)
+2024-07-27 11:36:08,482 - DEBUG - Tiles remaining: [3, 5, 6]
+2024-07-27 11:36:08,482 - DEBUG - Rolled: 2 + 6 = 8
+2024-07-27 11:36:08,482 - DEBUG - Possible moves: [(3, 5)]
+2024-07-27 11:36:08,482 - DEBUG - Chosen Move: (3, 5)
+2024-07-27 11:36:08,482 - DEBUG - Tiles remaining: [6]
+2024-07-27 11:36:08,482 - DEBUG - Rolled: 6 + 3 = 9
+2024-07-27 11:36:08,482 - DEBUG - Possible moves: []
+2024-07-27 11:36:08,482 - DEBUG - No possible moves. Game over!
+2024-07-27 11:36:08,482 - DEBUG - AI's final score: 6
+2024-07-27 11:36:08,482 - DEBUG - Game 5 ended with score: 6
+2024-07-27 11:36:08,482 - DEBUG - Starting game 6
+2024-07-27 11:36:08,482 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,482 - DEBUG - Rolled: 4 + 3 = 7
+2024-07-27 11:36:08,482 - DEBUG - Possible moves: [(7,), (1, 6), (2, 5), (3, 4), (1, 2, 4)]
+2024-07-27 11:36:08,482 - DEBUG - Chosen Move: (7,)
+2024-07-27 11:36:08,482 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 8, 9]
+2024-07-27 11:36:08,482 - DEBUG - Rolled: 6 + 2 = 8
+2024-07-27 11:36:08,482 - DEBUG - Possible moves: [(8,), (2, 6), (3, 5), (1, 2, 5), (1, 3, 4)]
+2024-07-27 11:36:08,482 - DEBUG - Chosen Move: (8,)
+2024-07-27 11:36:08,482 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 9]
+2024-07-27 11:36:08,483 - DEBUG - Rolled: 2 + 5 = 7
+2024-07-27 11:36:08,483 - DEBUG - Possible moves: [(1, 6), (2, 5), (3, 4), (1, 2, 4)]
+2024-07-27 11:36:08,483 - DEBUG - Chosen Move: (1, 6)
+2024-07-27 11:36:08,483 - DEBUG - Tiles remaining: [2, 3, 4, 5, 9]
+2024-07-27 11:36:08,483 - DEBUG - Rolled: 5 + 2 = 7
+2024-07-27 11:36:08,483 - DEBUG - Possible moves: [(2, 5), (3, 4)]
+2024-07-27 11:36:08,483 - DEBUG - Chosen Move: (3, 4)
+2024-07-27 11:36:08,483 - DEBUG - Tiles remaining: [2, 5, 9]
+2024-07-27 11:36:08,483 - DEBUG - Rolled: 1 + 4 = 5
+2024-07-27 11:36:08,483 - DEBUG - Possible moves: [(5,)]
+2024-07-27 11:36:08,483 - DEBUG - Chosen Move: (5,)
+2024-07-27 11:36:08,483 - DEBUG - Tiles remaining: [2, 9]
+2024-07-27 11:36:08,483 - DEBUG - Rolled: 4 + 4 = 8
+2024-07-27 11:36:08,483 - DEBUG - Possible moves: []
+2024-07-27 11:36:08,483 - DEBUG - No possible moves. Game over!
+2024-07-27 11:36:08,483 - DEBUG - AI's final score: 11
+2024-07-27 11:36:08,483 - DEBUG - Game 6 ended with score: 11
+2024-07-27 11:36:08,483 - DEBUG - Starting game 7
+2024-07-27 11:36:08,483 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,483 - DEBUG - Rolled: 4 + 4 = 8
+2024-07-27 11:36:08,483 - DEBUG - Possible moves: [(8,), (1, 7), (2, 6), (3, 5), (1, 2, 5), (1, 3, 4)]
+2024-07-27 11:36:08,483 - DEBUG - Chosen Move: (8,)
+2024-07-27 11:36:08,483 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 9]
+2024-07-27 11:36:08,483 - DEBUG - Rolled: 6 + 5 = 11
+2024-07-27 11:36:08,483 - DEBUG - Possible moves: [(2, 9), (4, 7), (5, 6), (1, 3, 7), (1, 4, 6), (2, 3, 6), (2, 4, 5), (1, 2, 3, 5)]
+2024-07-27 11:36:08,483 - DEBUG - Chosen Move: (2, 9)
+2024-07-27 11:36:08,483 - DEBUG - Tiles remaining: [1, 3, 4, 5, 6, 7]
+2024-07-27 11:36:08,483 - DEBUG - Rolled: 5 + 2 = 7
+2024-07-27 11:36:08,483 - DEBUG - Possible moves: [(7,), (1, 6), (3, 4)]
+2024-07-27 11:36:08,483 - DEBUG - Chosen Move: (7,)
+2024-07-27 11:36:08,483 - DEBUG - Tiles remaining: [1, 3, 4, 5, 6]
+2024-07-27 11:36:08,483 - DEBUG - Rolled: 4 + 4 = 8
+2024-07-27 11:36:08,484 - DEBUG - Possible moves: [(3, 5), (1, 3, 4)]
+2024-07-27 11:36:08,484 - DEBUG - Chosen Move: (1, 3, 4)
+2024-07-27 11:36:08,484 - DEBUG - Tiles remaining: [5, 6]
+2024-07-27 11:36:08,484 - DEBUG - Rolled: 2 + 6 = 8
+2024-07-27 11:36:08,484 - DEBUG - Possible moves: []
+2024-07-27 11:36:08,484 - DEBUG - No possible moves. Game over!
+2024-07-27 11:36:08,484 - DEBUG - AI's final score: 11
+2024-07-27 11:36:08,484 - DEBUG - Game 7 ended with score: 11
+2024-07-27 11:36:08,484 - DEBUG - Starting game 8
+2024-07-27 11:36:08,484 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,484 - DEBUG - Rolled: 5 + 5 = 10
+2024-07-27 11:36:08,484 - DEBUG - Possible moves: [(1, 9), (2, 8), (3, 7), (4, 6), (1, 2, 7), (1, 3, 6), (1, 4, 5), (2, 3, 5), (1, 2, 3, 4)]
+2024-07-27 11:36:08,484 - DEBUG - Chosen Move: (1, 9)
+2024-07-27 11:36:08,484 - DEBUG - Tiles remaining: [2, 3, 4, 5, 6, 7, 8]
+2024-07-27 11:36:08,484 - DEBUG - Rolled: 6 + 2 = 8
+2024-07-27 11:36:08,484 - DEBUG - Possible moves: [(8,), (2, 6), (3, 5)]
+2024-07-27 11:36:08,484 - DEBUG - Chosen Move: (8,)
+2024-07-27 11:36:08,484 - DEBUG - Tiles remaining: [2, 3, 4, 5, 6, 7]
+2024-07-27 11:36:08,484 - DEBUG - Rolled: 3 + 6 = 9
+2024-07-27 11:36:08,484 - DEBUG - Possible moves: [(2, 7), (3, 6), (4, 5), (2, 3, 4)]
+2024-07-27 11:36:08,484 - DEBUG - Chosen Move: (2, 7)
+2024-07-27 11:36:08,484 - DEBUG - Tiles remaining: [3, 4, 5, 6]
+2024-07-27 11:36:08,484 - DEBUG - Rolled: 2 + 5 = 7
+2024-07-27 11:36:08,484 - DEBUG - Possible moves: [(3, 4)]
+2024-07-27 11:36:08,484 - DEBUG - Chosen Move: (3, 4)
+2024-07-27 11:36:08,484 - DEBUG - Tiles remaining: [5, 6]
+2024-07-27 11:36:08,484 - DEBUG - Rolled: 6 + 1 = 7
+2024-07-27 11:36:08,484 - DEBUG - Possible moves: []
+2024-07-27 11:36:08,484 - DEBUG - No possible moves. Game over!
+2024-07-27 11:36:08,484 - DEBUG - AI's final score: 11
+2024-07-27 11:36:08,484 - DEBUG - Game 8 ended with score: 11
+2024-07-27 11:36:08,484 - DEBUG - Starting game 9
+2024-07-27 11:36:08,484 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,484 - DEBUG - Rolled: 4 + 5 = 9
+2024-07-27 11:36:08,484 - DEBUG - Possible moves: [(9,), (1, 8), (2, 7), (3, 6), (4, 5), (1, 2, 6), (1, 3, 5), (2, 3, 4)]
+2024-07-27 11:36:08,484 - DEBUG - Chosen Move: (9,)
+2024-07-27 11:36:08,484 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8]
+2024-07-27 11:36:08,485 - DEBUG - Rolled: 1 + 6 = 7
+2024-07-27 11:36:08,485 - DEBUG - Possible moves: [(7,), (1, 6), (2, 5), (3, 4), (1, 2, 4)]
+2024-07-27 11:36:08,485 - DEBUG - Chosen Move: (7,)
+2024-07-27 11:36:08,485 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 8]
+2024-07-27 11:36:08,485 - DEBUG - Rolled: 6 + 2 = 8
+2024-07-27 11:36:08,485 - DEBUG - Possible moves: [(8,), (2, 6), (3, 5), (1, 2, 5), (1, 3, 4)]
+2024-07-27 11:36:08,485 - DEBUG - Chosen Move: (8,)
+2024-07-27 11:36:08,485 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6]
+2024-07-27 11:36:08,485 - DEBUG - Rolled: 1 + 4 = 5
+2024-07-27 11:36:08,485 - DEBUG - Possible moves: [(5,), (1, 4), (2, 3)]
+2024-07-27 11:36:08,485 - DEBUG - Chosen Move: (2, 3)
+2024-07-27 11:36:08,485 - DEBUG - Tiles remaining: [1, 4, 5, 6]
+2024-07-27 11:36:08,485 - DEBUG - Rolled: 5 + 6 = 11
+2024-07-27 11:36:08,485 - DEBUG - Possible moves: [(5, 6), (1, 4, 6)]
+2024-07-27 11:36:08,485 - DEBUG - Chosen Move: (1, 4, 6)
+2024-07-27 11:36:08,485 - DEBUG - Tiles remaining: [5]
+2024-07-27 11:36:08,485 - DEBUG - Rolled: 3 + 4 = 7
+2024-07-27 11:36:08,485 - DEBUG - Possible moves: []
+2024-07-27 11:36:08,485 - DEBUG - No possible moves. Game over!
+2024-07-27 11:36:08,485 - DEBUG - AI's final score: 5
+2024-07-27 11:36:08,485 - DEBUG - Game 9 ended with score: 5
+2024-07-27 11:36:08,485 - DEBUG - Starting game 10
+2024-07-27 11:36:08,485 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,485 - DEBUG - Rolled: 3 + 1 = 4
+2024-07-27 11:36:08,485 - DEBUG - Possible moves: [(4,), (1, 3)]
+2024-07-27 11:36:08,485 - DEBUG - Chosen Move: (1, 3)
+2024-07-27 11:36:08,485 - DEBUG - Tiles remaining: [2, 4, 5, 6, 7, 8, 9]
+2024-07-27 11:36:08,485 - DEBUG - Rolled: 1 + 5 = 6
+2024-07-27 11:36:08,485 - DEBUG - Possible moves: [(6,), (2, 4)]
+2024-07-27 11:36:08,485 - DEBUG - Chosen Move: (6,)
+2024-07-27 11:36:08,485 - DEBUG - Tiles remaining: [2, 4, 5, 7, 8, 9]
+2024-07-27 11:36:08,485 - DEBUG - Rolled: 2 + 3 = 5
+2024-07-27 11:36:08,485 - DEBUG - Possible moves: [(5,)]
+2024-07-27 11:36:08,485 - DEBUG - Chosen Move: (5,)
+2024-07-27 11:36:08,486 - DEBUG - Tiles remaining: [2, 4, 7, 8, 9]
+2024-07-27 11:36:08,486 - DEBUG - Rolled: 1 + 3 = 4
+2024-07-27 11:36:08,486 - DEBUG - Possible moves: [(4,)]
+2024-07-27 11:36:08,486 - DEBUG - Chosen Move: (4,)
+2024-07-27 11:36:08,486 - DEBUG - Tiles remaining: [2, 7, 8, 9]
+2024-07-27 11:36:08,486 - DEBUG - Rolled: 4 + 2 = 6
+2024-07-27 11:36:08,486 - DEBUG - Possible moves: []
+2024-07-27 11:36:08,486 - DEBUG - No possible moves. Game over!
+2024-07-27 11:36:08,486 - DEBUG - AI's final score: 26
+2024-07-27 11:36:08,486 - DEBUG - Game 10 ended with score: 26
+2024-07-27 11:36:08,486 - DEBUG - Results appended to ./results/stb_simple_ai_results_20240727-113608.csv
+2024-07-27 11:36:08,491 - DEBUG - Results saved to ./results/stb_simple_ai_results_20240727-113608.json
+2024-07-27 11:36:08,491 - DEBUG - ## ## Simulation ended for 10 games using strategy #Outside In ## ##
+2024-07-27 11:36:08,491 - DEBUG - #### #### All Simulations Have Ended #### ####
+2024-07-27 19:13:21,004 - DEBUG - #### Beginning 6 Strategy Testing ####
+2024-07-27 19:13:21,005 - DEBUG - ## ## Simulation beginning for 10 games using strategy #0 ## ##
+2024-07-27 19:13:21,005 - DEBUG - Starting game 1
+2024-07-27 19:13:21,005 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,005 - DEBUG - Rolled: 6 + 5 = 11
+2024-07-27 19:13:21,006 - DEBUG - Possible moves: [(2, 9), (3, 8), (4, 7), (5, 6), (1, 2, 8), (1, 3, 7), (1, 4, 6), (2, 3, 6), (2, 4, 5), (1, 2, 3, 5)]
+2024-07-27 19:13:21,006 - DEBUG - Chosen Move: (4, 7)
+2024-07-27 19:13:21,006 - DEBUG - Tiles remaining: [1, 2, 3, 5, 6, 8, 9]
+2024-07-27 19:13:21,006 - DEBUG - Rolled: 4 + 2 = 6
+2024-07-27 19:13:21,006 - DEBUG - Possible moves: [(6,), (1, 5), (1, 2, 3)]
+2024-07-27 19:13:21,006 - DEBUG - Chosen Move: (6,)
+2024-07-27 19:13:21,006 - DEBUG - Tiles remaining: [1, 2, 3, 5, 8, 9]
+2024-07-27 19:13:21,006 - DEBUG - Rolled: 6 + 1 = 7
+2024-07-27 19:13:21,006 - DEBUG - Possible moves: [(2, 5)]
+2024-07-27 19:13:21,006 - DEBUG - Chosen Move: (2, 5)
+2024-07-27 19:13:21,006 - DEBUG - Tiles remaining: [1, 3, 8, 9]
+2024-07-27 19:13:21,006 - DEBUG - Rolled: 6 + 1 = 7
+2024-07-27 19:13:21,006 - DEBUG - Possible moves: []
+2024-07-27 19:13:21,006 - DEBUG - No possible moves. Game over!
+2024-07-27 19:13:21,006 - DEBUG - AI's final score: 21 with 5 tiles closed
+2024-07-27 19:13:21,006 - DEBUG - Game 1 ended with score: 21
+2024-07-27 19:13:21,006 - DEBUG - Starting game 2
+2024-07-27 19:13:21,007 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,007 - DEBUG - Rolled: 3 + 2 = 5
+2024-07-27 19:13:21,007 - DEBUG - Possible moves: [(5,), (1, 4), (2, 3)]
+2024-07-27 19:13:21,007 - DEBUG - Chosen Move: (2, 3)
+2024-07-27 19:13:21,007 - DEBUG - Tiles remaining: [1, 4, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,007 - DEBUG - Rolled: 3 + 3 = 6
+2024-07-27 19:13:21,007 - DEBUG - Possible moves: [(6,), (1, 5)]
+2024-07-27 19:13:21,007 - DEBUG - Chosen Move: (6,)
+2024-07-27 19:13:21,007 - DEBUG - Tiles remaining: [1, 4, 5, 7, 8, 9]
+2024-07-27 19:13:21,007 - DEBUG - Rolled: 4 + 6 = 10
+2024-07-27 19:13:21,007 - DEBUG - Possible moves: [(1, 9), (1, 4, 5)]
+2024-07-27 19:13:21,007 - DEBUG - Chosen Move: (1, 9)
+2024-07-27 19:13:21,007 - DEBUG - Tiles remaining: [4, 5, 7, 8]
+2024-07-27 19:13:21,007 - DEBUG - Rolled: 1 + 2 = 3
+2024-07-27 19:13:21,007 - DEBUG - Possible moves: []
+2024-07-27 19:13:21,007 - DEBUG - No possible moves. Game over!
+2024-07-27 19:13:21,007 - DEBUG - AI's final score: 24 with 5 tiles closed
+2024-07-27 19:13:21,007 - DEBUG - Game 2 ended with score: 24
+2024-07-27 19:13:21,007 - DEBUG - Starting game 3
+2024-07-27 19:13:21,007 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,007 - DEBUG - Rolled: 6 + 3 = 9
+2024-07-27 19:13:21,008 - DEBUG - Possible moves: [(9,), (1, 8), (2, 7), (3, 6), (4, 5), (1, 2, 6), (1, 3, 5), (2, 3, 4)]
+2024-07-27 19:13:21,008 - DEBUG - Chosen Move: (2, 7)
+2024-07-27 19:13:21,008 - DEBUG - Tiles remaining: [1, 3, 4, 5, 6, 8, 9]
+2024-07-27 19:13:21,008 - DEBUG - Rolled: 2 + 6 = 8
+2024-07-27 19:13:21,008 - DEBUG - Possible moves: [(8,), (3, 5), (1, 3, 4)]
+2024-07-27 19:13:21,008 - DEBUG - Chosen Move: (1, 3, 4)
+2024-07-27 19:13:21,008 - DEBUG - Tiles remaining: [5, 6, 8, 9]
+2024-07-27 19:13:21,008 - DEBUG - Rolled: 5 + 5 = 10
+2024-07-27 19:13:21,008 - DEBUG - Possible moves: []
+2024-07-27 19:13:21,008 - DEBUG - No possible moves. Game over!
+2024-07-27 19:13:21,008 - DEBUG - AI's final score: 28 with 5 tiles closed
+2024-07-27 19:13:21,008 - DEBUG - Game 3 ended with score: 28
+2024-07-27 19:13:21,008 - DEBUG - Starting game 4
+2024-07-27 19:13:21,008 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,008 - DEBUG - Rolled: 1 + 6 = 7
+2024-07-27 19:13:21,009 - DEBUG - Possible moves: [(7,), (1, 6), (2, 5), (3, 4), (1, 2, 4)]
+2024-07-27 19:13:21,009 - DEBUG - Chosen Move: (1, 6)
+2024-07-27 19:13:21,009 - DEBUG - Tiles remaining: [2, 3, 4, 5, 7, 8, 9]
+2024-07-27 19:13:21,009 - DEBUG - Rolled: 2 + 3 = 5
+2024-07-27 19:13:21,009 - DEBUG - Possible moves: [(5,), (2, 3)]
+2024-07-27 19:13:21,009 - DEBUG - Chosen Move: (2, 3)
+2024-07-27 19:13:21,009 - DEBUG - Tiles remaining: [4, 5, 7, 8, 9]
+2024-07-27 19:13:21,009 - DEBUG - Rolled: 3 + 3 = 6
+2024-07-27 19:13:21,009 - DEBUG - Possible moves: []
+2024-07-27 19:13:21,009 - DEBUG - No possible moves. Game over!
+2024-07-27 19:13:21,009 - DEBUG - AI's final score: 33 with 4 tiles closed
+2024-07-27 19:13:21,009 - DEBUG - Game 4 ended with score: 33
+2024-07-27 19:13:21,009 - DEBUG - Starting game 5
+2024-07-27 19:13:21,009 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,009 - DEBUG - Rolled: 4 + 2 = 6
+2024-07-27 19:13:21,009 - DEBUG - Possible moves: [(6,), (1, 5), (2, 4), (1, 2, 3)]
+2024-07-27 19:13:21,010 - DEBUG - Chosen Move: (6,)
+2024-07-27 19:13:21,010 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 7, 8, 9]
+2024-07-27 19:13:21,010 - DEBUG - Rolled: 5 + 3 = 8
+2024-07-27 19:13:21,010 - DEBUG - Possible moves: [(8,), (1, 7), (3, 5), (1, 2, 5), (1, 3, 4)]
+2024-07-27 19:13:21,010 - DEBUG - Chosen Move: (1, 7)
+2024-07-27 19:13:21,010 - DEBUG - Tiles remaining: [2, 3, 4, 5, 8, 9]
+2024-07-27 19:13:21,010 - DEBUG - Rolled: 1 + 2 = 3
+2024-07-27 19:13:21,010 - DEBUG - Possible moves: [(3,)]
+2024-07-27 19:13:21,010 - DEBUG - Chosen Move: (3,)
+2024-07-27 19:13:21,010 - DEBUG - Tiles remaining: [2, 4, 5, 8, 9]
+2024-07-27 19:13:21,010 - DEBUG - Rolled: 3 + 2 = 5
+2024-07-27 19:13:21,010 - DEBUG - Possible moves: [(5,)]
+2024-07-27 19:13:21,010 - DEBUG - Chosen Move: (5,)
+2024-07-27 19:13:21,010 - DEBUG - Tiles remaining: [2, 4, 8, 9]
+2024-07-27 19:13:21,010 - DEBUG - Rolled: 2 + 1 = 3
+2024-07-27 19:13:21,010 - DEBUG - Possible moves: []
+2024-07-27 19:13:21,010 - DEBUG - No possible moves. Game over!
+2024-07-27 19:13:21,010 - DEBUG - AI's final score: 23 with 5 tiles closed
+2024-07-27 19:13:21,010 - DEBUG - Game 5 ended with score: 23
+2024-07-27 19:13:21,011 - DEBUG - Starting game 6
+2024-07-27 19:13:21,011 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,011 - DEBUG - Rolled: 1 + 5 = 6
+2024-07-27 19:13:21,011 - DEBUG - Possible moves: [(6,), (1, 5), (2, 4), (1, 2, 3)]
+2024-07-27 19:13:21,011 - DEBUG - Chosen Move: (2, 4)
+2024-07-27 19:13:21,011 - DEBUG - Tiles remaining: [1, 3, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,011 - DEBUG - Rolled: 3 + 1 = 4
+2024-07-27 19:13:21,011 - DEBUG - Possible moves: [(1, 3)]
+2024-07-27 19:13:21,011 - DEBUG - Chosen Move: (1, 3)
+2024-07-27 19:13:21,011 - DEBUG - Tiles remaining: [5, 6, 7, 8, 9]
+2024-07-27 19:13:21,011 - DEBUG - Rolled: 6 + 3 = 9
+2024-07-27 19:13:21,011 - DEBUG - Possible moves: [(9,)]
+2024-07-27 19:13:21,011 - DEBUG - Chosen Move: (9,)
+2024-07-27 19:13:21,011 - DEBUG - Tiles remaining: [5, 6, 7, 8]
+2024-07-27 19:13:21,011 - DEBUG - Rolled: 5 + 4 = 9
+2024-07-27 19:13:21,011 - DEBUG - Possible moves: []
+2024-07-27 19:13:21,011 - DEBUG - No possible moves. Game over!
+2024-07-27 19:13:21,012 - DEBUG - AI's final score: 26 with 5 tiles closed
+2024-07-27 19:13:21,012 - DEBUG - Game 6 ended with score: 26
+2024-07-27 19:13:21,012 - DEBUG - Starting game 7
+2024-07-27 19:13:21,012 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,012 - DEBUG - Rolled: 5 + 6 = 11
+2024-07-27 19:13:21,012 - DEBUG - Possible moves: [(2, 9), (3, 8), (4, 7), (5, 6), (1, 2, 8), (1, 3, 7), (1, 4, 6), (2, 3, 6), (2, 4, 5), (1, 2, 3, 5)]
+2024-07-27 19:13:21,012 - DEBUG - Chosen Move: (5, 6)
+2024-07-27 19:13:21,012 - DEBUG - Tiles remaining: [1, 2, 3, 4, 7, 8, 9]
+2024-07-27 19:13:21,012 - DEBUG - Rolled: 6 + 1 = 7
+2024-07-27 19:13:21,012 - DEBUG - Possible moves: [(7,), (3, 4), (1, 2, 4)]
+2024-07-27 19:13:21,012 - DEBUG - Chosen Move: (7,)
+2024-07-27 19:13:21,012 - DEBUG - Tiles remaining: [1, 2, 3, 4, 8, 9]
+2024-07-27 19:13:21,012 - DEBUG - Rolled: 2 + 3 = 5
+2024-07-27 19:13:21,012 - DEBUG - Possible moves: [(1, 4), (2, 3)]
+2024-07-27 19:13:21,012 - DEBUG - Chosen Move: (1, 4)
+2024-07-27 19:13:21,012 - DEBUG - Tiles remaining: [2, 3, 8, 9]
+2024-07-27 19:13:21,013 - DEBUG - Rolled: 3 + 1 = 4
+2024-07-27 19:13:21,013 - DEBUG - Possible moves: []
+2024-07-27 19:13:21,013 - DEBUG - No possible moves. Game over!
+2024-07-27 19:13:21,013 - DEBUG - AI's final score: 22 with 5 tiles closed
+2024-07-27 19:13:21,013 - DEBUG - Game 7 ended with score: 22
+2024-07-27 19:13:21,013 - DEBUG - Starting game 8
+2024-07-27 19:13:21,013 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,013 - DEBUG - Rolled: 1 + 5 = 6
+2024-07-27 19:13:21,013 - DEBUG - Possible moves: [(6,), (1, 5), (2, 4), (1, 2, 3)]
+2024-07-27 19:13:21,013 - DEBUG - Chosen Move: (1, 5)
+2024-07-27 19:13:21,013 - DEBUG - Tiles remaining: [2, 3, 4, 6, 7, 8, 9]
+2024-07-27 19:13:21,013 - DEBUG - Rolled: 6 + 2 = 8
+2024-07-27 19:13:21,013 - DEBUG - Possible moves: [(8,), (2, 6)]
+2024-07-27 19:13:21,013 - DEBUG - Chosen Move: (2, 6)
+2024-07-27 19:13:21,013 - DEBUG - Tiles remaining: [3, 4, 7, 8, 9]
+2024-07-27 19:13:21,013 - DEBUG - Rolled: 5 + 6 = 11
+2024-07-27 19:13:21,013 - DEBUG - Possible moves: [(3, 8), (4, 7)]
+2024-07-27 19:13:21,014 - DEBUG - Chosen Move: (4, 7)
+2024-07-27 19:13:21,014 - DEBUG - Tiles remaining: [3, 8, 9]
+2024-07-27 19:13:21,014 - DEBUG - Rolled: 4 + 4 = 8
+2024-07-27 19:13:21,014 - DEBUG - Possible moves: [(8,)]
+2024-07-27 19:13:21,014 - DEBUG - Chosen Move: (8,)
+2024-07-27 19:13:21,014 - DEBUG - Tiles remaining: [3, 9]
+2024-07-27 19:13:21,014 - DEBUG - Rolled: 4 + 3 = 7
+2024-07-27 19:13:21,014 - DEBUG - Possible moves: []
+2024-07-27 19:13:21,014 - DEBUG - No possible moves. Game over!
+2024-07-27 19:13:21,014 - DEBUG - AI's final score: 12 with 7 tiles closed
+2024-07-27 19:13:21,014 - DEBUG - Game 8 ended with score: 12
+2024-07-27 19:13:21,014 - DEBUG - Starting game 9
+2024-07-27 19:13:21,014 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,014 - DEBUG - Rolled: 1 + 1 = 2
+2024-07-27 19:13:21,014 - DEBUG - Possible moves: [(2,)]
+2024-07-27 19:13:21,014 - DEBUG - Chosen Move: (2,)
+2024-07-27 19:13:21,014 - DEBUG - Tiles remaining: [1, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,015 - DEBUG - Rolled: 4 + 4 = 8
+2024-07-27 19:13:21,015 - DEBUG - Possible moves: [(8,), (1, 7), (3, 5), (1, 3, 4)]
+2024-07-27 19:13:21,015 - DEBUG - Chosen Move: (1, 3, 4)
+2024-07-27 19:13:21,015 - DEBUG - Tiles remaining: [5, 6, 7, 8, 9]
+2024-07-27 19:13:21,015 - DEBUG - Rolled: 3 + 5 = 8
+2024-07-27 19:13:21,015 - DEBUG - Possible moves: [(8,)]
+2024-07-27 19:13:21,015 - DEBUG - Chosen Move: (8,)
+2024-07-27 19:13:21,015 - DEBUG - Tiles remaining: [5, 6, 7, 9]
+2024-07-27 19:13:21,015 - DEBUG - Rolled: 3 + 4 = 7
+2024-07-27 19:13:21,015 - DEBUG - Possible moves: [(7,)]
+2024-07-27 19:13:21,015 - DEBUG - Chosen Move: (7,)
+2024-07-27 19:13:21,015 - DEBUG - Tiles remaining: [5, 6, 9]
+2024-07-27 19:13:21,015 - DEBUG - Rolled: 4 + 1 = 5
+2024-07-27 19:13:21,015 - DEBUG - Possible moves: [(5,)]
+2024-07-27 19:13:21,015 - DEBUG - Chosen Move: (5,)
+2024-07-27 19:13:21,015 - DEBUG - Tiles remaining: [6, 9]
+2024-07-27 19:13:21,015 - DEBUG - Rolled: 5 + 2 = 7
+2024-07-27 19:13:21,015 - DEBUG - Possible moves: []
+2024-07-27 19:13:21,015 - DEBUG - No possible moves. Game over!
+2024-07-27 19:13:21,015 - DEBUG - AI's final score: 15 with 7 tiles closed
+2024-07-27 19:13:21,015 - DEBUG - Game 9 ended with score: 15
+2024-07-27 19:13:21,015 - DEBUG - Starting game 10
+2024-07-27 19:13:21,015 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,015 - DEBUG - Rolled: 6 + 6 = 12
+2024-07-27 19:13:21,016 - DEBUG - Possible moves: [(3, 9), (4, 8), (5, 7), (1, 2, 9), (1, 3, 8), (1, 4, 7), (1, 5, 6), (2, 3, 7), (2, 4, 6), (3, 4, 5), (1, 2, 3, 6), (1, 2, 4, 5)]
+2024-07-27 19:13:21,016 - DEBUG - Chosen Move: (4, 8)
+2024-07-27 19:13:21,016 - DEBUG - Tiles remaining: [1, 2, 3, 5, 6, 7, 9]
+2024-07-27 19:13:21,016 - DEBUG - Rolled: 4 + 1 = 5
+2024-07-27 19:13:21,016 - DEBUG - Possible moves: [(5,), (2, 3)]
+2024-07-27 19:13:21,016 - DEBUG - Chosen Move: (2, 3)
+2024-07-27 19:13:21,016 - DEBUG - Tiles remaining: [1, 5, 6, 7, 9]
+2024-07-27 19:13:21,016 - DEBUG - Rolled: 3 + 5 = 8
+2024-07-27 19:13:21,016 - DEBUG - Possible moves: [(1, 7)]
+2024-07-27 19:13:21,016 - DEBUG - Chosen Move: (1, 7)
+2024-07-27 19:13:21,016 - DEBUG - Tiles remaining: [5, 6, 9]
+2024-07-27 19:13:21,016 - DEBUG - Rolled: 1 + 4 = 5
+2024-07-27 19:13:21,016 - DEBUG - Possible moves: [(5,)]
+2024-07-27 19:13:21,016 - DEBUG - Chosen Move: (5,)
+2024-07-27 19:13:21,016 - DEBUG - Tiles remaining: [6, 9]
+2024-07-27 19:13:21,017 - DEBUG - Rolled: 4 + 3 = 7
+2024-07-27 19:13:21,017 - DEBUG - Possible moves: []
+2024-07-27 19:13:21,017 - DEBUG - No possible moves. Game over!
+2024-07-27 19:13:21,017 - DEBUG - AI's final score: 15 with 7 tiles closed
+2024-07-27 19:13:21,017 - DEBUG - Game 10 ended with score: 15
+2024-07-27 19:13:21,042 - DEBUG - Results appended to ./results/stb_simple_ai_results_20240727-191321.csv
+2024-07-27 19:13:21,050 - DEBUG - Results saved to ./results/stb_simple_ai_results_20240727-191321.json
+2024-07-27 19:13:21,050 - DEBUG - ## ## Simulation ended for 10 games using strategy #Random Choice Strategy ## ##
+2024-07-27 19:13:21,050 - DEBUG - ## ## Simulation beginning for 10 games using strategy #1 ## ##
+2024-07-27 19:13:21,050 - DEBUG - Starting game 1
+2024-07-27 19:13:21,051 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,051 - DEBUG - Rolled: 1 + 6 = 7
+2024-07-27 19:13:21,051 - DEBUG - Possible moves: [(7,), (1, 6), (2, 5), (3, 4), (1, 2, 4)]
+2024-07-27 19:13:21,051 - DEBUG - Chosen Move: (1, 6)
+2024-07-27 19:13:21,051 - DEBUG - Tiles remaining: [2, 3, 4, 5, 7, 8, 9]
+2024-07-27 19:13:21,051 - DEBUG - Rolled: 2 + 6 = 8
+2024-07-27 19:13:21,051 - DEBUG - Possible moves: [(8,), (3, 5)]
+2024-07-27 19:13:21,051 - DEBUG - Chosen Move: (3, 5)
+2024-07-27 19:13:21,051 - DEBUG - Tiles remaining: [2, 4, 7, 8, 9]
+2024-07-27 19:13:21,051 - DEBUG - Rolled: 6 + 5 = 11
+2024-07-27 19:13:21,051 - DEBUG - Possible moves: [(2, 9), (4, 7)]
+2024-07-27 19:13:21,051 - DEBUG - Chosen Move: (4, 7)
+2024-07-27 19:13:21,051 - DEBUG - Tiles remaining: [2, 8, 9]
+2024-07-27 19:13:21,051 - DEBUG - Rolled: 3 + 1 = 4
+2024-07-27 19:13:21,051 - DEBUG - Possible moves: []
+2024-07-27 19:13:21,051 - DEBUG - No possible moves. Game over!
+2024-07-27 19:13:21,051 - DEBUG - AI's final score: 19 with 6 tiles closed
+2024-07-27 19:13:21,051 - DEBUG - Game 1 ended with score: 19
+2024-07-27 19:13:21,051 - DEBUG - Starting game 2
+2024-07-27 19:13:21,051 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,051 - DEBUG - Rolled: 1 + 6 = 7
+2024-07-27 19:13:21,051 - DEBUG - Possible moves: [(7,), (1, 6), (2, 5), (3, 4), (1, 2, 4)]
+2024-07-27 19:13:21,051 - DEBUG - Chosen Move: (1, 6)
+2024-07-27 19:13:21,051 - DEBUG - Tiles remaining: [2, 3, 4, 5, 7, 8, 9]
+2024-07-27 19:13:21,051 - DEBUG - Rolled: 2 + 1 = 3
+2024-07-27 19:13:21,051 - DEBUG - Possible moves: [(3,)]
+2024-07-27 19:13:21,051 - DEBUG - Chosen Move: (3,)
+2024-07-27 19:13:21,051 - DEBUG - Tiles remaining: [2, 4, 5, 7, 8, 9]
+2024-07-27 19:13:21,051 - DEBUG - Rolled: 5 + 3 = 8
+2024-07-27 19:13:21,052 - DEBUG - Possible moves: [(8,)]
+2024-07-27 19:13:21,052 - DEBUG - Chosen Move: (8,)
+2024-07-27 19:13:21,052 - DEBUG - Tiles remaining: [2, 4, 5, 7, 9]
+2024-07-27 19:13:21,052 - DEBUG - Rolled: 6 + 4 = 10
+2024-07-27 19:13:21,052 - DEBUG - Possible moves: []
+2024-07-27 19:13:21,052 - DEBUG - No possible moves. Game over!
+2024-07-27 19:13:21,052 - DEBUG - AI's final score: 27 with 4 tiles closed
+2024-07-27 19:13:21,052 - DEBUG - Game 2 ended with score: 27
+2024-07-27 19:13:21,052 - DEBUG - Starting game 3
+2024-07-27 19:13:21,052 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,052 - DEBUG - Rolled: 2 + 2 = 4
+2024-07-27 19:13:21,052 - DEBUG - Possible moves: [(4,), (1, 3)]
+2024-07-27 19:13:21,052 - DEBUG - Chosen Move: (4,)
+2024-07-27 19:13:21,052 - DEBUG - Tiles remaining: [1, 2, 3, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,052 - DEBUG - Rolled: 5 + 3 = 8
+2024-07-27 19:13:21,052 - DEBUG - Possible moves: [(8,), (1, 7), (2, 6), (3, 5), (1, 2, 5)]
+2024-07-27 19:13:21,052 - DEBUG - Chosen Move: (3, 5)
+2024-07-27 19:13:21,052 - DEBUG - Tiles remaining: [1, 2, 6, 7, 8, 9]
+2024-07-27 19:13:21,052 - DEBUG - Rolled: 5 + 5 = 10
+2024-07-27 19:13:21,052 - DEBUG - Possible moves: [(1, 9), (2, 8), (1, 2, 7)]
+2024-07-27 19:13:21,052 - DEBUG - Chosen Move: (1, 9)
+2024-07-27 19:13:21,052 - DEBUG - Tiles remaining: [2, 6, 7, 8]
+2024-07-27 19:13:21,052 - DEBUG - Rolled: 6 + 1 = 7
+2024-07-27 19:13:21,052 - DEBUG - Possible moves: [(7,)]
+2024-07-27 19:13:21,052 - DEBUG - Chosen Move: (7,)
+2024-07-27 19:13:21,052 - DEBUG - Tiles remaining: [2, 6, 8]
+2024-07-27 19:13:21,052 - DEBUG - Rolled: 2 + 1 = 3
+2024-07-27 19:13:21,052 - DEBUG - Possible moves: []
+2024-07-27 19:13:21,052 - DEBUG - No possible moves. Game over!
+2024-07-27 19:13:21,052 - DEBUG - AI's final score: 16 with 6 tiles closed
+2024-07-27 19:13:21,053 - DEBUG - Game 3 ended with score: 16
+2024-07-27 19:13:21,053 - DEBUG - Starting game 4
+2024-07-27 19:13:21,053 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,053 - DEBUG - Rolled: 3 + 3 = 6
+2024-07-27 19:13:21,053 - DEBUG - Possible moves: [(6,), (1, 5), (2, 4), (1, 2, 3)]
+2024-07-27 19:13:21,053 - DEBUG - Chosen Move: (6,)
+2024-07-27 19:13:21,053 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 7, 8, 9]
+2024-07-27 19:13:21,053 - DEBUG - Rolled: 1 + 4 = 5
+2024-07-27 19:13:21,053 - DEBUG - Possible moves: [(5,), (1, 4), (2, 3)]
+2024-07-27 19:13:21,053 - DEBUG - Chosen Move: (1, 4)
+2024-07-27 19:13:21,053 - DEBUG - Tiles remaining: [2, 3, 5, 7, 8, 9]
+2024-07-27 19:13:21,053 - DEBUG - Rolled: 3 + 4 = 7
+2024-07-27 19:13:21,053 - DEBUG - Possible moves: [(7,), (2, 5)]
+2024-07-27 19:13:21,053 - DEBUG - Chosen Move: (7,)
+2024-07-27 19:13:21,053 - DEBUG - Tiles remaining: [2, 3, 5, 8, 9]
+2024-07-27 19:13:21,053 - DEBUG - Rolled: 6 + 1 = 7
+2024-07-27 19:13:21,053 - DEBUG - Possible moves: [(2, 5)]
+2024-07-27 19:13:21,053 - DEBUG - Chosen Move: (2, 5)
+2024-07-27 19:13:21,053 - DEBUG - Tiles remaining: [3, 8, 9]
+2024-07-27 19:13:21,053 - DEBUG - Rolled: 4 + 3 = 7
+2024-07-27 19:13:21,053 - DEBUG - Possible moves: []
+2024-07-27 19:13:21,053 - DEBUG - No possible moves. Game over!
+2024-07-27 19:13:21,053 - DEBUG - AI's final score: 20 with 6 tiles closed
+2024-07-27 19:13:21,053 - DEBUG - Game 4 ended with score: 20
+2024-07-27 19:13:21,053 - DEBUG - Starting game 5
+2024-07-27 19:13:21,053 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,053 - DEBUG - Rolled: 6 + 4 = 10
+2024-07-27 19:13:21,054 - DEBUG - Possible moves: [(1, 9), (2, 8), (3, 7), (4, 6), (1, 2, 7), (1, 3, 6), (1, 4, 5), (2, 3, 5), (1, 2, 3, 4)]
+2024-07-27 19:13:21,054 - DEBUG - Chosen Move: (4, 6)
+2024-07-27 19:13:21,054 - DEBUG - Tiles remaining: [1, 2, 3, 5, 7, 8, 9]
+2024-07-27 19:13:21,054 - DEBUG - Rolled: 3 + 5 = 8
+2024-07-27 19:13:21,054 - DEBUG - Possible moves: [(8,), (1, 7), (3, 5), (1, 2, 5)]
+2024-07-27 19:13:21,054 - DEBUG - Chosen Move: (3, 5)
+2024-07-27 19:13:21,054 - DEBUG - Tiles remaining: [1, 2, 7, 8, 9]
+2024-07-27 19:13:21,054 - DEBUG - Rolled: 3 + 1 = 4
+2024-07-27 19:13:21,054 - DEBUG - Possible moves: []
+2024-07-27 19:13:21,054 - DEBUG - No possible moves. Game over!
+2024-07-27 19:13:21,054 - DEBUG - AI's final score: 27 with 4 tiles closed
+2024-07-27 19:13:21,054 - DEBUG - Game 5 ended with score: 27
+2024-07-27 19:13:21,054 - DEBUG - Starting game 6
+2024-07-27 19:13:21,054 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,054 - DEBUG - Rolled: 2 + 5 = 7
+2024-07-27 19:13:21,054 - DEBUG - Possible moves: [(7,), (1, 6), (2, 5), (3, 4), (1, 2, 4)]
+2024-07-27 19:13:21,054 - DEBUG - Chosen Move: (2, 5)
+2024-07-27 19:13:21,054 - DEBUG - Tiles remaining: [1, 3, 4, 6, 7, 8, 9]
+2024-07-27 19:13:21,054 - DEBUG - Rolled: 1 + 6 = 7
+2024-07-27 19:13:21,054 - DEBUG - Possible moves: [(7,), (1, 6), (3, 4)]
+2024-07-27 19:13:21,054 - DEBUG - Chosen Move: (1, 6)
+2024-07-27 19:13:21,054 - DEBUG - Tiles remaining: [3, 4, 7, 8, 9]
+2024-07-27 19:13:21,054 - DEBUG - Rolled: 4 + 5 = 9
+2024-07-27 19:13:21,054 - DEBUG - Possible moves: [(9,)]
+2024-07-27 19:13:21,055 - DEBUG - Chosen Move: (9,)
+2024-07-27 19:13:21,055 - DEBUG - Tiles remaining: [3, 4, 7, 8]
+2024-07-27 19:13:21,055 - DEBUG - Rolled: 2 + 6 = 8
+2024-07-27 19:13:21,055 - DEBUG - Possible moves: [(8,)]
+2024-07-27 19:13:21,055 - DEBUG - Chosen Move: (8,)
+2024-07-27 19:13:21,055 - DEBUG - Tiles remaining: [3, 4, 7]
+2024-07-27 19:13:21,055 - DEBUG - Rolled: 5 + 5 = 10
+2024-07-27 19:13:21,055 - DEBUG - Possible moves: [(3, 7)]
+2024-07-27 19:13:21,055 - DEBUG - Chosen Move: (3, 7)
+2024-07-27 19:13:21,055 - DEBUG - Tiles remaining: [4]
+2024-07-27 19:13:21,055 - DEBUG - Rolled: 3 + 1 = 4
+2024-07-27 19:13:21,055 - DEBUG - Possible moves: [(4,)]
+2024-07-27 19:13:21,055 - DEBUG - Chosen Move: (4,)
+2024-07-27 19:13:21,055 - DEBUG - Congratulations! The box has been shut!
+2024-07-27 19:13:21,055 - DEBUG - AI's final score: 0 with 9 tiles closed
+2024-07-27 19:13:21,055 - DEBUG - Game 6 ended with score: 0
+2024-07-27 19:13:21,055 - DEBUG - Starting game 7
+2024-07-27 19:13:21,055 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,055 - DEBUG - Rolled: 1 + 6 = 7
+2024-07-27 19:13:21,056 - DEBUG - Possible moves: [(7,), (1, 6), (2, 5), (3, 4), (1, 2, 4)]
+2024-07-27 19:13:21,056 - DEBUG - Chosen Move: (1, 6)
+2024-07-27 19:13:21,056 - DEBUG - Tiles remaining: [2, 3, 4, 5, 7, 8, 9]
+2024-07-27 19:13:21,056 - DEBUG - Rolled: 3 + 1 = 4
+2024-07-27 19:13:21,056 - DEBUG - Possible moves: [(4,)]
+2024-07-27 19:13:21,056 - DEBUG - Chosen Move: (4,)
+2024-07-27 19:13:21,056 - DEBUG - Tiles remaining: [2, 3, 5, 7, 8, 9]
+2024-07-27 19:13:21,056 - DEBUG - Rolled: 5 + 6 = 11
+2024-07-27 19:13:21,056 - DEBUG - Possible moves: [(2, 9), (3, 8)]
+2024-07-27 19:13:21,056 - DEBUG - Chosen Move: (3, 8)
+2024-07-27 19:13:21,056 - DEBUG - Tiles remaining: [2, 5, 7, 9]
+2024-07-27 19:13:21,056 - DEBUG - Rolled: 3 + 1 = 4
+2024-07-27 19:13:21,056 - DEBUG - Possible moves: []
+2024-07-27 19:13:21,056 - DEBUG - No possible moves. Game over!
+2024-07-27 19:13:21,056 - DEBUG - AI's final score: 23 with 5 tiles closed
+2024-07-27 19:13:21,056 - DEBUG - Game 7 ended with score: 23
+2024-07-27 19:13:21,056 - DEBUG - Starting game 8
+2024-07-27 19:13:21,056 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,056 - DEBUG - Rolled: 2 + 5 = 7
+2024-07-27 19:13:21,056 - DEBUG - Possible moves: [(7,), (1, 6), (2, 5), (3, 4), (1, 2, 4)]
+2024-07-27 19:13:21,056 - DEBUG - Chosen Move: (2, 5)
+2024-07-27 19:13:21,056 - DEBUG - Tiles remaining: [1, 3, 4, 6, 7, 8, 9]
+2024-07-27 19:13:21,056 - DEBUG - Rolled: 1 + 5 = 6
+2024-07-27 19:13:21,057 - DEBUG - Possible moves: [(6,)]
+2024-07-27 19:13:21,057 - DEBUG - Chosen Move: (6,)
+2024-07-27 19:13:21,057 - DEBUG - Tiles remaining: [1, 3, 4, 7, 8, 9]
+2024-07-27 19:13:21,057 - DEBUG - Rolled: 2 + 2 = 4
+2024-07-27 19:13:21,057 - DEBUG - Possible moves: [(4,), (1, 3)]
+2024-07-27 19:13:21,057 - DEBUG - Chosen Move: (1, 3)
+2024-07-27 19:13:21,057 - DEBUG - Tiles remaining: [4, 7, 8, 9]
+2024-07-27 19:13:21,057 - DEBUG - Rolled: 6 + 5 = 11
+2024-07-27 19:13:21,057 - DEBUG - Possible moves: [(4, 7)]
+2024-07-27 19:13:21,057 - DEBUG - Chosen Move: (4, 7)
+2024-07-27 19:13:21,057 - DEBUG - Tiles remaining: [8, 9]
+2024-07-27 19:13:21,057 - DEBUG - Rolled: 6 + 3 = 9
+2024-07-27 19:13:21,057 - DEBUG - Possible moves: [(9,)]
+2024-07-27 19:13:21,057 - DEBUG - Chosen Move: (9,)
+2024-07-27 19:13:21,057 - DEBUG - Tiles remaining: [8]
+2024-07-27 19:13:21,057 - DEBUG - Rolled: 6 + 3 = 9
+2024-07-27 19:13:21,057 - DEBUG - Possible moves: []
+2024-07-27 19:13:21,057 - DEBUG - No possible moves. Game over!
+2024-07-27 19:13:21,057 - DEBUG - AI's final score: 8 with 8 tiles closed
+2024-07-27 19:13:21,057 - DEBUG - Game 8 ended with score: 8
+2024-07-27 19:13:21,057 - DEBUG - Starting game 9
+2024-07-27 19:13:21,058 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,058 - DEBUG - Rolled: 3 + 2 = 5
+2024-07-27 19:13:21,058 - DEBUG - Possible moves: [(5,), (1, 4), (2, 3)]
+2024-07-27 19:13:21,058 - DEBUG - Chosen Move: (2, 3)
+2024-07-27 19:13:21,058 - DEBUG - Tiles remaining: [1, 4, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,058 - DEBUG - Rolled: 3 + 4 = 7
+2024-07-27 19:13:21,058 - DEBUG - Possible moves: [(7,), (1, 6)]
+2024-07-27 19:13:21,058 - DEBUG - Chosen Move: (1, 6)
+2024-07-27 19:13:21,058 - DEBUG - Tiles remaining: [4, 5, 7, 8, 9]
+2024-07-27 19:13:21,058 - DEBUG - Rolled: 6 + 3 = 9
+2024-07-27 19:13:21,058 - DEBUG - Possible moves: [(9,), (4, 5)]
+2024-07-27 19:13:21,058 - DEBUG - Chosen Move: (9,)
+2024-07-27 19:13:21,058 - DEBUG - Tiles remaining: [4, 5, 7, 8]
+2024-07-27 19:13:21,058 - DEBUG - Rolled: 2 + 3 = 5
+2024-07-27 19:13:21,058 - DEBUG - Possible moves: [(5,)]
+2024-07-27 19:13:21,058 - DEBUG - Chosen Move: (5,)
+2024-07-27 19:13:21,058 - DEBUG - Tiles remaining: [4, 7, 8]
+2024-07-27 19:13:21,058 - DEBUG - Rolled: 3 + 2 = 5
+2024-07-27 19:13:21,058 - DEBUG - Possible moves: []
+2024-07-27 19:13:21,058 - DEBUG - No possible moves. Game over!
+2024-07-27 19:13:21,058 - DEBUG - AI's final score: 19 with 6 tiles closed
+2024-07-27 19:13:21,059 - DEBUG - Game 9 ended with score: 19
+2024-07-27 19:13:21,059 - DEBUG - Starting game 10
+2024-07-27 19:13:21,059 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,059 - DEBUG - Rolled: 6 + 2 = 8
+2024-07-27 19:13:21,059 - DEBUG - Possible moves: [(8,), (1, 7), (2, 6), (3, 5), (1, 2, 5), (1, 3, 4)]
+2024-07-27 19:13:21,059 - DEBUG - Chosen Move: (2, 6)
+2024-07-27 19:13:21,059 - DEBUG - Tiles remaining: [1, 3, 4, 5, 7, 8, 9]
+2024-07-27 19:13:21,059 - DEBUG - Rolled: 2 + 2 = 4
+2024-07-27 19:13:21,059 - DEBUG - Possible moves: [(4,), (1, 3)]
+2024-07-27 19:13:21,059 - DEBUG - Chosen Move: (4,)
+2024-07-27 19:13:21,059 - DEBUG - Tiles remaining: [1, 3, 5, 7, 8, 9]
+2024-07-27 19:13:21,059 - DEBUG - Rolled: 1 + 4 = 5
+2024-07-27 19:13:21,059 - DEBUG - Possible moves: [(5,)]
+2024-07-27 19:13:21,059 - DEBUG - Chosen Move: (5,)
+2024-07-27 19:13:21,059 - DEBUG - Tiles remaining: [1, 3, 7, 8, 9]
+2024-07-27 19:13:21,059 - DEBUG - Rolled: 4 + 6 = 10
+2024-07-27 19:13:21,059 - DEBUG - Possible moves: [(1, 9), (3, 7)]
+2024-07-27 19:13:21,059 - DEBUG - Chosen Move: (1, 9)
+2024-07-27 19:13:21,059 - DEBUG - Tiles remaining: [3, 7, 8]
+2024-07-27 19:13:21,059 - DEBUG - Rolled: 2 + 4 = 6
+2024-07-27 19:13:21,059 - DEBUG - Possible moves: []
+2024-07-27 19:13:21,059 - DEBUG - No possible moves. Game over!
+2024-07-27 19:13:21,060 - DEBUG - AI's final score: 18 with 6 tiles closed
+2024-07-27 19:13:21,060 - DEBUG - Game 10 ended with score: 18
+2024-07-27 19:13:21,060 - DEBUG - Results appended to ./results/stb_simple_ai_results_20240727-191321.csv
+2024-07-27 19:13:21,072 - DEBUG - Results saved to ./results/stb_simple_ai_results_20240727-191321.json
+2024-07-27 19:13:21,072 - DEBUG - ## ## Simulation ended for 10 games using strategy #Single Tile ## ##
+2024-07-27 19:13:21,072 - DEBUG - ## ## Simulation beginning for 10 games using strategy #2 ## ##
+2024-07-27 19:13:21,072 - DEBUG - Starting game 1
+2024-07-27 19:13:21,072 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,072 - DEBUG - Rolled: 3 + 4 = 7
+2024-07-27 19:13:21,072 - DEBUG - Possible moves: [(7,), (1, 6), (2, 5), (3, 4), (1, 2, 4)]
+2024-07-27 19:13:21,072 - DEBUG - Chosen Move: (1, 2, 4)
+2024-07-27 19:13:21,072 - DEBUG - Tiles remaining: [3, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,072 - DEBUG - Rolled: 5 + 4 = 9
+2024-07-27 19:13:21,072 - DEBUG - Possible moves: [(9,), (3, 6)]
+2024-07-27 19:13:21,072 - DEBUG - Chosen Move: (3, 6)
+2024-07-27 19:13:21,072 - DEBUG - Tiles remaining: [5, 7, 8, 9]
+2024-07-27 19:13:21,072 - DEBUG - Rolled: 3 + 2 = 5
+2024-07-27 19:13:21,072 - DEBUG - Possible moves: [(5,)]
+2024-07-27 19:13:21,072 - DEBUG - Chosen Move: (5,)
+2024-07-27 19:13:21,072 - DEBUG - Tiles remaining: [7, 8, 9]
+2024-07-27 19:13:21,072 - DEBUG - Rolled: 5 + 4 = 9
+2024-07-27 19:13:21,072 - DEBUG - Possible moves: [(9,)]
+2024-07-27 19:13:21,072 - DEBUG - Chosen Move: (9,)
+2024-07-27 19:13:21,072 - DEBUG - Tiles remaining: [7, 8]
+2024-07-27 19:13:21,073 - DEBUG - Rolled: 6 + 1 = 7
+2024-07-27 19:13:21,073 - DEBUG - Possible moves: [(7,)]
+2024-07-27 19:13:21,073 - DEBUG - Chosen Move: (7,)
+2024-07-27 19:13:21,073 - DEBUG - Tiles remaining: [8]
+2024-07-27 19:13:21,073 - DEBUG - Rolled: 2 + 1 = 3
+2024-07-27 19:13:21,073 - DEBUG - Possible moves: []
+2024-07-27 19:13:21,073 - DEBUG - No possible moves. Game over!
+2024-07-27 19:13:21,073 - DEBUG - AI's final score: 8 with 8 tiles closed
+2024-07-27 19:13:21,073 - DEBUG - Game 1 ended with score: 8
+2024-07-27 19:13:21,073 - DEBUG - Starting game 2
+2024-07-27 19:13:21,073 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,073 - DEBUG - Rolled: 4 + 6 = 10
+2024-07-27 19:13:21,073 - DEBUG - Possible moves: [(1, 9), (2, 8), (3, 7), (4, 6), (1, 2, 7), (1, 3, 6), (1, 4, 5), (2, 3, 5), (1, 2, 3, 4)]
+2024-07-27 19:13:21,073 - DEBUG - Chosen Move: (1, 2, 3, 4)
+2024-07-27 19:13:21,073 - DEBUG - Tiles remaining: [5, 6, 7, 8, 9]
+2024-07-27 19:13:21,073 - DEBUG - Rolled: 6 + 3 = 9
+2024-07-27 19:13:21,073 - DEBUG - Possible moves: [(9,)]
+2024-07-27 19:13:21,073 - DEBUG - Chosen Move: (9,)
+2024-07-27 19:13:21,073 - DEBUG - Tiles remaining: [5, 6, 7, 8]
+2024-07-27 19:13:21,073 - DEBUG - Rolled: 6 + 1 = 7
+2024-07-27 19:13:21,073 - DEBUG - Possible moves: [(7,)]
+2024-07-27 19:13:21,073 - DEBUG - Chosen Move: (7,)
+2024-07-27 19:13:21,073 - DEBUG - Tiles remaining: [5, 6, 8]
+2024-07-27 19:13:21,073 - DEBUG - Rolled: 3 + 2 = 5
+2024-07-27 19:13:21,073 - DEBUG - Possible moves: [(5,)]
+2024-07-27 19:13:21,073 - DEBUG - Chosen Move: (5,)
+2024-07-27 19:13:21,073 - DEBUG - Tiles remaining: [6, 8]
+2024-07-27 19:13:21,073 - DEBUG - Rolled: 2 + 1 = 3
+2024-07-27 19:13:21,074 - DEBUG - Possible moves: []
+2024-07-27 19:13:21,074 - DEBUG - No possible moves. Game over!
+2024-07-27 19:13:21,074 - DEBUG - AI's final score: 14 with 7 tiles closed
+2024-07-27 19:13:21,074 - DEBUG - Game 2 ended with score: 14
+2024-07-27 19:13:21,074 - DEBUG - Starting game 3
+2024-07-27 19:13:21,074 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,074 - DEBUG - Rolled: 5 + 1 = 6
+2024-07-27 19:13:21,074 - DEBUG - Possible moves: [(6,), (1, 5), (2, 4), (1, 2, 3)]
+2024-07-27 19:13:21,074 - DEBUG - Chosen Move: (1, 2, 3)
+2024-07-27 19:13:21,074 - DEBUG - Tiles remaining: [4, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,074 - DEBUG - Rolled: 2 + 4 = 6
+2024-07-27 19:13:21,074 - DEBUG - Possible moves: [(6,)]
+2024-07-27 19:13:21,074 - DEBUG - Chosen Move: (6,)
+2024-07-27 19:13:21,074 - DEBUG - Tiles remaining: [4, 5, 7, 8, 9]
+2024-07-27 19:13:21,074 - DEBUG - Rolled: 5 + 5 = 10
+2024-07-27 19:13:21,074 - DEBUG - Possible moves: []
+2024-07-27 19:13:21,074 - DEBUG - No possible moves. Game over!
+2024-07-27 19:13:21,074 - DEBUG - AI's final score: 33 with 4 tiles closed
+2024-07-27 19:13:21,074 - DEBUG - Game 3 ended with score: 33
+2024-07-27 19:13:21,074 - DEBUG - Starting game 4
+2024-07-27 19:13:21,074 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,074 - DEBUG - Rolled: 3 + 5 = 8
+2024-07-27 19:13:21,074 - DEBUG - Possible moves: [(8,), (1, 7), (2, 6), (3, 5), (1, 2, 5), (1, 3, 4)]
+2024-07-27 19:13:21,074 - DEBUG - Chosen Move: (1, 2, 5)
+2024-07-27 19:13:21,074 - DEBUG - Tiles remaining: [3, 4, 6, 7, 8, 9]
+2024-07-27 19:13:21,074 - DEBUG - Rolled: 1 + 6 = 7
+2024-07-27 19:13:21,075 - DEBUG - Possible moves: [(7,), (3, 4)]
+2024-07-27 19:13:21,075 - DEBUG - Chosen Move: (3, 4)
+2024-07-27 19:13:21,075 - DEBUG - Tiles remaining: [6, 7, 8, 9]
+2024-07-27 19:13:21,075 - DEBUG - Rolled: 3 + 3 = 6
+2024-07-27 19:13:21,075 - DEBUG - Possible moves: [(6,)]
+2024-07-27 19:13:21,075 - DEBUG - Chosen Move: (6,)
+2024-07-27 19:13:21,075 - DEBUG - Tiles remaining: [7, 8, 9]
+2024-07-27 19:13:21,075 - DEBUG - Rolled: 4 + 6 = 10
+2024-07-27 19:13:21,075 - DEBUG - Possible moves: []
+2024-07-27 19:13:21,075 - DEBUG - No possible moves. Game over!
+2024-07-27 19:13:21,075 - DEBUG - AI's final score: 24 with 6 tiles closed
+2024-07-27 19:13:21,075 - DEBUG - Game 4 ended with score: 24
+2024-07-27 19:13:21,075 - DEBUG - Starting game 5
+2024-07-27 19:13:21,075 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,075 - DEBUG - Rolled: 6 + 2 = 8
+2024-07-27 19:13:21,075 - DEBUG - Possible moves: [(8,), (1, 7), (2, 6), (3, 5), (1, 2, 5), (1, 3, 4)]
+2024-07-27 19:13:21,075 - DEBUG - Chosen Move: (1, 2, 5)
+2024-07-27 19:13:21,075 - DEBUG - Tiles remaining: [3, 4, 6, 7, 8, 9]
+2024-07-27 19:13:21,075 - DEBUG - Rolled: 3 + 3 = 6
+2024-07-27 19:13:21,075 - DEBUG - Possible moves: [(6,)]
+2024-07-27 19:13:21,075 - DEBUG - Chosen Move: (6,)
+2024-07-27 19:13:21,075 - DEBUG - Tiles remaining: [3, 4, 7, 8, 9]
+2024-07-27 19:13:21,075 - DEBUG - Rolled: 2 + 4 = 6
+2024-07-27 19:13:21,075 - DEBUG - Possible moves: []
+2024-07-27 19:13:21,075 - DEBUG - No possible moves. Game over!
+2024-07-27 19:13:21,075 - DEBUG - AI's final score: 31 with 4 tiles closed
+2024-07-27 19:13:21,075 - DEBUG - Game 5 ended with score: 31
+2024-07-27 19:13:21,075 - DEBUG - Starting game 6
+2024-07-27 19:13:21,075 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,075 - DEBUG - Rolled: 5 + 3 = 8
+2024-07-27 19:13:21,075 - DEBUG - Possible moves: [(8,), (1, 7), (2, 6), (3, 5), (1, 2, 5), (1, 3, 4)]
+2024-07-27 19:13:21,075 - DEBUG - Chosen Move: (1, 2, 5)
+2024-07-27 19:13:21,075 - DEBUG - Tiles remaining: [3, 4, 6, 7, 8, 9]
+2024-07-27 19:13:21,075 - DEBUG - Rolled: 2 + 2 = 4
+2024-07-27 19:13:21,076 - DEBUG - Possible moves: [(4,)]
+2024-07-27 19:13:21,076 - DEBUG - Chosen Move: (4,)
+2024-07-27 19:13:21,076 - DEBUG - Tiles remaining: [3, 6, 7, 8, 9]
+2024-07-27 19:13:21,076 - DEBUG - Rolled: 4 + 6 = 10
+2024-07-27 19:13:21,076 - DEBUG - Possible moves: [(3, 7)]
+2024-07-27 19:13:21,076 - DEBUG - Chosen Move: (3, 7)
+2024-07-27 19:13:21,076 - DEBUG - Tiles remaining: [6, 8, 9]
+2024-07-27 19:13:21,076 - DEBUG - Rolled: 1 + 2 = 3
+2024-07-27 19:13:21,076 - DEBUG - Possible moves: []
+2024-07-27 19:13:21,076 - DEBUG - No possible moves. Game over!
+2024-07-27 19:13:21,076 - DEBUG - AI's final score: 23 with 6 tiles closed
+2024-07-27 19:13:21,076 - DEBUG - Game 6 ended with score: 23
+2024-07-27 19:13:21,076 - DEBUG - Starting game 7
+2024-07-27 19:13:21,076 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,076 - DEBUG - Rolled: 2 + 6 = 8
+2024-07-27 19:13:21,076 - DEBUG - Possible moves: [(8,), (1, 7), (2, 6), (3, 5), (1, 2, 5), (1, 3, 4)]
+2024-07-27 19:13:21,076 - DEBUG - Chosen Move: (1, 2, 5)
+2024-07-27 19:13:21,076 - DEBUG - Tiles remaining: [3, 4, 6, 7, 8, 9]
+2024-07-27 19:13:21,076 - DEBUG - Rolled: 6 + 4 = 10
+2024-07-27 19:13:21,076 - DEBUG - Possible moves: [(3, 7), (4, 6)]
+2024-07-27 19:13:21,076 - DEBUG - Chosen Move: (3, 7)
+2024-07-27 19:13:21,076 - DEBUG - Tiles remaining: [4, 6, 8, 9]
+2024-07-27 19:13:21,076 - DEBUG - Rolled: 3 + 6 = 9
+2024-07-27 19:13:21,076 - DEBUG - Possible moves: [(9,)]
+2024-07-27 19:13:21,076 - DEBUG - Chosen Move: (9,)
+2024-07-27 19:13:21,076 - DEBUG - Tiles remaining: [4, 6, 8]
+2024-07-27 19:13:21,076 - DEBUG - Rolled: 6 + 5 = 11
+2024-07-27 19:13:21,076 - DEBUG - Possible moves: []
+2024-07-27 19:13:21,076 - DEBUG - No possible moves. Game over!
+2024-07-27 19:13:21,076 - DEBUG - AI's final score: 18 with 6 tiles closed
+2024-07-27 19:13:21,076 - DEBUG - Game 7 ended with score: 18
+2024-07-27 19:13:21,076 - DEBUG - Starting game 8
+2024-07-27 19:13:21,076 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,076 - DEBUG - Rolled: 3 + 5 = 8
+2024-07-27 19:13:21,077 - DEBUG - Possible moves: [(8,), (1, 7), (2, 6), (3, 5), (1, 2, 5), (1, 3, 4)]
+2024-07-27 19:13:21,077 - DEBUG - Chosen Move: (1, 2, 5)
+2024-07-27 19:13:21,077 - DEBUG - Tiles remaining: [3, 4, 6, 7, 8, 9]
+2024-07-27 19:13:21,077 - DEBUG - Rolled: 4 + 6 = 10
+2024-07-27 19:13:21,077 - DEBUG - Possible moves: [(3, 7), (4, 6)]
+2024-07-27 19:13:21,077 - DEBUG - Chosen Move: (3, 7)
+2024-07-27 19:13:21,077 - DEBUG - Tiles remaining: [4, 6, 8, 9]
+2024-07-27 19:13:21,077 - DEBUG - Rolled: 5 + 3 = 8
+2024-07-27 19:13:21,077 - DEBUG - Possible moves: [(8,)]
+2024-07-27 19:13:21,077 - DEBUG - Chosen Move: (8,)
+2024-07-27 19:13:21,077 - DEBUG - Tiles remaining: [4, 6, 9]
+2024-07-27 19:13:21,077 - DEBUG - Rolled: 1 + 4 = 5
+2024-07-27 19:13:21,077 - DEBUG - Possible moves: []
+2024-07-27 19:13:21,077 - DEBUG - No possible moves. Game over!
+2024-07-27 19:13:21,077 - DEBUG - AI's final score: 19 with 6 tiles closed
+2024-07-27 19:13:21,077 - DEBUG - Game 8 ended with score: 19
+2024-07-27 19:13:21,077 - DEBUG - Starting game 9
+2024-07-27 19:13:21,077 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,077 - DEBUG - Rolled: 3 + 1 = 4
+2024-07-27 19:13:21,077 - DEBUG - Possible moves: [(4,), (1, 3)]
+2024-07-27 19:13:21,077 - DEBUG - Chosen Move: (1, 3)
+2024-07-27 19:13:21,077 - DEBUG - Tiles remaining: [2, 4, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,077 - DEBUG - Rolled: 5 + 3 = 8
+2024-07-27 19:13:21,077 - DEBUG - Possible moves: [(8,), (2, 6)]
+2024-07-27 19:13:21,077 - DEBUG - Chosen Move: (2, 6)
+2024-07-27 19:13:21,077 - DEBUG - Tiles remaining: [4, 5, 7, 8, 9]
+2024-07-27 19:13:21,077 - DEBUG - Rolled: 4 + 3 = 7
+2024-07-27 19:13:21,077 - DEBUG - Possible moves: [(7,)]
+2024-07-27 19:13:21,077 - DEBUG - Chosen Move: (7,)
+2024-07-27 19:13:21,077 - DEBUG - Tiles remaining: [4, 5, 8, 9]
+2024-07-27 19:13:21,077 - DEBUG - Rolled: 2 + 3 = 5
+2024-07-27 19:13:21,077 - DEBUG - Possible moves: [(5,)]
+2024-07-27 19:13:21,077 - DEBUG - Chosen Move: (5,)
+2024-07-27 19:13:21,078 - DEBUG - Tiles remaining: [4, 8, 9]
+2024-07-27 19:13:21,078 - DEBUG - Rolled: 3 + 2 = 5
+2024-07-27 19:13:21,078 - DEBUG - Possible moves: []
+2024-07-27 19:13:21,078 - DEBUG - No possible moves. Game over!
+2024-07-27 19:13:21,078 - DEBUG - AI's final score: 21 with 6 tiles closed
+2024-07-27 19:13:21,078 - DEBUG - Game 9 ended with score: 21
+2024-07-27 19:13:21,078 - DEBUG - Starting game 10
+2024-07-27 19:13:21,078 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,078 - DEBUG - Rolled: 4 + 3 = 7
+2024-07-27 19:13:21,078 - DEBUG - Possible moves: [(7,), (1, 6), (2, 5), (3, 4), (1, 2, 4)]
+2024-07-27 19:13:21,078 - DEBUG - Chosen Move: (1, 2, 4)
+2024-07-27 19:13:21,078 - DEBUG - Tiles remaining: [3, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,078 - DEBUG - Rolled: 5 + 6 = 11
+2024-07-27 19:13:21,078 - DEBUG - Possible moves: [(3, 8), (5, 6)]
+2024-07-27 19:13:21,078 - DEBUG - Chosen Move: (3, 8)
+2024-07-27 19:13:21,078 - DEBUG - Tiles remaining: [5, 6, 7, 9]
+2024-07-27 19:13:21,078 - DEBUG - Rolled: 1 + 4 = 5
+2024-07-27 19:13:21,078 - DEBUG - Possible moves: [(5,)]
+2024-07-27 19:13:21,078 - DEBUG - Chosen Move: (5,)
+2024-07-27 19:13:21,078 - DEBUG - Tiles remaining: [6, 7, 9]
+2024-07-27 19:13:21,078 - DEBUG - Rolled: 5 + 4 = 9
+2024-07-27 19:13:21,078 - DEBUG - Possible moves: [(9,)]
+2024-07-27 19:13:21,078 - DEBUG - Chosen Move: (9,)
+2024-07-27 19:13:21,078 - DEBUG - Tiles remaining: [6, 7]
+2024-07-27 19:13:21,078 - DEBUG - Rolled: 1 + 4 = 5
+2024-07-27 19:13:21,078 - DEBUG - Possible moves: []
+2024-07-27 19:13:21,078 - DEBUG - No possible moves. Game over!
+2024-07-27 19:13:21,078 - DEBUG - AI's final score: 13 with 7 tiles closed
+2024-07-27 19:13:21,078 - DEBUG - Game 10 ended with score: 13
+2024-07-27 19:13:21,079 - DEBUG - Results appended to ./results/stb_simple_ai_results_20240727-191321.csv
+2024-07-27 19:13:21,086 - DEBUG - Results saved to ./results/stb_simple_ai_results_20240727-191321.json
+2024-07-27 19:13:21,086 - DEBUG - ## ## Simulation ended for 10 games using strategy #Maximum Immediate Reward ## ##
+2024-07-27 19:13:21,087 - DEBUG - ## ## Simulation beginning for 10 games using strategy #3 ## ##
+2024-07-27 19:13:21,087 - DEBUG - Starting game 1
+2024-07-27 19:13:21,087 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,087 - DEBUG - Rolled: 1 + 2 = 3
+2024-07-27 19:13:21,087 - DEBUG - Possible moves: [(3,), (1, 2)]
+2024-07-27 19:13:21,087 - DEBUG - Chosen Move: (3,)
+2024-07-27 19:13:21,087 - DEBUG - Tiles remaining: [1, 2, 4, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,087 - DEBUG - Rolled: 2 + 3 = 5
+2024-07-27 19:13:21,087 - DEBUG - Possible moves: [(5,), (1, 4)]
+2024-07-27 19:13:21,087 - DEBUG - Chosen Move: (5,)
+2024-07-27 19:13:21,087 - DEBUG - Tiles remaining: [1, 2, 4, 6, 7, 8, 9]
+2024-07-27 19:13:21,087 - DEBUG - Rolled: 3 + 1 = 4
+2024-07-27 19:13:21,087 - DEBUG - Possible moves: [(4,)]
+2024-07-27 19:13:21,087 - DEBUG - Chosen Move: (4,)
+2024-07-27 19:13:21,087 - DEBUG - Tiles remaining: [1, 2, 6, 7, 8, 9]
+2024-07-27 19:13:21,087 - DEBUG - Rolled: 2 + 2 = 4
+2024-07-27 19:13:21,087 - DEBUG - Possible moves: []
+2024-07-27 19:13:21,087 - DEBUG - No possible moves. Game over!
+2024-07-27 19:13:21,087 - DEBUG - AI's final score: 33 with 3 tiles closed
+2024-07-27 19:13:21,087 - DEBUG - Game 1 ended with score: 33
+2024-07-27 19:13:21,087 - DEBUG - Starting game 2
+2024-07-27 19:13:21,087 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,087 - DEBUG - Rolled: 5 + 3 = 8
+2024-07-27 19:13:21,087 - DEBUG - Possible moves: [(8,), (1, 7), (2, 6), (3, 5), (1, 2, 5), (1, 3, 4)]
+2024-07-27 19:13:21,087 - DEBUG - Chosen Move: (8,)
+2024-07-27 19:13:21,087 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 9]
+2024-07-27 19:13:21,087 - DEBUG - Rolled: 2 + 5 = 7
+2024-07-27 19:13:21,088 - DEBUG - Possible moves: [(7,), (1, 6), (2, 5), (3, 4), (1, 2, 4)]
+2024-07-27 19:13:21,088 - DEBUG - Chosen Move: (7,)
+2024-07-27 19:13:21,088 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 9]
+2024-07-27 19:13:21,088 - DEBUG - Rolled: 3 + 1 = 4
+2024-07-27 19:13:21,088 - DEBUG - Possible moves: [(4,), (1, 3)]
+2024-07-27 19:13:21,088 - DEBUG - Chosen Move: (4,)
+2024-07-27 19:13:21,088 - DEBUG - Tiles remaining: [1, 2, 3, 5, 6, 9]
+2024-07-27 19:13:21,088 - DEBUG - Rolled: 1 + 5 = 6
+2024-07-27 19:13:21,088 - DEBUG - Possible moves: [(6,), (1, 5), (1, 2, 3)]
+2024-07-27 19:13:21,088 - DEBUG - Chosen Move: (6,)
+2024-07-27 19:13:21,088 - DEBUG - Tiles remaining: [1, 2, 3, 5, 9]
+2024-07-27 19:13:21,088 - DEBUG - Rolled: 3 + 5 = 8
+2024-07-27 19:13:21,088 - DEBUG - Possible moves: [(3, 5), (1, 2, 5)]
+2024-07-27 19:13:21,088 - DEBUG - Chosen Move: (3, 5)
+2024-07-27 19:13:21,088 - DEBUG - Tiles remaining: [1, 2, 9]
+2024-07-27 19:13:21,088 - DEBUG - Rolled: 4 + 6 = 10
+2024-07-27 19:13:21,088 - DEBUG - Possible moves: [(1, 9)]
+2024-07-27 19:13:21,088 - DEBUG - Chosen Move: (1, 9)
+2024-07-27 19:13:21,088 - DEBUG - Tiles remaining: [2]
+2024-07-27 19:13:21,088 - DEBUG - Rolled: 2 + 5 = 7
+2024-07-27 19:13:21,088 - DEBUG - Possible moves: []
+2024-07-27 19:13:21,088 - DEBUG - No possible moves. Game over!
+2024-07-27 19:13:21,088 - DEBUG - AI's final score: 2 with 8 tiles closed
+2024-07-27 19:13:21,088 - DEBUG - Game 2 ended with score: 2
+2024-07-27 19:13:21,088 - DEBUG - Starting game 3
+2024-07-27 19:13:21,088 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,088 - DEBUG - Rolled: 4 + 4 = 8
+2024-07-27 19:13:21,088 - DEBUG - Possible moves: [(8,), (1, 7), (2, 6), (3, 5), (1, 2, 5), (1, 3, 4)]
+2024-07-27 19:13:21,088 - DEBUG - Chosen Move: (8,)
+2024-07-27 19:13:21,088 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 9]
+2024-07-27 19:13:21,088 - DEBUG - Rolled: 2 + 1 = 3
+2024-07-27 19:13:21,089 - DEBUG - Possible moves: [(3,), (1, 2)]
+2024-07-27 19:13:21,089 - DEBUG - Chosen Move: (3,)
+2024-07-27 19:13:21,089 - DEBUG - Tiles remaining: [1, 2, 4, 5, 6, 7, 9]
+2024-07-27 19:13:21,089 - DEBUG - Rolled: 1 + 2 = 3
+2024-07-27 19:13:21,089 - DEBUG - Possible moves: [(1, 2)]
+2024-07-27 19:13:21,089 - DEBUG - Chosen Move: (1, 2)
+2024-07-27 19:13:21,089 - DEBUG - Tiles remaining: [4, 5, 6, 7, 9]
+2024-07-27 19:13:21,089 - DEBUG - Rolled: 3 + 1 = 4
+2024-07-27 19:13:21,089 - DEBUG - Possible moves: [(4,)]
+2024-07-27 19:13:21,089 - DEBUG - Chosen Move: (4,)
+2024-07-27 19:13:21,089 - DEBUG - Tiles remaining: [5, 6, 7, 9]
+2024-07-27 19:13:21,089 - DEBUG - Rolled: 1 + 2 = 3
+2024-07-27 19:13:21,089 - DEBUG - Possible moves: []
+2024-07-27 19:13:21,089 - DEBUG - No possible moves. Game over!
+2024-07-27 19:13:21,089 - DEBUG - AI's final score: 27 with 5 tiles closed
+2024-07-27 19:13:21,089 - DEBUG - Game 3 ended with score: 27
+2024-07-27 19:13:21,089 - DEBUG - Starting game 4
+2024-07-27 19:13:21,089 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,089 - DEBUG - Rolled: 2 + 2 = 4
+2024-07-27 19:13:21,089 - DEBUG - Possible moves: [(4,), (1, 3)]
+2024-07-27 19:13:21,089 - DEBUG - Chosen Move: (4,)
+2024-07-27 19:13:21,089 - DEBUG - Tiles remaining: [1, 2, 3, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,089 - DEBUG - Rolled: 4 + 2 = 6
+2024-07-27 19:13:21,089 - DEBUG - Possible moves: [(6,), (1, 5), (1, 2, 3)]
+2024-07-27 19:13:21,089 - DEBUG - Chosen Move: (6,)
+2024-07-27 19:13:21,089 - DEBUG - Tiles remaining: [1, 2, 3, 5, 7, 8, 9]
+2024-07-27 19:13:21,089 - DEBUG - Rolled: 4 + 6 = 10
+2024-07-27 19:13:21,090 - DEBUG - Possible moves: [(1, 9), (2, 8), (3, 7), (1, 2, 7), (2, 3, 5)]
+2024-07-27 19:13:21,090 - DEBUG - Chosen Move: (1, 9)
+2024-07-27 19:13:21,090 - DEBUG - Tiles remaining: [2, 3, 5, 7, 8]
+2024-07-27 19:13:21,090 - DEBUG - Rolled: 1 + 2 = 3
+2024-07-27 19:13:21,090 - DEBUG - Possible moves: [(3,)]
+2024-07-27 19:13:21,090 - DEBUG - Chosen Move: (3,)
+2024-07-27 19:13:21,090 - DEBUG - Tiles remaining: [2, 5, 7, 8]
+2024-07-27 19:13:21,090 - DEBUG - Rolled: 5 + 6 = 11
+2024-07-27 19:13:21,090 - DEBUG - Possible moves: []
+2024-07-27 19:13:21,090 - DEBUG - No possible moves. Game over!
+2024-07-27 19:13:21,090 - DEBUG - AI's final score: 22 with 5 tiles closed
+2024-07-27 19:13:21,090 - DEBUG - Game 4 ended with score: 22
+2024-07-27 19:13:21,090 - DEBUG - Starting game 5
+2024-07-27 19:13:21,090 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,090 - DEBUG - Rolled: 5 + 5 = 10
+2024-07-27 19:13:21,090 - DEBUG - Possible moves: [(1, 9), (2, 8), (3, 7), (4, 6), (1, 2, 7), (1, 3, 6), (1, 4, 5), (2, 3, 5), (1, 2, 3, 4)]
+2024-07-27 19:13:21,090 - DEBUG - Chosen Move: (1, 9)
+2024-07-27 19:13:21,090 - DEBUG - Tiles remaining: [2, 3, 4, 5, 6, 7, 8]
+2024-07-27 19:13:21,090 - DEBUG - Rolled: 6 + 1 = 7
+2024-07-27 19:13:21,090 - DEBUG - Possible moves: [(7,), (2, 5), (3, 4)]
+2024-07-27 19:13:21,090 - DEBUG - Chosen Move: (7,)
+2024-07-27 19:13:21,090 - DEBUG - Tiles remaining: [2, 3, 4, 5, 6, 8]
+2024-07-27 19:13:21,090 - DEBUG - Rolled: 1 + 4 = 5
+2024-07-27 19:13:21,090 - DEBUG - Possible moves: [(5,), (2, 3)]
+2024-07-27 19:13:21,090 - DEBUG - Chosen Move: (5,)
+2024-07-27 19:13:21,090 - DEBUG - Tiles remaining: [2, 3, 4, 6, 8]
+2024-07-27 19:13:21,090 - DEBUG - Rolled: 6 + 3 = 9
+2024-07-27 19:13:21,090 - DEBUG - Possible moves: [(3, 6), (2, 3, 4)]
+2024-07-27 19:13:21,090 - DEBUG - Chosen Move: (3, 6)
+2024-07-27 19:13:21,090 - DEBUG - Tiles remaining: [2, 4, 8]
+2024-07-27 19:13:21,090 - DEBUG - Rolled: 3 + 2 = 5
+2024-07-27 19:13:21,091 - DEBUG - Possible moves: []
+2024-07-27 19:13:21,091 - DEBUG - No possible moves. Game over!
+2024-07-27 19:13:21,091 - DEBUG - AI's final score: 14 with 6 tiles closed
+2024-07-27 19:13:21,091 - DEBUG - Game 5 ended with score: 14
+2024-07-27 19:13:21,091 - DEBUG - Starting game 6
+2024-07-27 19:13:21,091 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,091 - DEBUG - Rolled: 3 + 5 = 8
+2024-07-27 19:13:21,091 - DEBUG - Possible moves: [(8,), (1, 7), (2, 6), (3, 5), (1, 2, 5), (1, 3, 4)]
+2024-07-27 19:13:21,091 - DEBUG - Chosen Move: (8,)
+2024-07-27 19:13:21,091 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 9]
+2024-07-27 19:13:21,091 - DEBUG - Rolled: 5 + 3 = 8
+2024-07-27 19:13:21,091 - DEBUG - Possible moves: [(1, 7), (2, 6), (3, 5), (1, 2, 5), (1, 3, 4)]
+2024-07-27 19:13:21,091 - DEBUG - Chosen Move: (1, 7)
+2024-07-27 19:13:21,091 - DEBUG - Tiles remaining: [2, 3, 4, 5, 6, 9]
+2024-07-27 19:13:21,091 - DEBUG - Rolled: 4 + 1 = 5
+2024-07-27 19:13:21,091 - DEBUG - Possible moves: [(5,), (2, 3)]
+2024-07-27 19:13:21,091 - DEBUG - Chosen Move: (5,)
+2024-07-27 19:13:21,091 - DEBUG - Tiles remaining: [2, 3, 4, 6, 9]
+2024-07-27 19:13:21,091 - DEBUG - Rolled: 6 + 2 = 8
+2024-07-27 19:13:21,091 - DEBUG - Possible moves: [(2, 6)]
+2024-07-27 19:13:21,091 - DEBUG - Chosen Move: (2, 6)
+2024-07-27 19:13:21,091 - DEBUG - Tiles remaining: [3, 4, 9]
+2024-07-27 19:13:21,091 - DEBUG - Rolled: 1 + 5 = 6
+2024-07-27 19:13:21,091 - DEBUG - Possible moves: []
+2024-07-27 19:13:21,091 - DEBUG - No possible moves. Game over!
+2024-07-27 19:13:21,091 - DEBUG - AI's final score: 16 with 6 tiles closed
+2024-07-27 19:13:21,091 - DEBUG - Game 6 ended with score: 16
+2024-07-27 19:13:21,091 - DEBUG - Starting game 7
+2024-07-27 19:13:21,091 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,091 - DEBUG - Rolled: 6 + 3 = 9
+2024-07-27 19:13:21,091 - DEBUG - Possible moves: [(9,), (1, 8), (2, 7), (3, 6), (4, 5), (1, 2, 6), (1, 3, 5), (2, 3, 4)]
+2024-07-27 19:13:21,092 - DEBUG - Chosen Move: (9,)
+2024-07-27 19:13:21,092 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8]
+2024-07-27 19:13:21,092 - DEBUG - Rolled: 1 + 3 = 4
+2024-07-27 19:13:21,092 - DEBUG - Possible moves: [(4,), (1, 3)]
+2024-07-27 19:13:21,092 - DEBUG - Chosen Move: (4,)
+2024-07-27 19:13:21,092 - DEBUG - Tiles remaining: [1, 2, 3, 5, 6, 7, 8]
+2024-07-27 19:13:21,092 - DEBUG - Rolled: 4 + 4 = 8
+2024-07-27 19:13:21,092 - DEBUG - Possible moves: [(8,), (1, 7), (2, 6), (3, 5), (1, 2, 5)]
+2024-07-27 19:13:21,092 - DEBUG - Chosen Move: (8,)
+2024-07-27 19:13:21,092 - DEBUG - Tiles remaining: [1, 2, 3, 5, 6, 7]
+2024-07-27 19:13:21,092 - DEBUG - Rolled: 1 + 2 = 3
+2024-07-27 19:13:21,092 - DEBUG - Possible moves: [(3,), (1, 2)]
+2024-07-27 19:13:21,092 - DEBUG - Chosen Move: (3,)
+2024-07-27 19:13:21,092 - DEBUG - Tiles remaining: [1, 2, 5, 6, 7]
+2024-07-27 19:13:21,092 - DEBUG - Rolled: 5 + 2 = 7
+2024-07-27 19:13:21,092 - DEBUG - Possible moves: [(7,), (1, 6), (2, 5)]
+2024-07-27 19:13:21,092 - DEBUG - Chosen Move: (7,)
+2024-07-27 19:13:21,092 - DEBUG - Tiles remaining: [1, 2, 5, 6]
+2024-07-27 19:13:21,092 - DEBUG - Rolled: 5 + 1 = 6
+2024-07-27 19:13:21,092 - DEBUG - Possible moves: [(6,), (1, 5)]
+2024-07-27 19:13:21,092 - DEBUG - Chosen Move: (6,)
+2024-07-27 19:13:21,092 - DEBUG - Tiles remaining: [1, 2, 5]
+2024-07-27 19:13:21,092 - DEBUG - Rolled: 5 + 4 = 9
+2024-07-27 19:13:21,092 - DEBUG - Possible moves: []
+2024-07-27 19:13:21,092 - DEBUG - No possible moves. Game over!
+2024-07-27 19:13:21,092 - DEBUG - AI's final score: 8 with 6 tiles closed
+2024-07-27 19:13:21,092 - DEBUG - Game 7 ended with score: 8
+2024-07-27 19:13:21,092 - DEBUG - Starting game 8
+2024-07-27 19:13:21,092 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,092 - DEBUG - Rolled: 1 + 6 = 7
+2024-07-27 19:13:21,093 - DEBUG - Possible moves: [(7,), (1, 6), (2, 5), (3, 4), (1, 2, 4)]
+2024-07-27 19:13:21,093 - DEBUG - Chosen Move: (7,)
+2024-07-27 19:13:21,093 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 8, 9]
+2024-07-27 19:13:21,093 - DEBUG - Rolled: 2 + 6 = 8
+2024-07-27 19:13:21,093 - DEBUG - Possible moves: [(8,), (2, 6), (3, 5), (1, 2, 5), (1, 3, 4)]
+2024-07-27 19:13:21,093 - DEBUG - Chosen Move: (8,)
+2024-07-27 19:13:21,093 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 9]
+2024-07-27 19:13:21,093 - DEBUG - Rolled: 6 + 5 = 11
+2024-07-27 19:13:21,093 - DEBUG - Possible moves: [(2, 9), (5, 6), (1, 4, 6), (2, 3, 6), (2, 4, 5), (1, 2, 3, 5)]
+2024-07-27 19:13:21,093 - DEBUG - Chosen Move: (2, 9)
+2024-07-27 19:13:21,093 - DEBUG - Tiles remaining: [1, 3, 4, 5, 6]
+2024-07-27 19:13:21,093 - DEBUG - Rolled: 4 + 2 = 6
+2024-07-27 19:13:21,093 - DEBUG - Possible moves: [(6,), (1, 5)]
+2024-07-27 19:13:21,093 - DEBUG - Chosen Move: (6,)
+2024-07-27 19:13:21,093 - DEBUG - Tiles remaining: [1, 3, 4, 5]
+2024-07-27 19:13:21,093 - DEBUG - Rolled: 6 + 6 = 12
+2024-07-27 19:13:21,093 - DEBUG - Possible moves: [(3, 4, 5)]
+2024-07-27 19:13:21,093 - DEBUG - Chosen Move: (3, 4, 5)
+2024-07-27 19:13:21,093 - DEBUG - Tiles remaining: [1]
+2024-07-27 19:13:21,093 - DEBUG - Rolled: 1 + 4 = 5
+2024-07-27 19:13:21,093 - DEBUG - Possible moves: []
+2024-07-27 19:13:21,093 - DEBUG - No possible moves. Game over!
+2024-07-27 19:13:21,093 - DEBUG - AI's final score: 1 with 8 tiles closed
+2024-07-27 19:13:21,093 - DEBUG - Game 8 ended with score: 1
+2024-07-27 19:13:21,094 - DEBUG - Starting game 9
+2024-07-27 19:13:21,094 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,094 - DEBUG - Rolled: 1 + 3 = 4
+2024-07-27 19:13:21,094 - DEBUG - Possible moves: [(4,), (1, 3)]
+2024-07-27 19:13:21,094 - DEBUG - Chosen Move: (4,)
+2024-07-27 19:13:21,094 - DEBUG - Tiles remaining: [1, 2, 3, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,094 - DEBUG - Rolled: 4 + 5 = 9
+2024-07-27 19:13:21,094 - DEBUG - Possible moves: [(9,), (1, 8), (2, 7), (3, 6), (1, 2, 6), (1, 3, 5)]
+2024-07-27 19:13:21,094 - DEBUG - Chosen Move: (9,)
+2024-07-27 19:13:21,094 - DEBUG - Tiles remaining: [1, 2, 3, 5, 6, 7, 8]
+2024-07-27 19:13:21,094 - DEBUG - Rolled: 2 + 5 = 7
+2024-07-27 19:13:21,094 - DEBUG - Possible moves: [(7,), (1, 6), (2, 5)]
+2024-07-27 19:13:21,094 - DEBUG - Chosen Move: (7,)
+2024-07-27 19:13:21,094 - DEBUG - Tiles remaining: [1, 2, 3, 5, 6, 8]
+2024-07-27 19:13:21,094 - DEBUG - Rolled: 6 + 6 = 12
+2024-07-27 19:13:21,094 - DEBUG - Possible moves: [(1, 3, 8), (1, 5, 6), (1, 2, 3, 6)]
+2024-07-27 19:13:21,094 - DEBUG - Chosen Move: (1, 3, 8)
+2024-07-27 19:13:21,094 - DEBUG - Tiles remaining: [2, 5, 6]
+2024-07-27 19:13:21,094 - DEBUG - Rolled: 1 + 3 = 4
+2024-07-27 19:13:21,094 - DEBUG - Possible moves: []
+2024-07-27 19:13:21,094 - DEBUG - No possible moves. Game over!
+2024-07-27 19:13:21,094 - DEBUG - AI's final score: 13 with 6 tiles closed
+2024-07-27 19:13:21,094 - DEBUG - Game 9 ended with score: 13
+2024-07-27 19:13:21,094 - DEBUG - Starting game 10
+2024-07-27 19:13:21,094 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,094 - DEBUG - Rolled: 1 + 1 = 2
+2024-07-27 19:13:21,094 - DEBUG - Possible moves: [(2,)]
+2024-07-27 19:13:21,095 - DEBUG - Chosen Move: (2,)
+2024-07-27 19:13:21,095 - DEBUG - Tiles remaining: [1, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,095 - DEBUG - Rolled: 1 + 5 = 6
+2024-07-27 19:13:21,095 - DEBUG - Possible moves: [(6,), (1, 5)]
+2024-07-27 19:13:21,095 - DEBUG - Chosen Move: (6,)
+2024-07-27 19:13:21,095 - DEBUG - Tiles remaining: [1, 3, 4, 5, 7, 8, 9]
+2024-07-27 19:13:21,095 - DEBUG - Rolled: 2 + 6 = 8
+2024-07-27 19:13:21,095 - DEBUG - Possible moves: [(8,), (1, 7), (3, 5), (1, 3, 4)]
+2024-07-27 19:13:21,095 - DEBUG - Chosen Move: (8,)
+2024-07-27 19:13:21,095 - DEBUG - Tiles remaining: [1, 3, 4, 5, 7, 9]
+2024-07-27 19:13:21,095 - DEBUG - Rolled: 4 + 5 = 9
+2024-07-27 19:13:21,095 - DEBUG - Possible moves: [(9,), (4, 5), (1, 3, 5)]
+2024-07-27 19:13:21,095 - DEBUG - Chosen Move: (9,)
+2024-07-27 19:13:21,095 - DEBUG - Tiles remaining: [1, 3, 4, 5, 7]
+2024-07-27 19:13:21,095 - DEBUG - Rolled: 4 + 2 = 6
+2024-07-27 19:13:21,095 - DEBUG - Possible moves: [(1, 5)]
+2024-07-27 19:13:21,095 - DEBUG - Chosen Move: (1, 5)
+2024-07-27 19:13:21,095 - DEBUG - Tiles remaining: [3, 4, 7]
+2024-07-27 19:13:21,095 - DEBUG - Rolled: 2 + 2 = 4
+2024-07-27 19:13:21,095 - DEBUG - Possible moves: [(4,)]
+2024-07-27 19:13:21,095 - DEBUG - Chosen Move: (4,)
+2024-07-27 19:13:21,095 - DEBUG - Tiles remaining: [3, 7]
+2024-07-27 19:13:21,095 - DEBUG - Rolled: 6 + 1 = 7
+2024-07-27 19:13:21,095 - DEBUG - Possible moves: [(7,)]
+2024-07-27 19:13:21,095 - DEBUG - Chosen Move: (7,)
+2024-07-27 19:13:21,095 - DEBUG - Tiles remaining: [3]
+2024-07-27 19:13:21,095 - DEBUG - Rolled: 6 + 1 = 7
+2024-07-27 19:13:21,095 - DEBUG - Possible moves: []
+2024-07-27 19:13:21,095 - DEBUG - No possible moves. Game over!
+2024-07-27 19:13:21,095 - DEBUG - AI's final score: 3 with 8 tiles closed
+2024-07-27 19:13:21,095 - DEBUG - Game 10 ended with score: 3
+2024-07-27 19:13:21,096 - DEBUG - Results appended to ./results/stb_simple_ai_results_20240727-191321.csv
+2024-07-27 19:13:21,105 - DEBUG - Results saved to ./results/stb_simple_ai_results_20240727-191321.json
+2024-07-27 19:13:21,105 - DEBUG - ## ## Simulation ended for 10 games using strategy #Tiles of Least Probability ## ##
+2024-07-27 19:13:21,105 - DEBUG - ## ## Simulation beginning for 10 games using strategy #4 ## ##
+2024-07-27 19:13:21,105 - DEBUG - Starting game 1
+2024-07-27 19:13:21,105 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,105 - DEBUG - Rolled: 3 + 3 = 6
+2024-07-27 19:13:21,105 - DEBUG - Possible moves: [(6,), (1, 5), (2, 4), (1, 2, 3)]
+2024-07-27 19:13:21,106 - DEBUG - Chosen Move: (1, 5)
+2024-07-27 19:13:21,106 - DEBUG - Tiles remaining: [2, 3, 4, 6, 7, 8, 9]
+2024-07-27 19:13:21,106 - DEBUG - Rolled: 3 + 1 = 4
+2024-07-27 19:13:21,106 - DEBUG - Possible moves: [(4,)]
+2024-07-27 19:13:21,106 - DEBUG - Chosen Move: (4,)
+2024-07-27 19:13:21,106 - DEBUG - Tiles remaining: [2, 3, 6, 7, 8, 9]
+2024-07-27 19:13:21,106 - DEBUG - Rolled: 3 + 2 = 5
+2024-07-27 19:13:21,106 - DEBUG - Possible moves: [(2, 3)]
+2024-07-27 19:13:21,106 - DEBUG - Chosen Move: (2, 3)
+2024-07-27 19:13:21,106 - DEBUG - Tiles remaining: [6, 7, 8, 9]
+2024-07-27 19:13:21,106 - DEBUG - Rolled: 4 + 3 = 7
+2024-07-27 19:13:21,106 - DEBUG - Possible moves: [(7,)]
+2024-07-27 19:13:21,106 - DEBUG - Chosen Move: (7,)
+2024-07-27 19:13:21,106 - DEBUG - Tiles remaining: [6, 8, 9]
+2024-07-27 19:13:21,106 - DEBUG - Rolled: 3 + 1 = 4
+2024-07-27 19:13:21,106 - DEBUG - Possible moves: []
+2024-07-27 19:13:21,106 - DEBUG - No possible moves. Game over!
+2024-07-27 19:13:21,106 - DEBUG - AI's final score: 23 with 6 tiles closed
+2024-07-27 19:13:21,106 - DEBUG - Game 1 ended with score: 23
+2024-07-27 19:13:21,106 - DEBUG - Starting game 2
+2024-07-27 19:13:21,106 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,106 - DEBUG - Rolled: 1 + 5 = 6
+2024-07-27 19:13:21,106 - DEBUG - Possible moves: [(6,), (1, 5), (2, 4), (1, 2, 3)]
+2024-07-27 19:13:21,107 - DEBUG - Chosen Move: (1, 5)
+2024-07-27 19:13:21,107 - DEBUG - Tiles remaining: [2, 3, 4, 6, 7, 8, 9]
+2024-07-27 19:13:21,107 - DEBUG - Rolled: 4 + 1 = 5
+2024-07-27 19:13:21,107 - DEBUG - Possible moves: [(2, 3)]
+2024-07-27 19:13:21,107 - DEBUG - Chosen Move: (2, 3)
+2024-07-27 19:13:21,107 - DEBUG - Tiles remaining: [4, 6, 7, 8, 9]
+2024-07-27 19:13:21,107 - DEBUG - Rolled: 6 + 5 = 11
+2024-07-27 19:13:21,107 - DEBUG - Possible moves: [(4, 7)]
+2024-07-27 19:13:21,107 - DEBUG - Chosen Move: (4, 7)
+2024-07-27 19:13:21,107 - DEBUG - Tiles remaining: [6, 8, 9]
+2024-07-27 19:13:21,107 - DEBUG - Rolled: 1 + 3 = 4
+2024-07-27 19:13:21,107 - DEBUG - Possible moves: []
+2024-07-27 19:13:21,107 - DEBUG - No possible moves. Game over!
+2024-07-27 19:13:21,107 - DEBUG - AI's final score: 23 with 6 tiles closed
+2024-07-27 19:13:21,107 - DEBUG - Game 2 ended with score: 23
+2024-07-27 19:13:21,107 - DEBUG - Starting game 3
+2024-07-27 19:13:21,107 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,107 - DEBUG - Rolled: 5 + 2 = 7
+2024-07-27 19:13:21,107 - DEBUG - Possible moves: [(7,), (1, 6), (2, 5), (3, 4), (1, 2, 4)]
+2024-07-27 19:13:21,107 - DEBUG - Chosen Move: (2, 5)
+2024-07-27 19:13:21,107 - DEBUG - Tiles remaining: [1, 3, 4, 6, 7, 8, 9]
+2024-07-27 19:13:21,107 - DEBUG - Rolled: 3 + 3 = 6
+2024-07-27 19:13:21,107 - DEBUG - Possible moves: [(6,)]
+2024-07-27 19:13:21,108 - DEBUG - Chosen Move: (6,)
+2024-07-27 19:13:21,108 - DEBUG - Tiles remaining: [1, 3, 4, 7, 8, 9]
+2024-07-27 19:13:21,108 - DEBUG - Rolled: 2 + 4 = 6
+2024-07-27 19:13:21,108 - DEBUG - Possible moves: []
+2024-07-27 19:13:21,108 - DEBUG - No possible moves. Game over!
+2024-07-27 19:13:21,108 - DEBUG - AI's final score: 32 with 3 tiles closed
+2024-07-27 19:13:21,108 - DEBUG - Game 3 ended with score: 32
+2024-07-27 19:13:21,108 - DEBUG - Starting game 4
+2024-07-27 19:13:21,108 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,108 - DEBUG - Rolled: 4 + 3 = 7
+2024-07-27 19:13:21,108 - DEBUG - Possible moves: [(7,), (1, 6), (2, 5), (3, 4), (1, 2, 4)]
+2024-07-27 19:13:21,108 - DEBUG - Chosen Move: (2, 5)
+2024-07-27 19:13:21,108 - DEBUG - Tiles remaining: [1, 3, 4, 6, 7, 8, 9]
+2024-07-27 19:13:21,108 - DEBUG - Rolled: 3 + 2 = 5
+2024-07-27 19:13:21,108 - DEBUG - Possible moves: [(1, 4)]
+2024-07-27 19:13:21,108 - DEBUG - Chosen Move: (1, 4)
+2024-07-27 19:13:21,108 - DEBUG - Tiles remaining: [3, 6, 7, 8, 9]
+2024-07-27 19:13:21,108 - DEBUG - Rolled: 3 + 2 = 5
+2024-07-27 19:13:21,108 - DEBUG - Possible moves: []
+2024-07-27 19:13:21,109 - DEBUG - No possible moves. Game over!
+2024-07-27 19:13:21,109 - DEBUG - AI's final score: 33 with 4 tiles closed
+2024-07-27 19:13:21,109 - DEBUG - Game 4 ended with score: 33
+2024-07-27 19:13:21,109 - DEBUG - Starting game 5
+2024-07-27 19:13:21,109 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,109 - DEBUG - Rolled: 1 + 3 = 4
+2024-07-27 19:13:21,109 - DEBUG - Possible moves: [(4,), (1, 3)]
+2024-07-27 19:13:21,109 - DEBUG - Chosen Move: (4,)
+2024-07-27 19:13:21,109 - DEBUG - Tiles remaining: [1, 2, 3, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,109 - DEBUG - Rolled: 3 + 5 = 8
+2024-07-27 19:13:21,109 - DEBUG - Possible moves: [(8,), (1, 7), (2, 6), (3, 5), (1, 2, 5)]
+2024-07-27 19:13:21,109 - DEBUG - Chosen Move: (3, 5)
+2024-07-27 19:13:21,109 - DEBUG - Tiles remaining: [1, 2, 6, 7, 8, 9]
+2024-07-27 19:13:21,109 - DEBUG - Rolled: 1 + 3 = 4
+2024-07-27 19:13:21,109 - DEBUG - Possible moves: []
+2024-07-27 19:13:21,109 - DEBUG - No possible moves. Game over!
+2024-07-27 19:13:21,109 - DEBUG - AI's final score: 33 with 3 tiles closed
+2024-07-27 19:13:21,109 - DEBUG - Game 5 ended with score: 33
+2024-07-27 19:13:21,109 - DEBUG - Starting game 6
+2024-07-27 19:13:21,110 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,110 - DEBUG - Rolled: 4 + 4 = 8
+2024-07-27 19:13:21,110 - DEBUG - Possible moves: [(8,), (1, 7), (2, 6), (3, 5), (1, 2, 5), (1, 3, 4)]
+2024-07-27 19:13:21,110 - DEBUG - Chosen Move: (3, 5)
+2024-07-27 19:13:21,110 - DEBUG - Tiles remaining: [1, 2, 4, 6, 7, 8, 9]
+2024-07-27 19:13:21,110 - DEBUG - Rolled: 1 + 2 = 3
+2024-07-27 19:13:21,110 - DEBUG - Possible moves: [(1, 2)]
+2024-07-27 19:13:21,110 - DEBUG - Chosen Move: (1, 2)
+2024-07-27 19:13:21,110 - DEBUG - Tiles remaining: [4, 6, 7, 8, 9]
+2024-07-27 19:13:21,110 - DEBUG - Rolled: 4 + 3 = 7
+2024-07-27 19:13:21,110 - DEBUG - Possible moves: [(7,)]
+2024-07-27 19:13:21,110 - DEBUG - Chosen Move: (7,)
+2024-07-27 19:13:21,110 - DEBUG - Tiles remaining: [4, 6, 8, 9]
+2024-07-27 19:13:21,110 - DEBUG - Rolled: 5 + 4 = 9
+2024-07-27 19:13:21,110 - DEBUG - Possible moves: [(9,)]
+2024-07-27 19:13:21,110 - DEBUG - Chosen Move: (9,)
+2024-07-27 19:13:21,110 - DEBUG - Tiles remaining: [4, 6, 8]
+2024-07-27 19:13:21,110 - DEBUG - Rolled: 3 + 5 = 8
+2024-07-27 19:13:21,110 - DEBUG - Possible moves: [(8,)]
+2024-07-27 19:13:21,111 - DEBUG - Chosen Move: (8,)
+2024-07-27 19:13:21,111 - DEBUG - Tiles remaining: [4, 6]
+2024-07-27 19:13:21,111 - DEBUG - Rolled: 4 + 6 = 10
+2024-07-27 19:13:21,111 - DEBUG - Possible moves: [(4, 6)]
+2024-07-27 19:13:21,111 - DEBUG - Chosen Move: (4, 6)
+2024-07-27 19:13:21,111 - DEBUG - Congratulations! The box has been shut!
+2024-07-27 19:13:21,111 - DEBUG - AI's final score: 0 with 9 tiles closed
+2024-07-27 19:13:21,111 - DEBUG - Game 6 ended with score: 0
+2024-07-27 19:13:21,111 - DEBUG - Starting game 7
+2024-07-27 19:13:21,111 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,111 - DEBUG - Rolled: 4 + 2 = 6
+2024-07-27 19:13:21,111 - DEBUG - Possible moves: [(6,), (1, 5), (2, 4), (1, 2, 3)]
+2024-07-27 19:13:21,111 - DEBUG - Chosen Move: (1, 5)
+2024-07-27 19:13:21,111 - DEBUG - Tiles remaining: [2, 3, 4, 6, 7, 8, 9]
+2024-07-27 19:13:21,112 - DEBUG - Rolled: 6 + 6 = 12
+2024-07-27 19:13:21,112 - DEBUG - Possible moves: [(3, 9), (4, 8), (2, 3, 7), (2, 4, 6)]
+2024-07-27 19:13:21,112 - DEBUG - Chosen Move: (4, 8)
+2024-07-27 19:13:21,112 - DEBUG - Tiles remaining: [2, 3, 6, 7, 9]
+2024-07-27 19:13:21,112 - DEBUG - Rolled: 2 + 1 = 3
+2024-07-27 19:13:21,112 - DEBUG - Possible moves: [(3,)]
+2024-07-27 19:13:21,112 - DEBUG - Chosen Move: (3,)
+2024-07-27 19:13:21,112 - DEBUG - Tiles remaining: [2, 6, 7, 9]
+2024-07-27 19:13:21,112 - DEBUG - Rolled: 4 + 5 = 9
+2024-07-27 19:13:21,112 - DEBUG - Possible moves: [(9,), (2, 7)]
+2024-07-27 19:13:21,112 - DEBUG - Chosen Move: (2, 7)
+2024-07-27 19:13:21,112 - DEBUG - Tiles remaining: [6, 9]
+2024-07-27 19:13:21,112 - DEBUG - Rolled: 2 + 3 = 5
+2024-07-27 19:13:21,112 - DEBUG - Possible moves: []
+2024-07-27 19:13:21,112 - DEBUG - No possible moves. Game over!
+2024-07-27 19:13:21,112 - DEBUG - AI's final score: 15 with 7 tiles closed
+2024-07-27 19:13:21,112 - DEBUG - Game 7 ended with score: 15
+2024-07-27 19:13:21,112 - DEBUG - Starting game 8
+2024-07-27 19:13:21,112 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,112 - DEBUG - Rolled: 3 + 4 = 7
+2024-07-27 19:13:21,113 - DEBUG - Possible moves: [(7,), (1, 6), (2, 5), (3, 4), (1, 2, 4)]
+2024-07-27 19:13:21,113 - DEBUG - Chosen Move: (2, 5)
+2024-07-27 19:13:21,113 - DEBUG - Tiles remaining: [1, 3, 4, 6, 7, 8, 9]
+2024-07-27 19:13:21,113 - DEBUG - Rolled: 3 + 3 = 6
+2024-07-27 19:13:21,113 - DEBUG - Possible moves: [(6,)]
+2024-07-27 19:13:21,113 - DEBUG - Chosen Move: (6,)
+2024-07-27 19:13:21,113 - DEBUG - Tiles remaining: [1, 3, 4, 7, 8, 9]
+2024-07-27 19:13:21,113 - DEBUG - Rolled: 1 + 3 = 4
+2024-07-27 19:13:21,113 - DEBUG - Possible moves: [(4,), (1, 3)]
+2024-07-27 19:13:21,113 - DEBUG - Chosen Move: (4,)
+2024-07-27 19:13:21,113 - DEBUG - Tiles remaining: [1, 3, 7, 8, 9]
+2024-07-27 19:13:21,113 - DEBUG - Rolled: 3 + 2 = 5
+2024-07-27 19:13:21,113 - DEBUG - Possible moves: []
+2024-07-27 19:13:21,113 - DEBUG - No possible moves. Game over!
+2024-07-27 19:13:21,113 - DEBUG - AI's final score: 28 with 4 tiles closed
+2024-07-27 19:13:21,113 - DEBUG - Game 8 ended with score: 28
+2024-07-27 19:13:21,113 - DEBUG - Starting game 9
+2024-07-27 19:13:21,113 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,113 - DEBUG - Rolled: 1 + 1 = 2
+2024-07-27 19:13:21,114 - DEBUG - Possible moves: [(2,)]
+2024-07-27 19:13:21,114 - DEBUG - Chosen Move: (2,)
+2024-07-27 19:13:21,114 - DEBUG - Tiles remaining: [1, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,114 - DEBUG - Rolled: 4 + 1 = 5
+2024-07-27 19:13:21,114 - DEBUG - Possible moves: [(5,), (1, 4)]
+2024-07-27 19:13:21,114 - DEBUG - Chosen Move: (5,)
+2024-07-27 19:13:21,114 - DEBUG - Tiles remaining: [1, 3, 4, 6, 7, 8, 9]
+2024-07-27 19:13:21,114 - DEBUG - Rolled: 5 + 6 = 11
+2024-07-27 19:13:21,114 - DEBUG - Possible moves: [(3, 8), (4, 7), (1, 3, 7), (1, 4, 6)]
+2024-07-27 19:13:21,114 - DEBUG - Chosen Move: (4, 7)
+2024-07-27 19:13:21,114 - DEBUG - Tiles remaining: [1, 3, 6, 8, 9]
+2024-07-27 19:13:21,114 - DEBUG - Rolled: 5 + 1 = 6
+2024-07-27 19:13:21,114 - DEBUG - Possible moves: [(6,)]
+2024-07-27 19:13:21,114 - DEBUG - Chosen Move: (6,)
+2024-07-27 19:13:21,114 - DEBUG - Tiles remaining: [1, 3, 8, 9]
+2024-07-27 19:13:21,114 - DEBUG - Rolled: 1 + 2 = 3
+2024-07-27 19:13:21,115 - DEBUG - Possible moves: [(3,)]
+2024-07-27 19:13:21,115 - DEBUG - Chosen Move: (3,)
+2024-07-27 19:13:21,115 - DEBUG - Tiles remaining: [1, 8, 9]
+2024-07-27 19:13:21,115 - DEBUG - Rolled: 1 + 6 = 7
+2024-07-27 19:13:21,115 - DEBUG - Possible moves: []
+2024-07-27 19:13:21,115 - DEBUG - No possible moves. Game over!
+2024-07-27 19:13:21,115 - DEBUG - AI's final score: 18 with 6 tiles closed
+2024-07-27 19:13:21,115 - DEBUG - Game 9 ended with score: 18
+2024-07-27 19:13:21,115 - DEBUG - Starting game 10
+2024-07-27 19:13:21,115 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,115 - DEBUG - Rolled: 6 + 5 = 11
+2024-07-27 19:13:21,115 - DEBUG - Possible moves: [(2, 9), (3, 8), (4, 7), (5, 6), (1, 2, 8), (1, 3, 7), (1, 4, 6), (2, 3, 6), (2, 4, 5), (1, 2, 3, 5)]
+2024-07-27 19:13:21,115 - DEBUG - Chosen Move: (5, 6)
+2024-07-27 19:13:21,115 - DEBUG - Tiles remaining: [1, 2, 3, 4, 7, 8, 9]
+2024-07-27 19:13:21,115 - DEBUG - Rolled: 5 + 1 = 6
+2024-07-27 19:13:21,115 - DEBUG - Possible moves: [(2, 4), (1, 2, 3)]
+2024-07-27 19:13:21,115 - DEBUG - Chosen Move: (2, 4)
+2024-07-27 19:13:21,115 - DEBUG - Tiles remaining: [1, 3, 7, 8, 9]
+2024-07-27 19:13:21,115 - DEBUG - Rolled: 2 + 2 = 4
+2024-07-27 19:13:21,116 - DEBUG - Possible moves: [(1, 3)]
+2024-07-27 19:13:21,116 - DEBUG - Chosen Move: (1, 3)
+2024-07-27 19:13:21,116 - DEBUG - Tiles remaining: [7, 8, 9]
+2024-07-27 19:13:21,116 - DEBUG - Rolled: 1 + 4 = 5
+2024-07-27 19:13:21,116 - DEBUG - Possible moves: []
+2024-07-27 19:13:21,116 - DEBUG - No possible moves. Game over!
+2024-07-27 19:13:21,116 - DEBUG - AI's final score: 24 with 6 tiles closed
+2024-07-27 19:13:21,116 - DEBUG - Game 10 ended with score: 24
+2024-07-27 19:13:21,117 - DEBUG - Results appended to ./results/stb_simple_ai_results_20240727-191321.csv
+2024-07-27 19:13:21,127 - DEBUG - Results saved to ./results/stb_simple_ai_results_20240727-191321.json
+2024-07-27 19:13:21,127 - DEBUG - ## ## Simulation ended for 10 games using strategy #Inside Out ## ##
+2024-07-27 19:13:21,127 - DEBUG - ## ## Simulation beginning for 10 games using strategy #5 ## ##
+2024-07-27 19:13:21,127 - DEBUG - Starting game 1
+2024-07-27 19:13:21,127 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,127 - DEBUG - Rolled: 4 + 6 = 10
+2024-07-27 19:13:21,128 - DEBUG - Possible moves: [(1, 9), (2, 8), (3, 7), (4, 6), (1, 2, 7), (1, 3, 6), (1, 4, 5), (2, 3, 5), (1, 2, 3, 4)]
+2024-07-27 19:13:21,128 - DEBUG - Chosen Move: (1, 9)
+2024-07-27 19:13:21,128 - DEBUG - Tiles remaining: [2, 3, 4, 5, 6, 7, 8]
+2024-07-27 19:13:21,128 - DEBUG - Rolled: 6 + 6 = 12
+2024-07-27 19:13:21,128 - DEBUG - Possible moves: [(4, 8), (5, 7), (2, 3, 7), (2, 4, 6), (3, 4, 5)]
+2024-07-27 19:13:21,128 - DEBUG - Chosen Move: (2, 3, 7)
+2024-07-27 19:13:21,128 - DEBUG - Tiles remaining: [4, 5, 6, 8]
+2024-07-27 19:13:21,128 - DEBUG - Rolled: 5 + 6 = 11
+2024-07-27 19:13:21,128 - DEBUG - Possible moves: [(5, 6)]
+2024-07-27 19:13:21,128 - DEBUG - Chosen Move: (5, 6)
+2024-07-27 19:13:21,128 - DEBUG - Tiles remaining: [4, 8]
+2024-07-27 19:13:21,128 - DEBUG - Rolled: 2 + 3 = 5
+2024-07-27 19:13:21,128 - DEBUG - Possible moves: []
+2024-07-27 19:13:21,128 - DEBUG - No possible moves. Game over!
+2024-07-27 19:13:21,128 - DEBUG - AI's final score: 12 with 7 tiles closed
+2024-07-27 19:13:21,128 - DEBUG - Game 1 ended with score: 12
+2024-07-27 19:13:21,128 - DEBUG - Starting game 2
+2024-07-27 19:13:21,128 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,128 - DEBUG - Rolled: 4 + 5 = 9
+2024-07-27 19:13:21,128 - DEBUG - Possible moves: [(9,), (1, 8), (2, 7), (3, 6), (4, 5), (1, 2, 6), (1, 3, 5), (2, 3, 4)]
+2024-07-27 19:13:21,128 - DEBUG - Chosen Move: (9,)
+2024-07-27 19:13:21,129 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8]
+2024-07-27 19:13:21,129 - DEBUG - Rolled: 3 + 3 = 6
+2024-07-27 19:13:21,129 - DEBUG - Possible moves: [(6,), (1, 5), (2, 4), (1, 2, 3)]
+2024-07-27 19:13:21,129 - DEBUG - Chosen Move: (1, 2, 3)
+2024-07-27 19:13:21,129 - DEBUG - Tiles remaining: [4, 5, 6, 7, 8]
+2024-07-27 19:13:21,129 - DEBUG - Rolled: 5 + 6 = 11
+2024-07-27 19:13:21,129 - DEBUG - Possible moves: [(4, 7), (5, 6)]
+2024-07-27 19:13:21,129 - DEBUG - Chosen Move: (4, 7)
+2024-07-27 19:13:21,129 - DEBUG - Tiles remaining: [5, 6, 8]
+2024-07-27 19:13:21,129 - DEBUG - Rolled: 2 + 3 = 5
+2024-07-27 19:13:21,129 - DEBUG - Possible moves: [(5,)]
+2024-07-27 19:13:21,129 - DEBUG - Chosen Move: (5,)
+2024-07-27 19:13:21,129 - DEBUG - Tiles remaining: [6, 8]
+2024-07-27 19:13:21,129 - DEBUG - Rolled: 5 + 3 = 8
+2024-07-27 19:13:21,129 - DEBUG - Possible moves: [(8,)]
+2024-07-27 19:13:21,129 - DEBUG - Chosen Move: (8,)
+2024-07-27 19:13:21,129 - DEBUG - Tiles remaining: [6]
+2024-07-27 19:13:21,129 - DEBUG - Rolled: 5 + 6 = 11
+2024-07-27 19:13:21,129 - DEBUG - Possible moves: []
+2024-07-27 19:13:21,129 - DEBUG - No possible moves. Game over!
+2024-07-27 19:13:21,129 - DEBUG - AI's final score: 6 with 8 tiles closed
+2024-07-27 19:13:21,129 - DEBUG - Game 2 ended with score: 6
+2024-07-27 19:13:21,129 - DEBUG - Starting game 3
+2024-07-27 19:13:21,129 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,130 - DEBUG - Rolled: 6 + 3 = 9
+2024-07-27 19:13:21,130 - DEBUG - Possible moves: [(9,), (1, 8), (2, 7), (3, 6), (4, 5), (1, 2, 6), (1, 3, 5), (2, 3, 4)]
+2024-07-27 19:13:21,130 - DEBUG - Chosen Move: (9,)
+2024-07-27 19:13:21,130 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8]
+2024-07-27 19:13:21,130 - DEBUG - Rolled: 2 + 2 = 4
+2024-07-27 19:13:21,130 - DEBUG - Possible moves: [(4,), (1, 3)]
+2024-07-27 19:13:21,130 - DEBUG - Chosen Move: (1, 3)
+2024-07-27 19:13:21,130 - DEBUG - Tiles remaining: [2, 4, 5, 6, 7, 8]
+2024-07-27 19:13:21,130 - DEBUG - Rolled: 2 + 2 = 4
+2024-07-27 19:13:21,130 - DEBUG - Possible moves: [(4,)]
+2024-07-27 19:13:21,130 - DEBUG - Chosen Move: (4,)
+2024-07-27 19:13:21,130 - DEBUG - Tiles remaining: [2, 5, 6, 7, 8]
+2024-07-27 19:13:21,130 - DEBUG - Rolled: 1 + 6 = 7
+2024-07-27 19:13:21,130 - DEBUG - Possible moves: [(7,), (2, 5)]
+2024-07-27 19:13:21,130 - DEBUG - Chosen Move: (7,)
+2024-07-27 19:13:21,130 - DEBUG - Tiles remaining: [2, 5, 6, 8]
+2024-07-27 19:13:21,130 - DEBUG - Rolled: 4 + 4 = 8
+2024-07-27 19:13:21,130 - DEBUG - Possible moves: [(8,), (2, 6)]
+2024-07-27 19:13:21,130 - DEBUG - Chosen Move: (8,)
+2024-07-27 19:13:21,130 - DEBUG - Tiles remaining: [2, 5, 6]
+2024-07-27 19:13:21,130 - DEBUG - Rolled: 6 + 1 = 7
+2024-07-27 19:13:21,130 - DEBUG - Possible moves: [(2, 5)]
+2024-07-27 19:13:21,130 - DEBUG - Chosen Move: (2, 5)
+2024-07-27 19:13:21,130 - DEBUG - Tiles remaining: [6]
+2024-07-27 19:13:21,130 - DEBUG - Rolled: 5 + 5 = 10
+2024-07-27 19:13:21,130 - DEBUG - Possible moves: []
+2024-07-27 19:13:21,130 - DEBUG - No possible moves. Game over!
+2024-07-27 19:13:21,130 - DEBUG - AI's final score: 6 with 8 tiles closed
+2024-07-27 19:13:21,130 - DEBUG - Game 3 ended with score: 6
+2024-07-27 19:13:21,131 - DEBUG - Starting game 4
+2024-07-27 19:13:21,131 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,131 - DEBUG - Rolled: 2 + 1 = 3
+2024-07-27 19:13:21,131 - DEBUG - Possible moves: [(3,), (1, 2)]
+2024-07-27 19:13:21,131 - DEBUG - Chosen Move: (1, 2)
+2024-07-27 19:13:21,131 - DEBUG - Tiles remaining: [3, 4, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,131 - DEBUG - Rolled: 6 + 1 = 7
+2024-07-27 19:13:21,131 - DEBUG - Possible moves: [(7,), (3, 4)]
+2024-07-27 19:13:21,131 - DEBUG - Chosen Move: (7,)
+2024-07-27 19:13:21,131 - DEBUG - Tiles remaining: [3, 4, 5, 6, 8, 9]
+2024-07-27 19:13:21,131 - DEBUG - Rolled: 4 + 2 = 6
+2024-07-27 19:13:21,131 - DEBUG - Possible moves: [(6,)]
+2024-07-27 19:13:21,131 - DEBUG - Chosen Move: (6,)
+2024-07-27 19:13:21,131 - DEBUG - Tiles remaining: [3, 4, 5, 8, 9]
+2024-07-27 19:13:21,131 - DEBUG - Rolled: 6 + 6 = 12
+2024-07-27 19:13:21,131 - DEBUG - Possible moves: [(3, 9), (4, 8), (3, 4, 5)]
+2024-07-27 19:13:21,131 - DEBUG - Chosen Move: (3, 9)
+2024-07-27 19:13:21,131 - DEBUG - Tiles remaining: [4, 5, 8]
+2024-07-27 19:13:21,131 - DEBUG - Rolled: 4 + 1 = 5
+2024-07-27 19:13:21,131 - DEBUG - Possible moves: [(5,)]
+2024-07-27 19:13:21,131 - DEBUG - Chosen Move: (5,)
+2024-07-27 19:13:21,131 - DEBUG - Tiles remaining: [4, 8]
+2024-07-27 19:13:21,131 - DEBUG - Rolled: 4 + 4 = 8
+2024-07-27 19:13:21,131 - DEBUG - Possible moves: [(8,)]
+2024-07-27 19:13:21,131 - DEBUG - Chosen Move: (8,)
+2024-07-27 19:13:21,131 - DEBUG - Tiles remaining: [4]
+2024-07-27 19:13:21,132 - DEBUG - Rolled: 4 + 4 = 8
+2024-07-27 19:13:21,132 - DEBUG - Possible moves: []
+2024-07-27 19:13:21,132 - DEBUG - No possible moves. Game over!
+2024-07-27 19:13:21,132 - DEBUG - AI's final score: 4 with 8 tiles closed
+2024-07-27 19:13:21,132 - DEBUG - Game 4 ended with score: 4
+2024-07-27 19:13:21,132 - DEBUG - Starting game 5
+2024-07-27 19:13:21,132 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,132 - DEBUG - Rolled: 6 + 6 = 12
+2024-07-27 19:13:21,132 - DEBUG - Possible moves: [(3, 9), (4, 8), (5, 7), (1, 2, 9), (1, 3, 8), (1, 4, 7), (1, 5, 6), (2, 3, 7), (2, 4, 6), (3, 4, 5), (1, 2, 3, 6), (1, 2, 4, 5)]
+2024-07-27 19:13:21,132 - DEBUG - Chosen Move: (1, 2, 9)
+2024-07-27 19:13:21,132 - DEBUG - Tiles remaining: [3, 4, 5, 6, 7, 8]
+2024-07-27 19:13:21,132 - DEBUG - Rolled: 6 + 4 = 10
+2024-07-27 19:13:21,132 - DEBUG - Possible moves: [(3, 7), (4, 6)]
+2024-07-27 19:13:21,132 - DEBUG - Chosen Move: (3, 7)
+2024-07-27 19:13:21,132 - DEBUG - Tiles remaining: [4, 5, 6, 8]
+2024-07-27 19:13:21,132 - DEBUG - Rolled: 4 + 2 = 6
+2024-07-27 19:13:21,132 - DEBUG - Possible moves: [(6,)]
+2024-07-27 19:13:21,132 - DEBUG - Chosen Move: (6,)
+2024-07-27 19:13:21,132 - DEBUG - Tiles remaining: [4, 5, 8]
+2024-07-27 19:13:21,132 - DEBUG - Rolled: 4 + 1 = 5
+2024-07-27 19:13:21,132 - DEBUG - Possible moves: [(5,)]
+2024-07-27 19:13:21,132 - DEBUG - Chosen Move: (5,)
+2024-07-27 19:13:21,132 - DEBUG - Tiles remaining: [4, 8]
+2024-07-27 19:13:21,132 - DEBUG - Rolled: 2 + 4 = 6
+2024-07-27 19:13:21,132 - DEBUG - Possible moves: []
+2024-07-27 19:13:21,132 - DEBUG - No possible moves. Game over!
+2024-07-27 19:13:21,132 - DEBUG - AI's final score: 12 with 7 tiles closed
+2024-07-27 19:13:21,132 - DEBUG - Game 5 ended with score: 12
+2024-07-27 19:13:21,132 - DEBUG - Starting game 6
+2024-07-27 19:13:21,132 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,132 - DEBUG - Rolled: 1 + 3 = 4
+2024-07-27 19:13:21,132 - DEBUG - Possible moves: [(4,), (1, 3)]
+2024-07-27 19:13:21,133 - DEBUG - Chosen Move: (1, 3)
+2024-07-27 19:13:21,133 - DEBUG - Tiles remaining: [2, 4, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,133 - DEBUG - Rolled: 4 + 5 = 9
+2024-07-27 19:13:21,133 - DEBUG - Possible moves: [(9,), (2, 7), (4, 5)]
+2024-07-27 19:13:21,133 - DEBUG - Chosen Move: (9,)
+2024-07-27 19:13:21,133 - DEBUG - Tiles remaining: [2, 4, 5, 6, 7, 8]
+2024-07-27 19:13:21,133 - DEBUG - Rolled: 3 + 4 = 7
+2024-07-27 19:13:21,133 - DEBUG - Possible moves: [(7,), (2, 5)]
+2024-07-27 19:13:21,133 - DEBUG - Chosen Move: (7,)
+2024-07-27 19:13:21,133 - DEBUG - Tiles remaining: [2, 4, 5, 6, 8]
+2024-07-27 19:13:21,133 - DEBUG - Rolled: 1 + 2 = 3
+2024-07-27 19:13:21,133 - DEBUG - Possible moves: []
+2024-07-27 19:13:21,133 - DEBUG - No possible moves. Game over!
+2024-07-27 19:13:21,133 - DEBUG - AI's final score: 25 with 4 tiles closed
+2024-07-27 19:13:21,133 - DEBUG - Game 6 ended with score: 25
+2024-07-27 19:13:21,133 - DEBUG - Starting game 7
+2024-07-27 19:13:21,133 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,133 - DEBUG - Rolled: 4 + 2 = 6
+2024-07-27 19:13:21,133 - DEBUG - Possible moves: [(6,), (1, 5), (2, 4), (1, 2, 3)]
+2024-07-27 19:13:21,133 - DEBUG - Chosen Move: (1, 2, 3)
+2024-07-27 19:13:21,133 - DEBUG - Tiles remaining: [4, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,133 - DEBUG - Rolled: 1 + 2 = 3
+2024-07-27 19:13:21,133 - DEBUG - Possible moves: []
+2024-07-27 19:13:21,133 - DEBUG - No possible moves. Game over!
+2024-07-27 19:13:21,133 - DEBUG - AI's final score: 39 with 3 tiles closed
+2024-07-27 19:13:21,133 - DEBUG - Game 7 ended with score: 39
+2024-07-27 19:13:21,133 - DEBUG - Starting game 8
+2024-07-27 19:13:21,133 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,133 - DEBUG - Rolled: 2 + 3 = 5
+2024-07-27 19:13:21,133 - DEBUG - Possible moves: [(5,), (1, 4), (2, 3)]
+2024-07-27 19:13:21,133 - DEBUG - Chosen Move: (2, 3)
+2024-07-27 19:13:21,134 - DEBUG - Tiles remaining: [1, 4, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,134 - DEBUG - Rolled: 2 + 4 = 6
+2024-07-27 19:13:21,134 - DEBUG - Possible moves: [(6,), (1, 5)]
+2024-07-27 19:13:21,134 - DEBUG - Chosen Move: (6,)
+2024-07-27 19:13:21,134 - DEBUG - Tiles remaining: [1, 4, 5, 7, 8, 9]
+2024-07-27 19:13:21,134 - DEBUG - Rolled: 1 + 4 = 5
+2024-07-27 19:13:21,134 - DEBUG - Possible moves: [(5,), (1, 4)]
+2024-07-27 19:13:21,134 - DEBUG - Chosen Move: (1, 4)
+2024-07-27 19:13:21,134 - DEBUG - Tiles remaining: [5, 7, 8, 9]
+2024-07-27 19:13:21,134 - DEBUG - Rolled: 2 + 2 = 4
+2024-07-27 19:13:21,134 - DEBUG - Possible moves: []
+2024-07-27 19:13:21,134 - DEBUG - No possible moves. Game over!
+2024-07-27 19:13:21,134 - DEBUG - AI's final score: 29 with 5 tiles closed
+2024-07-27 19:13:21,134 - DEBUG - Game 8 ended with score: 29
+2024-07-27 19:13:21,134 - DEBUG - Starting game 9
+2024-07-27 19:13:21,134 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,134 - DEBUG - Rolled: 5 + 2 = 7
+2024-07-27 19:13:21,134 - DEBUG - Possible moves: [(7,), (1, 6), (2, 5), (3, 4), (1, 2, 4)]
+2024-07-27 19:13:21,135 - DEBUG - Chosen Move: (7,)
+2024-07-27 19:13:21,135 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 8, 9]
+2024-07-27 19:13:21,135 - DEBUG - Rolled: 1 + 1 = 2
+2024-07-27 19:13:21,135 - DEBUG - Possible moves: [(2,)]
+2024-07-27 19:13:21,135 - DEBUG - Chosen Move: (2,)
+2024-07-27 19:13:21,135 - DEBUG - Tiles remaining: [1, 3, 4, 5, 6, 8, 9]
+2024-07-27 19:13:21,135 - DEBUG - Rolled: 5 + 4 = 9
+2024-07-27 19:13:21,135 - DEBUG - Possible moves: [(9,), (1, 8), (3, 6), (4, 5), (1, 3, 5)]
+2024-07-27 19:13:21,135 - DEBUG - Chosen Move: (9,)
+2024-07-27 19:13:21,135 - DEBUG - Tiles remaining: [1, 3, 4, 5, 6, 8]
+2024-07-27 19:13:21,135 - DEBUG - Rolled: 2 + 3 = 5
+2024-07-27 19:13:21,135 - DEBUG - Possible moves: [(5,), (1, 4)]
+2024-07-27 19:13:21,135 - DEBUG - Chosen Move: (1, 4)
+2024-07-27 19:13:21,135 - DEBUG - Tiles remaining: [3, 5, 6, 8]
+2024-07-27 19:13:21,135 - DEBUG - Rolled: 2 + 5 = 7
+2024-07-27 19:13:21,135 - DEBUG - Possible moves: []
+2024-07-27 19:13:21,135 - DEBUG - No possible moves. Game over!
+2024-07-27 19:13:21,135 - DEBUG - AI's final score: 22 with 5 tiles closed
+2024-07-27 19:13:21,135 - DEBUG - Game 9 ended with score: 22
+2024-07-27 19:13:21,135 - DEBUG - Starting game 10
+2024-07-27 19:13:21,135 - DEBUG - Tiles remaining: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2024-07-27 19:13:21,136 - DEBUG - Rolled: 4 + 6 = 10
+2024-07-27 19:13:21,136 - DEBUG - Possible moves: [(1, 9), (2, 8), (3, 7), (4, 6), (1, 2, 7), (1, 3, 6), (1, 4, 5), (2, 3, 5), (1, 2, 3, 4)]
+2024-07-27 19:13:21,136 - DEBUG - Chosen Move: (1, 9)
+2024-07-27 19:13:21,136 - DEBUG - Tiles remaining: [2, 3, 4, 5, 6, 7, 8]
+2024-07-27 19:13:21,136 - DEBUG - Rolled: 6 + 5 = 11
+2024-07-27 19:13:21,136 - DEBUG - Possible moves: [(3, 8), (4, 7), (5, 6), (2, 3, 6), (2, 4, 5)]
+2024-07-27 19:13:21,136 - DEBUG - Chosen Move: (3, 8)
+2024-07-27 19:13:21,136 - DEBUG - Tiles remaining: [2, 4, 5, 6, 7]
+2024-07-27 19:13:21,136 - DEBUG - Rolled: 3 + 6 = 9
+2024-07-27 19:13:21,136 - DEBUG - Possible moves: [(2, 7), (4, 5)]
+2024-07-27 19:13:21,136 - DEBUG - Chosen Move: (2, 7)
+2024-07-27 19:13:21,136 - DEBUG - Tiles remaining: [4, 5, 6]
+2024-07-27 19:13:21,136 - DEBUG - Rolled: 2 + 5 = 7
+2024-07-27 19:13:21,136 - DEBUG - Possible moves: []
+2024-07-27 19:13:21,136 - DEBUG - No possible moves. Game over!
+2024-07-27 19:13:21,136 - DEBUG - AI's final score: 15 with 6 tiles closed
+2024-07-27 19:13:21,136 - DEBUG - Game 10 ended with score: 15
+2024-07-27 19:13:21,137 - DEBUG - Results appended to ./results/stb_simple_ai_results_20240727-191321.csv
+2024-07-27 19:13:21,145 - DEBUG - Results saved to ./results/stb_simple_ai_results_20240727-191321.json
+2024-07-27 19:13:21,145 - DEBUG - ## ## Simulation ended for 10 games using strategy #Outside In ## ##
+2024-07-27 19:13:21,145 - DEBUG - #### #### All Simulations Have Ended #### ####
