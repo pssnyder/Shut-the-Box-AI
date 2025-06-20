@@ -47,14 +47,73 @@ def pad_moves(moves, length=5, pad_value=0):
     """Pad the moves list to a consistent length with a specified pad value."""
     return [list(move) + [pad_value] * (length - len(move)) for move in moves]
 
+def update_simulation_dashboard(iteration, total, strategy, running_score_sum, running_tiles_closed_sum, start_time, refresh=False):
+    """
+    Update the simulation dashboard with current progress and stats
+    
+    Args:
+        iteration (int): Current iteration
+        total (int): Total iterations
+        strategy (int): Current strategy being simulated
+        running_score_sum (float): Sum of scores so far
+        running_tiles_closed_sum (float): Sum of tiles closed so far
+        start_time (float): Start time of the simulation
+        refresh (bool): Whether to refresh the entire dashboard
+    """
+    strategy_name = define_strategy(strategy)
+    percent = ("{0:.1f}").format(100 * (iteration / float(total)))
+    elapsed_time = time.time() - start_time
+    games_per_second = iteration / elapsed_time if elapsed_time > 0 else 0
+    
+    # Estimate remaining time
+    if games_per_second > 0:
+        remaining_games = total - iteration
+        est_time_remaining = remaining_games / games_per_second
+        if est_time_remaining > 60:
+            time_remaining = f"{est_time_remaining/60:.1f} minutes"
+        else:
+            time_remaining = f"{est_time_remaining:.1f} seconds"
+    else:
+        time_remaining = "calculating..."
+    
+    # Calculate averages
+    avg_score = running_score_sum / iteration if iteration > 0 else 0
+    avg_tiles_closed = running_tiles_closed_sum / iteration if iteration > 0 else 0
+    
+    # Progress bar
+    bar_length = 30
+    filled_length = int(bar_length * iteration // total)
+    bar = '█' * filled_length + '░' * (bar_length - filled_length)
+    
+    # Clear previous output if refreshing the dashboard
+    if refresh:
+        # Move cursor up 8 lines (height of the dashboard)
+        sys.stdout.write("\033[F\033[F\033[F\033[F\033[F\033[F\033[F\033[F")
+    
+    # Dashboard display
+    dashboard = [
+        "╔═══════════════════════════════════════════════════════════════════════════╗",
+        f"║ SIMULATION DASHBOARD - Strategy {strategy} ({strategy_name})".ljust(71) + "║",
+        "╠═══════════════════════════════════════════════════════════════════════════╣",
+        f"║ Progress: |{bar}| {percent}%".ljust(71) + "║",
+        f"║ Games: {iteration}/{total}".ljust(71) + "║",
+        f"║ Current Stats: Avg Score: {avg_score:.2f} | Avg Tiles Closed: {avg_tiles_closed:.1f}".ljust(71) + "║",
+        f"║ Performance: {games_per_second:.1f} games/sec | Est. remaining: {time_remaining}".ljust(71) + "║",
+        "╚═══════════════════════════════════════════════════════════════════════════╝"
+    ]
+    
+    # Print dashboard
+    print("\n".join(dashboard), flush=True)
+
 class ShutTheBox:
-    def __init__(self):
+    def __init__(self, current_strategy=None):
         """Initialize the game with tiles numbered 1 to 9 and set the game status to not over."""
         self.tiles = list(range(1, 10))
         self.game_over = False
         self.invalid_move = False
         self.rolls = []
         self.moves = []
+        self.strategy = current_strategy
 
     def roll_dice(self):
         """Simulate rolling two six-sided dice."""
@@ -114,7 +173,7 @@ class ShutTheBox:
                     tile_probabilities[i] += prob
         
         return tile_probabilities
-
+        
     def ai_player(self, possible_moves, dice1, dice2, total):
         """AI strategy to choose the best move.
 
@@ -128,10 +187,10 @@ class ShutTheBox:
             list: The chosen move (combination of tiles).
         """
         if possible_moves:
-            if strategy == 0:
+            if self.strategy == 0:
                 # Random Choice Strategy
                 chosen_move = random.choice(possible_moves)
-            elif strategy == 1:
+            elif self.strategy == 1:
                 # Single Tile Priority Strategy
                 # Step 1: Choose tiles that match the total sum of the dice
                 single_tile_move = [total] if [total] in possible_moves else []
@@ -145,10 +204,10 @@ class ShutTheBox:
                     else:
                         # Step 3: Resort to other combinations and pick one at random
                         chosen_move = random.choice(possible_moves)
-            elif strategy == 2:
+            elif self.strategy == 2:
                 # Maximum Immediate Reward Decisions
                 chosen_move = max(possible_moves, key=len)
-            elif strategy == 3:
+            elif self.strategy == 3:
                 # Probability Based Choices
                 tile_probabilities = self.calculate_tile_probabilities()
                 move_probabilities = []
@@ -159,16 +218,19 @@ class ShutTheBox:
                 if move_probabilities:
                     # Choose the move with the lowest probability
                     chosen_move = min(move_probabilities, key=lambda x: x[1])[0]
-            elif strategy == 4:
+            elif self.strategy == 4:
                 # Inside Out Logic: Always choose the tile(s) closest to the middle and work outward
                 middle = 5
                 possible_moves.sort(key=lambda move: min(abs(tile - middle) for tile in move))
                 chosen_move = possible_moves[0]
-            elif strategy == 5:
+            elif self.strategy == 5:
                 # Outside In Logic: Always choose the tile(s) farthest from the middle and work inward
                 middle = 5
                 possible_moves.sort(key=lambda move: -min(abs(tile - middle) for tile in move))
                 chosen_move = possible_moves[0]
+            else:
+                # Default to random if strategy is not defined
+                chosen_move = random.choice(possible_moves)
 
             logging.debug(f"Chosen Move: {chosen_move}")
             return list(chosen_move)
@@ -247,13 +309,14 @@ class ShutTheBox:
         # Pad moves array to a consistent length
         padded_moves = pad_moves(self.moves)
         
-        return strategy, score, tiles_closed, self.rolls, padded_moves
+        return self.strategy, score, tiles_closed, self.rolls, padded_moves
     
-def simulate_games(num_games):
+def simulate_games(num_games, strategy):
     """Simulate a specified number of games and log the results.
 
     Args:
         num_games (int): Number of games to simulate.
+        strategy (int): The strategy to use for the simulation.
 
     Returns:
         list: List of dictionaries containing game results.
@@ -263,13 +326,16 @@ def simulate_games(num_games):
     running_score_sum = 0
     running_tiles_closed_sum = 0
     
+    # Print initial dashboard
+    update_simulation_dashboard(0, num_games, strategy, 0, 0, start_time)
+    
     for i in range(num_games):
         logging.debug(f"Starting game {i+1}")
-        game = ShutTheBox()
-        strategy, score, tiles_closed, rolls, moves = game.play_game()
+        game = ShutTheBox(strategy)
+        game_strategy, score, tiles_closed, rolls, moves = game.play_game()
         results.append({
             'game_number': i + 1,
-            'strategy': strategy,
+            'strategy': game_strategy,
             'score': score,
             'tiles_closed': tiles_closed,
             'rolls': rolls,
@@ -279,19 +345,9 @@ def simulate_games(num_games):
         running_score_sum += score
         running_tiles_closed_sum += tiles_closed
         
-        # Show progress periodically
+        # Update dashboard periodically
         if (i + 1) % PROGRESS_UPDATE_INTERVAL == 0 or i + 1 == num_games:
-            print_progress_bar(i + 1, num_games, strategy)
-            
-            # Calculate intermediate statistics
-            elapsed_time = time.time() - start_time
-            games_per_second = (i + 1) / elapsed_time if elapsed_time > 0 else 0
-            avg_score = running_score_sum / (i + 1)
-            avg_tiles_closed = running_tiles_closed_sum / (i + 1)
-            
-            if (i + 1) % PROGRESS_UPDATE_INTERVAL == 0 and i + 1 < num_games:
-                print(f"\nIntermediate results after {i+1} games: Avg Score: {round(avg_score, 2)}, Avg Tiles Closed: {round(avg_tiles_closed, 1)}")
-                print(f"Processing speed: {round(games_per_second, 1)} games/second, Est. time remaining: {round((num_games - i - 1) / games_per_second / 60, 1)} minutes")
+            update_simulation_dashboard(i + 1, num_games, strategy, running_score_sum, running_tiles_closed_sum, start_time, refresh=(i+1 > PROGRESS_UPDATE_INTERVAL))
         
         logging.debug(f"Game {i+1} ended with score: {score}")
         
@@ -335,104 +391,7 @@ def save_results_to_json(results):
 
     logging.debug(f'Results saved to {JSON_RESULTS_FILE}')
 
-def update_simulation_dashboard(iteration, total, strategy, running_score_sum, running_tiles_closed_sum, start_time, refresh=False):
-    """
-    Update the simulation dashboard with current progress and stats
-    
-    Args:
-        iteration (int): Current iteration
-        total (int): Total iterations
-        strategy (int): Current strategy being simulated
-        running_score_sum (float): Sum of scores so far
-        running_tiles_closed_sum (float): Sum of tiles closed so far
-        start_time (float): Start time of the simulation
-        refresh (bool): Whether to refresh the entire dashboard
-    """
-    strategy_name = define_strategy(strategy)
-    percent = ("{0:.1f}").format(100 * (iteration / float(total)))
-    elapsed_time = time.time() - start_time
-    games_per_second = iteration / elapsed_time if elapsed_time > 0 else 0
-    
-    # Estimate remaining time
-    if games_per_second > 0:
-        remaining_games = total - iteration
-        est_time_remaining = remaining_games / games_per_second
-        if est_time_remaining > 60:
-            time_remaining = f"{est_time_remaining/60:.1f} minutes"
-        else:
-            time_remaining = f"{est_time_remaining:.1f} seconds"
-    else:
-        time_remaining = "calculating..."
-    
-    # Calculate averages
-    avg_score = running_score_sum / iteration if iteration > 0 else 0
-    avg_tiles_closed = running_tiles_closed_sum / iteration if iteration > 0 else 0
-    
-    # Progress bar
-    bar_length = 30
-    filled_length = int(bar_length * iteration // total)
-    bar = '█' * filled_length + '░' * (bar_length - filled_length)
-    
-    # Clear previous output if refreshing the dashboard
-    if refresh:
-        # Move cursor up 8 lines (height of the dashboard)
-        sys.stdout.write("\033[F\033[F\033[F\033[F\033[F\033[F\033[F\033[F")
-    
-    # Dashboard display
-    dashboard = [
-        "╔═══════════════════════════════════════════════════════════════════════════╗",
-        f"║ SIMULATION DASHBOARD - Strategy {strategy} ({strategy_name})".ljust(71) + "║",
-        "╠═══════════════════════════════════════════════════════════════════════════╣",
-        f"║ Progress: |{bar}| {percent}%".ljust(71) + "║",
-        f"║ Games: {iteration}/{total}".ljust(71) + "║",
-        f"║ Current Stats: Avg Score: {avg_score:.2f} | Avg Tiles Closed: {avg_tiles_closed:.1f}".ljust(71) + "║",
-        f"║ Performance: {games_per_second:.1f} games/sec | Est. remaining: {time_remaining}".ljust(71) + "║",
-        "╚═══════════════════════════════════════════════════════════════════════════╝"
-    ]
-    
-    # Print dashboard
-    print("\n".join(dashboard), flush=True)
-        
-def simulate_games(num_games):
-    """Simulate a specified number of games and log the results.
-
-    Args:
-        num_games (int): Number of games to simulate.
-
-    Returns:
-        list: List of dictionaries containing game results.
-    """
-    results = []
-    start_time = time.time()
-    running_score_sum = 0
-    running_tiles_closed_sum = 0
-    
-    # Print initial dashboard
-    update_simulation_dashboard(0, num_games, strategy, 0, 0, start_time)
-    
-    for i in range(num_games):
-        logging.debug(f"Starting game {i+1}")
-        game = ShutTheBox()
-        strategy, score, tiles_closed, rolls, moves = game.play_game()
-        results.append({
-            'game_number': i + 1,
-            'strategy': strategy,
-            'score': score,
-            'tiles_closed': tiles_closed,
-            'rolls': rolls,
-            'moves': moves
-        })
-        
-        running_score_sum += score
-        running_tiles_closed_sum += tiles_closed
-        
-        # Update dashboard periodically
-        if (i + 1) % PROGRESS_UPDATE_INTERVAL == 0 or i + 1 == num_games:
-            update_simulation_dashboard(i + 1, num_games, strategy, running_score_sum, running_tiles_closed_sum, start_time, refresh=(i+1 > PROGRESS_UPDATE_INTERVAL))
-        
-        logging.debug(f"Game {i+1} ended with score: {score}")
-        
-    return resultsif __name__ == '__main__':
+if __name__ == '__main__':
     logging.debug(f"#### Beginning {len(STRATEGIES)} Strategy Testing ####")
     print("#### Beginning", len(STRATEGIES), "Strategy Tests ####")
     
@@ -442,12 +401,14 @@ def simulate_games(num_games):
     for idx, strategy in enumerate(STRATEGIES):
         strategy_name = define_strategy(strategy)
         print(f"\n[{idx+1}/{strategy_count}] Starting simulation for strategy: {strategy_name}")
-        print(f"Planning to simulate {NUM_GAMES} games...")
+        
+        # Add extra newlines to make room for the dashboard
+        print("\n\n\n\n\n\n\n\n")
         
         strategy_start_time = time.time()
         logging.debug(f"## ## Simulation beginning for {NUM_GAMES} games using strategy #{strategy} ## ##")
         
-        results = simulate_games(NUM_GAMES)
+        results = simulate_games(NUM_GAMES, strategy)
         save_results_to_csv(results)
         save_results_to_json(results)
         
