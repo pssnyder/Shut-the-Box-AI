@@ -1,3 +1,7 @@
+# train_deep_learning_model.py
+"""
+Train a deep learning model for the Shut the Box game using PyTorch.
+"""
 import os
 import json
 import numpy as np
@@ -9,7 +13,7 @@ import datetime
 
 # Configuration Section
 TRAINING_FILE = './results/stb_simple_ai_results_20240727-191321.json'
-MODEL_SAVE_FILE = './models/shut_the_box_model_{timestamp}.pt'
+MODEL_SAVE_DIR = './models'
 EPOCHS = 10
 BATCH_SIZE = 32
 LOG_FILE = './logs/shut_the_box' + datetime.datetime.now().strftime("%Y%m%d-%H%M%S") + '.log'
