@@ -47,66 +47,8 @@ def pad_moves(moves, length=5, pad_value=0):
     """Pad the moves list to a consistent length with a specified pad value."""
     return [list(move) + [pad_value] * (length - len(move)) for move in moves]
 
-def update_simulation_dashboard(iteration, total, strategy, running_score_sum, running_tiles_closed_sum, start_time, refresh=False):
-    """
-    Update the simulation dashboard with current progress and stats
-    
-    Args:
-        iteration (int): Current iteration
-        total (int): Total iterations
-        strategy (int): Current strategy being simulated
-        running_score_sum (float): Sum of scores so far
-        running_tiles_closed_sum (float): Sum of tiles closed so far
-        start_time (float): Start time of the simulation
-        refresh (bool): Whether to refresh the entire dashboard
-    """
-    strategy_name = define_strategy(strategy)
-    percent = ("{0:.1f}").format(100 * (iteration / float(total)))
-    elapsed_time = time.time() - start_time
-    games_per_second = iteration / elapsed_time if elapsed_time > 0 else 0
-    
-    # Estimate remaining time
-    if games_per_second > 0:
-        remaining_games = total - iteration
-        est_time_remaining = remaining_games / games_per_second
-        if est_time_remaining > 60:
-            time_remaining = f"{est_time_remaining/60:.1f} minutes"
-        else:
-            time_remaining = f"{est_time_remaining:.1f} seconds"
-    else:
-        time_remaining = "calculating..."
-    
-    # Calculate averages
-    avg_score = running_score_sum / iteration if iteration > 0 else 0
-    avg_tiles_closed = running_tiles_closed_sum / iteration if iteration > 0 else 0
-    
-    # Progress bar
-    bar_length = 30
-    filled_length = int(bar_length * iteration // total)
-    bar = '█' * filled_length + '░' * (bar_length - filled_length)
-    
-    # Clear previous output if refreshing the dashboard
-    if refresh:
-        # Move cursor up 8 lines (height of the dashboard)
-        sys.stdout.write("\033[F\033[F\033[F\033[F\033[F\033[F\033[F\033[F")
-    
-    # Dashboard display
-    dashboard = [
-        "╔═══════════════════════════════════════════════════════════════════════════╗",
-        f"║ SIMULATION DASHBOARD - Strategy {strategy} ({strategy_name})".ljust(71) + "║",
-        "╠═══════════════════════════════════════════════════════════════════════════╣",
-        f"║ Progress: |{bar}| {percent}%".ljust(71) + "║",
-        f"║ Games: {iteration}/{total}".ljust(71) + "║",
-        f"║ Current Stats: Avg Score: {avg_score:.2f} | Avg Tiles Closed: {avg_tiles_closed:.1f}".ljust(71) + "║",
-        f"║ Performance: {games_per_second:.1f} games/sec | Est. remaining: {time_remaining}".ljust(71) + "║",
-        "╚═══════════════════════════════════════════════════════════════════════════╝"
-    ]
-    
-    # Print dashboard
-    print("\n".join(dashboard), flush=True)
-
 class ShutTheBox:
-    def __init__(self, current_strategy=None):
+    def __init__(self, current_strategy):
         """Initialize the game with tiles numbered 1 to 9 and set the game status to not over."""
         self.tiles = list(range(1, 10))
         self.game_over = False
@@ -173,7 +115,7 @@ class ShutTheBox:
                     tile_probabilities[i] += prob
         
         return tile_probabilities
-        
+
     def ai_player(self, possible_moves, dice1, dice2, total):
         """AI strategy to choose the best move.
 
@@ -228,9 +170,6 @@ class ShutTheBox:
                 middle = 5
                 possible_moves.sort(key=lambda move: -min(abs(tile - middle) for tile in move))
                 chosen_move = possible_moves[0]
-            else:
-                # Default to random if strategy is not defined
-                chosen_move = random.choice(possible_moves)
 
             logging.debug(f"Chosen Move: {chosen_move}")
             return list(chosen_move)
@@ -310,7 +249,65 @@ class ShutTheBox:
         padded_moves = pad_moves(self.moves)
         
         return self.strategy, score, tiles_closed, self.rolls, padded_moves
+
+def update_simulation_dashboard(iteration, total, strategy, running_score_sum, running_tiles_closed_sum, start_time, refresh=False):
+    """
+    Update the simulation dashboard with current progress and stats
     
+    Args:
+        iteration (int): Current iteration
+        total (int): Total iterations
+        strategy (int): Current strategy being simulated
+        running_score_sum (float): Sum of scores so far
+        running_tiles_closed_sum (float): Sum of tiles closed so far
+        start_time (float): Start time of the simulation
+        refresh (bool): Whether to refresh the entire dashboard
+    """
+    strategy_name = define_strategy(strategy)
+    percent = ("{0:.1f}").format(100 * (iteration / float(total)))
+    elapsed_time = time.time() - start_time
+    games_per_second = iteration / elapsed_time if elapsed_time > 0 else 0
+    
+    # Estimate remaining time
+    if games_per_second > 0:
+        remaining_games = total - iteration
+        est_time_remaining = remaining_games / games_per_second
+        if est_time_remaining > 60:
+            time_remaining = f"{est_time_remaining/60:.1f} minutes"
+        else:
+            time_remaining = f"{est_time_remaining:.1f} seconds"
+    else:
+        time_remaining = "calculating..."
+    
+    # Calculate averages
+    avg_score = running_score_sum / iteration if iteration > 0 else 0
+    avg_tiles_closed = running_tiles_closed_sum / iteration if iteration > 0 else 0
+    
+    # Progress bar
+    bar_length = 30
+    filled_length = int(bar_length * iteration // total)
+    bar = '█' * filled_length + '░' * (bar_length - filled_length)
+    
+    # Clear previous output if refreshing the dashboard
+    if refresh:
+        # Move cursor up 8 lines (height of the dashboard)
+        sys.stdout.write("\033[F\033[F\033[F\033[F\033[F\033[F\033[F\033[F")
+    
+    # Dashboard display
+    dashboard = [
+        "╔═══════════════════════════════════════════════════════════════════════════╗",
+        f"║ SIMULATION DASHBOARD - Strategy {strategy} ({strategy_name})".ljust(71) + "║",
+        "╠═══════════════════════════════════════════════════════════════════════════╣",
+        f"║ Progress: |{bar}| {percent}%".ljust(71) + "║",
+        f"║ Games: {iteration}/{total}".ljust(71) + "║",
+        f"║ Current Stats: Avg Score: {avg_score:.2f} | Avg Tiles Closed: {avg_tiles_closed:.1f}".ljust(71) + "║",
+        f"║ Performance: {games_per_second:.1f} games/sec | Est. remaining: {time_remaining}".ljust(71) + "║",
+        "╚═══════════════════════════════════════════════════════════════════════════╝"
+    ]
+    
+    # Print dashboard
+    print("\n".join(dashboard), flush=True)
+        
 def simulate_games(num_games, strategy):
     """Simulate a specified number of games and log the results.
 
