@@ -8,7 +8,7 @@ from itertools import combinations
 
 # Configuration Section
 PLAY_TYPE = 1 # 0 for player control, 1 for AI control
-NUM_GAMES = 100  # Set the number of games to simulate
+NUM_GAMES = 10  # Set the number of games to simulate
 STRATEGIES = [0,1,2,3,4,5]  # An array of numbers representing the strategies to simulate this run
 
 # Ensure the logs and results directories exist
@@ -104,7 +104,7 @@ class ShutTheBox:
         }
         
         # Calculate individual tile probabilities based on possible sums
-        tile_probabilities = {i: 0.0 for i in range(1, 10)}  # Changed from 0 to 0.0
+        tile_probabilities = {i: 0 for i in range(1, 10)}
         for total, prob in sum_probabilities.items():
             for i in range(1, 10):
                 if i <= total <= 9:
