@@ -10,7 +10,7 @@ from itertools import combinations
 
 # Configuration Section
 PLAY_TYPE = 1 # 0 for player control, 1 for AI control
-NUM_GAMES = 100  # Set the number of games to simulate
+NUM_GAMES = 1000000  # Set the number of games to simulate
 STRATEGIES = [0,1,2,3,4,5]  # An array of numbers representing the strategies to simulate this run
 PROGRESS_UPDATE_INTERVAL = 100  # Update progress every X games (adjust based on your simulation size)
 
