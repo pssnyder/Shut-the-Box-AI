@@ -1,3 +1,6 @@
+# Ignore file history
+.history/
+
 #Ignore models
 models
 

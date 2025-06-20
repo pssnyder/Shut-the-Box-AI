@@ -4,12 +4,14 @@ import logging
 import csv
 import json
 import datetime
+import time
 from itertools import combinations
 
 # Configuration Section
 PLAY_TYPE = 1 # 0 for player control, 1 for AI control
 NUM_GAMES = 100  # Set the number of games to simulate
 STRATEGIES = [0,1,2,3,4,5]  # An array of numbers representing the strategies to simulate this run
+PROGRESS_UPDATE_INTERVAL = 1000  # Update progress every X games (adjust based on your simulation size)
 
 # Ensure the logs and results directories exist
 os.makedirs('./logs', exist_ok=True)
@@ -256,6 +258,10 @@ def simulate_games(num_games):
         list: List of dictionaries containing game results.
     """
     results = []
+    start_time = time.time()
+    running_score_sum = 0
+    running_tiles_closed_sum = 0
+    
     for i in range(num_games):
         logging.debug(f"Starting game {i+1}")
         game = ShutTheBox()
@@ -268,7 +274,26 @@ def simulate_games(num_games):
             'rolls': rolls,
             'moves': moves
         })
+        
+        running_score_sum += score
+        running_tiles_closed_sum += tiles_closed
+        
+        # Show progress periodically
+        if (i + 1) % PROGRESS_UPDATE_INTERVAL == 0 or i + 1 == num_games:
+            print_progress_bar(i + 1, num_games, strategy)
+            
+            # Calculate intermediate statistics
+            elapsed_time = time.time() - start_time
+            games_per_second = (i + 1) / elapsed_time if elapsed_time > 0 else 0
+            avg_score = running_score_sum / (i + 1)
+            avg_tiles_closed = running_tiles_closed_sum / (i + 1)
+            
+            if (i + 1) % PROGRESS_UPDATE_INTERVAL == 0 and i + 1 < num_games:
+                print(f"\nIntermediate results after {i+1} games: Avg Score: {round(avg_score, 2)}, Avg Tiles Closed: {round(avg_tiles_closed, 1)}")
+                print(f"Processing speed: {round(games_per_second, 1)} games/second, Est. time remaining: {round((num_games - i - 1) / games_per_second / 60, 1)} minutes")
+        
         logging.debug(f"Game {i+1} ended with score: {score}")
+        
     return results
 
 def save_results_to_csv(results):
@@ -309,18 +334,68 @@ def save_results_to_json(results):
 
     logging.debug(f'Results saved to {JSON_RESULTS_FILE}')
 
+def print_progress_bar(iteration, total, strategy, prefix='Progress:', suffix='Complete', length=50, fill='█'):
+    """
+    Call in a loop to create terminal progress bar
+    
+    Args:
+        iteration (int): Current iteration
+        total (int): Total iterations
+        strategy (int): Current strategy being simulated
+        prefix (str): Prefix string
+        suffix (str): Suffix string
+        length (int): Character length of bar
+        fill (str): Bar fill character
+    """
+    strategy_name = define_strategy(strategy)
+    percent = ("{0:.1f}").format(100 * (iteration / float(total)))
+    filled_length = int(length * iteration // total)
+    bar = fill * filled_length + '-' * (length - filled_length)
+    print(f'\r{prefix} Strategy {strategy} ({strategy_name}): |{bar}| {percent}% {suffix}', end='', flush=True)
+    # Print new line when complete
+    if iteration == total: 
+        print()
+        
 if __name__ == '__main__':
     logging.debug(f"#### Beginning {len(STRATEGIES)} Strategy Testing ####")
     print("#### Beginning", len(STRATEGIES), "Strategy Tests ####")
-    for strategy in STRATEGIES:
+    
+    total_start_time = time.time()
+    strategy_count = len(STRATEGIES)
+    
+    for idx, strategy in enumerate(STRATEGIES):
+        strategy_name = define_strategy(strategy)
+        print(f"\n[{idx+1}/{strategy_count}] Starting simulation for strategy: {strategy_name}")
+        print(f"Planning to simulate {NUM_GAMES} games...")
+        
+        strategy_start_time = time.time()
         logging.debug(f"## ## Simulation beginning for {NUM_GAMES} games using strategy #{strategy} ## ##")
+        
         results = simulate_games(NUM_GAMES)
         save_results_to_csv(results)
         save_results_to_json(results)
+        
         # Calculate and print summary statistics
         avg_score = sum(result['score'] for result in results) / NUM_GAMES
         avg_tiles_closed = sum(result['tiles_closed'] for result in results) / NUM_GAMES
+        
+        strategy_time = time.time() - strategy_start_time
+        
         logging.debug(f"## ## Simulation ended for {NUM_GAMES} games using strategy #{define_strategy(strategy)} ## ##")
-        print(f"Strategy Deployed: {define_strategy(strategy)}, Games Simulated: {NUM_GAMES}, Average Score: {round(avg_score, 2)}, Average Tiles Closed: {round(avg_tiles_closed, 1)}")
-    print("#### All Simulations Have Ended ####")
+        
+        print(f"\nResults for Strategy {strategy} ({strategy_name}):")
+        print(f"  Games Simulated: {NUM_GAMES}")
+        print(f"  Average Score: {round(avg_score, 2)}")
+        print(f"  Average Tiles Closed: {round(avg_tiles_closed, 1)}")
+        print(f"  Time Taken: {round(strategy_time, 1)} seconds ({round(NUM_GAMES/strategy_time, 1)} games/second)")
+        print(f"  Results saved to {CSV_RESULTS_FILE} and {JSON_RESULTS_FILE}")
+        
+        if idx < strategy_count - 1:
+            remaining_strategies = strategy_count - idx - 1
+            print(f"\n{remaining_strategies} strategies remaining to test...")
+    
+    total_time = time.time() - total_start_time
+    print("\n#### All Simulations Have Ended ####")
+    print(f"Total time taken: {round(total_time/60, 2)} minutes")
     logging.debug(f"#### #### All Simulations Have Ended #### ####")
+    logging.debug(f"Total time taken: {round(total_time/60, 2)} minutes")
