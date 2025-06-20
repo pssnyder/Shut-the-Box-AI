@@ -48,13 +48,14 @@ def pad_moves(moves, length=5, pad_value=0):
     return [list(move) + [pad_value] * (length - len(move)) for move in moves]
 
 class ShutTheBox:
-    def __init__(self):
+    def __init__(self, current_strategy):
         """Initialize the game with tiles numbered 1 to 9 and set the game status to not over."""
         self.tiles = list(range(1, 10))
         self.game_over = False
         self.invalid_move = False
         self.rolls = []
         self.moves = []
+        self.strategy = current_strategy
 
     def roll_dice(self):
         """Simulate rolling two six-sided dice."""
@@ -128,10 +129,10 @@ class ShutTheBox:
             list: The chosen move (combination of tiles).
         """
         if possible_moves:
-            if strategy == 0:
+            if self.strategy == 0:
                 # Random Choice Strategy
                 chosen_move = random.choice(possible_moves)
-            elif strategy == 1:
+            elif self.strategy == 1:
                 # Single Tile Priority Strategy
                 # Step 1: Choose tiles that match the total sum of the dice
                 single_tile_move = [total] if [total] in possible_moves else []
@@ -145,10 +146,10 @@ class ShutTheBox:
                     else:
                         # Step 3: Resort to other combinations and pick one at random
                         chosen_move = random.choice(possible_moves)
-            elif strategy == 2:
+            elif self.strategy == 2:
                 # Maximum Immediate Reward Decisions
                 chosen_move = max(possible_moves, key=len)
-            elif strategy == 3:
+            elif self.strategy == 3:
                 # Probability Based Choices
                 tile_probabilities = self.calculate_tile_probabilities()
                 move_probabilities = []
@@ -159,12 +160,12 @@ class ShutTheBox:
                 if move_probabilities:
                     # Choose the move with the lowest probability
                     chosen_move = min(move_probabilities, key=lambda x: x[1])[0]
-            elif strategy == 4:
+            elif self.strategy == 4:
                 # Inside Out Logic: Always choose the tile(s) closest to the middle and work outward
                 middle = 5
                 possible_moves.sort(key=lambda move: min(abs(tile - middle) for tile in move))
                 chosen_move = possible_moves[0]
-            elif strategy == 5:
+            elif self.strategy == 5:
                 # Outside In Logic: Always choose the tile(s) farthest from the middle and work inward
                 middle = 5
                 possible_moves.sort(key=lambda move: -min(abs(tile - middle) for tile in move))
@@ -247,93 +248,7 @@ class ShutTheBox:
         # Pad moves array to a consistent length
         padded_moves = pad_moves(self.moves)
         
-        return strategy, score, tiles_closed, self.rolls, padded_moves
-    
-def simulate_games(num_games):
-    """Simulate a specified number of games and log the results.
-
-    Args:
-        num_games (int): Number of games to simulate.
-
-    Returns:
-        list: List of dictionaries containing game results.
-    """
-    results = []
-    start_time = time.time()
-    running_score_sum = 0
-    running_tiles_closed_sum = 0
-    
-    for i in range(num_games):
-        logging.debug(f"Starting game {i+1}")
-        game = ShutTheBox()
-        strategy, score, tiles_closed, rolls, moves = game.play_game()
-        results.append({
-            'game_number': i + 1,
-            'strategy': strategy,
-            'score': score,
-            'tiles_closed': tiles_closed,
-            'rolls': rolls,
-            'moves': moves
-        })
-        
-        running_score_sum += score
-        running_tiles_closed_sum += tiles_closed
-        
-        # Show progress periodically
-        if (i + 1) % PROGRESS_UPDATE_INTERVAL == 0 or i + 1 == num_games:
-            print_progress_bar(i + 1, num_games, strategy)
-            
-            # Calculate intermediate statistics
-            elapsed_time = time.time() - start_time
-            games_per_second = (i + 1) / elapsed_time if elapsed_time > 0 else 0
-            avg_score = running_score_sum / (i + 1)
-            avg_tiles_closed = running_tiles_closed_sum / (i + 1)
-            
-            if (i + 1) % PROGRESS_UPDATE_INTERVAL == 0 and i + 1 < num_games:
-                print(f"\nIntermediate results after {i+1} games: Avg Score: {round(avg_score, 2)}, Avg Tiles Closed: {round(avg_tiles_closed, 1)}")
-                print(f"Processing speed: {round(games_per_second, 1)} games/second, Est. time remaining: {round((num_games - i - 1) / games_per_second / 60, 1)} minutes")
-        
-        logging.debug(f"Game {i+1} ended with score: {score}")
-        
-    return results
-
-def save_results_to_csv(results):
-    """Save the simulation results to a CSV file with a timestamp.
-
-    Args:
-        results (list): List of dictionaries containing game results.
-    """
-    if not os.path.exists(CSV_RESULTS_FILE):
-        with open(CSV_RESULTS_FILE, mode='w', newline='') as file:
-            writer = csv.writer(file)
-            # Write headers
-            writer.writerow(['Strategy', 'Game Number', 'Score', 'Tiles Closed', 'Rolls', 'Moves'])
-    
-    with open(CSV_RESULTS_FILE, mode='a', newline='') as file:
-        writer = csv.writer(file)
-        # Write result rows
-        for result in results:
-            writer.writerow([result['strategy'], result['game_number'], result['score'], result['tiles_closed'], result['rolls'], result['moves']])
-    logging.debug(f'Results appended to {CSV_RESULTS_FILE}')
-
-def save_results_to_json(results):
-    """Save the simulation results to a JSON file.
-
-    Args:
-        results (list): List of dictionaries containing game results.
-    """
-    if os.path.exists(JSON_RESULTS_FILE):
-        with open(JSON_RESULTS_FILE, 'r') as file:
-            existing_data = json.load(file)
-    else:
-        existing_data = []
-
-    existing_data.extend(results)
-
-    with open(JSON_RESULTS_FILE, 'w') as file:
-        json.dump(results, file, indent=4)
-
-    logging.debug(f'Results saved to {JSON_RESULTS_FILE}')
+        return self.strategy, score, tiles_closed, self.rolls, padded_moves
 
 def update_simulation_dashboard(iteration, total, strategy, running_score_sum, running_tiles_closed_sum, start_time, refresh=False):
     """
@@ -393,11 +308,12 @@ def update_simulation_dashboard(iteration, total, strategy, running_score_sum, r
     # Print dashboard
     print("\n".join(dashboard), flush=True)
         
-def simulate_games(num_games):
+def simulate_games(num_games, strategy):
     """Simulate a specified number of games and log the results.
 
     Args:
         num_games (int): Number of games to simulate.
+        strategy (int): The strategy to use for the simulation.
 
     Returns:
         list: List of dictionaries containing game results.
@@ -412,11 +328,11 @@ def simulate_games(num_games):
     
     for i in range(num_games):
         logging.debug(f"Starting game {i+1}")
-        game = ShutTheBox()
-        strategy, score, tiles_closed, rolls, moves = game.play_game()
+        game = ShutTheBox(strategy)
+        game_strategy, score, tiles_closed, rolls, moves = game.play_game()
         results.append({
             'game_number': i + 1,
-            'strategy': strategy,
+            'strategy': game_strategy,
             'score': score,
             'tiles_closed': tiles_closed,
             'rolls': rolls,
@@ -432,7 +348,47 @@ def simulate_games(num_games):
         
         logging.debug(f"Game {i+1} ended with score: {score}")
         
-    return resultsif __name__ == '__main__':
+    return results
+
+def save_results_to_csv(results):
+    """Save the simulation results to a CSV file with a timestamp.
+
+    Args:
+        results (list): List of dictionaries containing game results.
+    """
+    if not os.path.exists(CSV_RESULTS_FILE):
+        with open(CSV_RESULTS_FILE, mode='w', newline='') as file:
+            writer = csv.writer(file)
+            # Write headers
+            writer.writerow(['Strategy', 'Game Number', 'Score', 'Tiles Closed', 'Rolls', 'Moves'])
+    
+    with open(CSV_RESULTS_FILE, mode='a', newline='') as file:
+        writer = csv.writer(file)
+        # Write result rows
+        for result in results:
+            writer.writerow([result['strategy'], result['game_number'], result['score'], result['tiles_closed'], result['rolls'], result['moves']])
+    logging.debug(f'Results appended to {CSV_RESULTS_FILE}')
+
+def save_results_to_json(results):
+    """Save the simulation results to a JSON file.
+
+    Args:
+        results (list): List of dictionaries containing game results.
+    """
+    if os.path.exists(JSON_RESULTS_FILE):
+        with open(JSON_RESULTS_FILE, 'r') as file:
+            existing_data = json.load(file)
+    else:
+        existing_data = []
+
+    existing_data.extend(results)
+
+    with open(JSON_RESULTS_FILE, 'w') as file:
+        json.dump(results, file, indent=4)
+
+    logging.debug(f'Results saved to {JSON_RESULTS_FILE}')
+
+if __name__ == '__main__':
     logging.debug(f"#### Beginning {len(STRATEGIES)} Strategy Testing ####")
     print("#### Beginning", len(STRATEGIES), "Strategy Tests ####")
     
@@ -442,12 +398,14 @@ def simulate_games(num_games):
     for idx, strategy in enumerate(STRATEGIES):
         strategy_name = define_strategy(strategy)
         print(f"\n[{idx+1}/{strategy_count}] Starting simulation for strategy: {strategy_name}")
-        print(f"Planning to simulate {NUM_GAMES} games...")
+        
+        # Add extra newlines to make room for the dashboard
+        print("\n\n\n\n\n\n\n\n")
         
         strategy_start_time = time.time()
         logging.debug(f"## ## Simulation beginning for {NUM_GAMES} games using strategy #{strategy} ## ##")
         
-        results = simulate_games(NUM_GAMES)
+        results = simulate_games(NUM_GAMES, strategy)
         save_results_to_csv(results)
         save_results_to_json(results)
         
